@@ -1,4 +1,4 @@
-section_domain_of_cars_mechanism_drive->rrel_key_sc_element:
+subject_domain_of_cars_mechanism_drive->rrel_key_sc_element:
 {
 	nrel_type_of_drive;
 	concept_front_wheel;
@@ -7,15 +7,15 @@ section_domain_of_cars_mechanism_drive->rrel_key_sc_element:
         concept_hybrid_synergy
 };;
 
-section_domain_of_cars_mechanism_drive => nrel_main_idtf:
-        [Раздел. Предметная область приводов]
+subject_domain_of_cars_mechanism_drive => nrel_main_idtf:
+        [Предметная область привода]
         (* <- lang_ru;; *);;
 
-section_domain_of_cars_mechanism_drive => nrel_main_idtf:
-        [Section. Subject domain of drive]
+subject_domain_of_cars_mechanism_drive => nrel_main_idtf:
+        [Subject domain of drive]
         (* <- lang_en;; *);;
 
-section_domain_of_cars_mechanism_drive<-non_atomic_section;;
+subject_domain_of_cars_mechanism_drive<-non_atomic_section;;
 
 nrel_type_of_drive
 	<- sc_node_not_relation;

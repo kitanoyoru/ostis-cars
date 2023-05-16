@@ -1,7 +1,7 @@
 ford_mondeo
 	=> nrel_main_idtf: [Модельный ряд Форд Мондео] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Ford Mondeo] (* <-lang_en;; *);
-	=> nrel_series:
+	=> nrel_generation:
 		ford_mondeo_I;
 		ford_mondeo_II;
 		ford_mondeo_III;
@@ -31,8 +31,8 @@ ford_mondeo_I
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1993;;
-		-> end_year: 1996;; 
+		-> rrel_start_year: 1993;;
+		-> rrel_end_year: 1996;; 
 	*);;  
 	
 ford_mondeo_II
@@ -54,8 +54,8 @@ ford_mondeo_II
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1996;;
-		-> end_year: 2000;; 
+		-> rrel_start_year: 1996;;
+		-> rrel_end_year: 2000;; 
 	*);;  
 	
 ford_mondeo_III
@@ -78,8 +78,8 @@ ford_mondeo_III
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2000;;
-		-> end_year: 2003;; 
+		-> rrel_start_year: 2000;;
+		-> rrel_end_year: 2003;; 
 	*);;  
 	
 ford_mondeo_III_restyling
@@ -101,8 +101,8 @@ ford_mondeo_III_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2003;;
-		-> end_year: 2007;; 
+		-> rrel_start_year: 2003;;
+		-> rrel_end_year: 2007;; 
 	*);;  
 	
 ford_mondeo_IV
@@ -126,8 +126,8 @@ ford_mondeo_IV
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2006;;
-		-> end_year: 2010;; 
+		-> rrel_start_year: 2006;;
+		-> rrel_end_year: 2010;; 
 	*);;  
 	
 ford_mondeo_IV_restyling
@@ -149,8 +149,8 @@ ford_mondeo_IV_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2010;;
-		-> end_year: 2014;; 
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2014;; 
 	*);;  
 	
 ford_mondeo_V
@@ -173,8 +173,8 @@ ford_mondeo_V
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2014;;
-		-> end_year: 2019;; 
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2019;; 
 	*);;  
 	
 ford_mondeo_V_restyling
@@ -198,8 +198,8 @@ ford_mondeo_V_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2019;;
-		-> end_year: 2022;; 
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: 2022;; 
 	*);;  
 	
 ford_mondeo_VI
@@ -219,6 +219,6 @@ ford_mondeo_VI
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2022;;
-		-> end_year: till_now;; 
+		-> rrel_start_year: 2022;;
+		-> rrel_end_year: till_now;; 
 	*);;  

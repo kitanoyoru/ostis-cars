@@ -1,29 +1,29 @@
-section_domain_of_cars_mechanism_body->rrel_key_sc_element:
+subject_domain_of_cars_mechanism_body->rrel_key_sc_element:
 {
 	nrel_type_of_body;
 	concept_sedan;
-        concept_hatchback;
-        concept_station_wagon;
-        concept_liftback;
+	concept_hatchback;
+	concept_station_wagon;
+	concept_liftback;
 	concept_coupe;
-        concept_cabriolet;
-        concept_roadster;
+	concept_cabriolet;
+	concept_roadster;
 	concept_targa;
-        concept_SUV;
-        concept_crossover;
-        concept_pickup;
-        concept_minivan
+	concept_SUV;
+	concept_crossover;
+	concept_pickup;
+	concept_minivan
 };;
 
-section_domain_of_cars_mechanism_body => nrel_main_idtf:
-        [Раздел. Предметная область кузова]
+subject_domain_of_cars_mechanism_body => nrel_main_idtf:
+        [Предметная область кузова]
         (* <- lang_ru;; *);;
 
-section_domain_of_cars_mechanism_body => nrel_main_idtf:
-        [Section. Subject domain of body]
+subject_domain_of_cars_mechanism_body => nrel_main_idtf:
+        [Subject domain of body]
         (* <- lang_en;; *);;
 
-section_domain_of_cars_mechanism_body<-non_atomic_section;;
+subject_domain_of_cars_mechanism_body<-non_atomic_section;;
 
 nrel_type_of_body
 	<- sc_node_not_relation;

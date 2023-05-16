@@ -1,6 +1,6 @@
 toyota_supra
 	=> nrel_main_idtf: [Модельный ряд Тойота Супра] (* <-lang_ru ;;*);
-=> nrel_main_idtf: [Car lineup Toyota Supra] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Car lineup Toyota Supra] (* <-lang_en;; *);
 	=> nrel_generation:
 		toyota_supra_A40;
 		toyota_supra_A60;
@@ -30,8 +30,8 @@ toyota_supra_A40
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1979;;
-		-> end_year: 1981;; 
+		-> rrel_start_year: 1979;;
+		-> rrel_end_year: 1981;; 
 	*);;  
 
 toyota_supra_A60
@@ -55,8 +55,8 @@ toyota_supra_A60
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1982;;
-		-> end_year: 1986;;
+		-> rrel_start_year: 1982;;
+		-> rrel_end_year: 1986;;
 	*);;  
 
 toyota_supra_A70
@@ -80,8 +80,8 @@ toyota_supra_A70
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1986;;
-		-> end_year: 1993;;
+		-> rrel_start_year: 1986;;
+		-> rrel_end_year: 1993;;
 	*);;  
 
 toyota_supra_A80
@@ -106,9 +106,9 @@ toyota_supra_A80
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1993;;
-		-> end_year: 2002;;
-	*);; 
+		-> rrel_start_year: 1993;;
+		-> rrel_end_year: 2002;;
+	*);;  
 
 toyota_supra_A90
 
@@ -131,6 +131,6 @@ toyota_supra_A90
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2019;;
-		-> end_year: till_now;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: now;;
 	*);;  

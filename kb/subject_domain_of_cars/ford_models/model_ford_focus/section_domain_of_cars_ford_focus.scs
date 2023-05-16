@@ -1,7 +1,7 @@
 ford_focus
 	=> nrel_main_idtf: [Модельный ряд Форд Фокус] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Ford Focus] (* <-lang_en;; *);
-	=> nrel_series:
+	=> nrel_generation:
 		ford_focus_I;
 		ford_focus_I_north_america;
 		ford_focus_I_restyling;
@@ -33,8 +33,8 @@ ford_focus_I
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1998;;
-		-> end_year: 2001;; 
+		-> rrel_start_year: 1998;;
+		-> rrel_end_year: 2001;; 
 	*);;  
 
 ford_focus_I_north_america
@@ -56,8 +56,8 @@ ford_focus_I_north_america
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1999;;
-		-> end_year: 2004;; 
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2004;; 
 	*);;  
 	
 ford_focus_I_restyling
@@ -80,8 +80,8 @@ ford_focus_I_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2001;;
-		-> end_year: 2005;; 
+		-> rrel_start_year: 2001;;
+		-> rrel_end_year: 2005;; 
 	*);; 
 	
 ford_focus_II
@@ -104,8 +104,8 @@ ford_focus_II
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2004;;
-		-> end_year: 2008;; 
+		-> rrel_start_year: 2004;;
+		-> rrel_end_year: 2008;; 
 	*);;  
 	
 ford_focus_I_restyling_north_america
@@ -127,8 +127,8 @@ ford_focus_I_restyling_north_america
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2004;;
-		-> end_year: 2007;; 
+		-> rrel_start_year: 2004;;
+		-> rrel_end_year: 2007;; 
 	*);; 
 	
 ford_focus_II_restyling
@@ -151,8 +151,8 @@ ford_focus_II_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2007;;
-		-> end_year: 20011;; 
+		-> rrel_start_year: 2007;;
+		-> rrel_end_year: 20011;; 
 	*);; 
 	
 ford_focus_III
@@ -175,8 +175,8 @@ ford_focus_III
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2011;;
-		-> end_year: 2015;; 
+		-> rrel_start_year: 2011;;
+		-> rrel_end_year: 2015;; 
 	*);; 
 	
 ford_focus_III_restyling
@@ -198,8 +198,8 @@ ford_focus_III_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2014;;
-		-> end_year: 2019;; 
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2019;; 
 	*);;
 	
 ford_focus_IV
@@ -221,8 +221,8 @@ ford_focus_IV
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2018;;
-		-> end_year: till_now;; 
+		-> rrel_start_year: 2018;;
+		-> rrel_end_year: till_now;; 
 	*);;
 	
 ford_focus_IV_restyling
@@ -243,6 +243,6 @@ ford_focus_IV_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2021;;
-		-> end_year: till_now;; 
+		-> rrel_start_year: 2021;;
+		-> rrel_end_year: till_now;; 
 	*);;

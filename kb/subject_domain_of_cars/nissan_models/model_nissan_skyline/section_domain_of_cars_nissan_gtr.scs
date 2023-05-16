@@ -1,7 +1,7 @@
 nissan_skyline
 	=> nrel_main_idtf: [Модельный ряд Ниссан Скайлайн] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Nissan Skyline] (* <-lang_en;; *);
-	=> nrel_series:
+	=> nrel_generation:
 		nissan_skyline_c10;
 		nissan_skyline_c110;
 		nissan_skyline_c210;
@@ -30,8 +30,8 @@ nissan_skyline_c10
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1968;;
-		-> end_year: 1972;; 
+		-> rrel_start_year: 1968;;
+		-> rrel_end_year: 1972;; 
 	*);;  
 
 nissan_skyline_c110
@@ -51,8 +51,8 @@ nissan_skyline_c110
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1972;;
-		-> end_year: 1977;; 
+		-> rrel_start_year: 1972;;
+		-> rrel_end_year: 1977;; 
 	*);;  
 
 nissan_skyline_c210
@@ -71,8 +71,8 @@ nissan_skyline_c210
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1977;;
-		-> end_year: 1981;; 
+		-> rrel_start_year: 1977;;
+		-> rrel_end_year: 1981;; 
 	*);;  
 
 nissan_skyline_r30
@@ -91,8 +91,8 @@ nissan_skyline_r30
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1981;;
-		-> end_year: 1985;; 
+		-> rrel_start_year: 1981;;
+		-> rrel_end_year: 1985;; 
 	*);;  
 
 
@@ -112,8 +112,8 @@ nissan_skyline_r31
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1985;;
-		-> end_year: 1989;; 
+		-> rrel_start_year: 1985;;
+		-> rrel_end_year: 1989;; 
 	*);;  
 
 nissan_skyline_r32
@@ -134,8 +134,8 @@ nissan_skyline_r32
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1987;;
-		-> end_year: 1993;; 
+		-> rrel_start_year: 1987;;
+		-> rrel_end_year: 1993;; 
 	*);;  
 
 nissan_skyline_r33
@@ -156,8 +156,8 @@ nissan_skyline_r33
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1993;;
-		-> end_year: 1998;; 
+		-> rrel_start_year: 1993;;
+		-> rrel_end_year: 1998;; 
 	*);;  
 
 nissan_skyline_r34
@@ -178,8 +178,8 @@ nissan_skyline_r34
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1998;;
-		-> end_year: 2003;; 
+		-> rrel_start_year: 1998;;
+		-> rrel_end_year: 2003;; 
 	*);;  
 
 nissan_skyline_r35
@@ -198,8 +198,8 @@ nissan_skyline_r35
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2008;;
-		-> end_year: 2010;; 
+		-> rrel_start_year: 2008;;
+		-> rrel_end_year: 2010;; 
 	*);;  
 
 nissan_skyline_v36
@@ -220,8 +220,8 @@ nissan_skyline_v36
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2006;;
-		-> end_year: 2014;; 
+		-> rrel_start_year: 2006;;
+		-> rrel_end_year: 2014;; 
 	*);;  
 
 nissan_skyline_v37
@@ -240,6 +240,6 @@ nissan_skyline_v37
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 2014;;
-		-> end_year: NOW;; 
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: NOW;; 
 	*);;  

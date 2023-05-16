@@ -1,0 +1,10 @@
+kursach_patterns
+    => nrel_main_idtf: [Шаблоны для поиска по БЗ] (* <- lang_ru;; *);
+    -> pattern1;
+    -> pattern2;
+    -> pattern3;;
+
+pattern1 => nrel_main_idtf: [Найти все автомобили модели Ford Focus с автоматической коробкой передач и бензиновым двигатель] (* <- lang_ru;; *);;
+pattern2 => nrel_main_idtf: [Найти все автомобили с дизельным двигателем] (* <- lang_ru;; *);;
+pattern3 => nrel_main_idtf: [Найти все автомобили модели Toyota supra] (* <- lang_ru;; *);;
+

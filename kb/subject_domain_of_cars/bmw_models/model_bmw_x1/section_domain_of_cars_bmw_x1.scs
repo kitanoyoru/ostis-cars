@@ -1,7 +1,7 @@
 bmw_x1
 => nrel_main_idtf: [Модельный ряд BMW X1] (* <-lang_ru;;*);
 => nrel_main_idtf: [Car lineup BMW X1] (* <-lang_en;; *);
-	=> nrel_series:
+	=> nrel_generation:
 		bmw_x1_e84;
 		bmw_x1_f48;
 		bmw_x1_f48_restyling;;
@@ -27,8 +27,8 @@ concept_crossover;
 => nrel_period: ...
 (*
 <- sc_node_tuple;;
--> start_year: 2009;;
--> end_year: 2012;; 
+-> rrel_start_year: 2009;;
+-> rrel_end_year: 2012;; 
 *);;
 
 bmw_x1_f48
@@ -52,8 +52,8 @@ concept_crossover;
 => nrel_period: ...
 (*
 <- sc_node_tuple;;
--> start_year: 2016;;
--> end_year: 2019;; 
+-> rrel_start_year: 2016;;
+-> rrel_end_year: 2019;; 
 *);;
 
 
@@ -78,7 +78,7 @@ concept_crossover;
 => nrel_period: ...
 (*
 <- sc_node_tuple;;
--> start_year: 2020;;
--> end_year: NOW;; 
+-> rrel_start_year: 2020;;
+-> rrel_end_year: NOW;; 
 *) ;;  
 

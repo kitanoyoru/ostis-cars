@@ -1,9 +1,9 @@
 section_domain_of_cars_toyota
-=> nrel_models:
-	toyota_supra;
-	toyota_celica;
-	toyota_paseo;
-	toyota_trueno;
-	toyota_corolla;
-	toyota_carina;;
+	=> nrel_models:
+		toyota_supra;
+		toyota_celica;
+		toyota_paseo;
+		toyota_trueno;
+		toyota_corolla;
+		toyota_carina;;
 

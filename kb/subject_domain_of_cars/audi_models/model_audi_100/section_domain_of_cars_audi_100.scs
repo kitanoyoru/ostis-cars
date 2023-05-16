@@ -1,7 +1,7 @@
 audi_100
 	=> nrel_main_idtf: [Модельный ряд Ауди 100] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Audi 100] (* <-lang_en;; *);
-	=> nrel_series:
+	=> nrel_generation:
 		audi_100_c1;
 		audi_100_c2;
 		audi_100_c3;
@@ -26,8 +26,8 @@ audi_100_c1
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1968;;
-		-> end_year: 1976;; 
+		-> rrel_start_year: 1968;;
+		-> rrel_end_year: 1976;; 
 	*);;  
 
 
@@ -51,8 +51,8 @@ audi_100_c2
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1976;;
-		-> end_year: 1983;; 
+		-> rrel_start_year: 1976;;
+		-> rrel_end_year: 1983;; 
 	*);;  
 
 
@@ -77,8 +77,8 @@ audi_100_c3
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1982;;
-		-> end_year: 1988;; 
+		-> rrel_start_year: 1982;;
+		-> rrel_end_year: 1988;; 
 	*);;  
 
 
@@ -104,8 +104,8 @@ audi_100_c3_restyling
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1988;;
-		-> end_year: 1991;; 
+		-> rrel_start_year: 1988;;
+		-> rrel_end_year: 1991;; 
 	*);;  
 
 
@@ -129,6 +129,6 @@ audi_100_c4
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> start_year: 1990;;
-		-> end_year: 1994;; 
+		-> rrel_start_year: 1990;;
+		-> rrel_end_year: 1994;; 
 	*);; 
