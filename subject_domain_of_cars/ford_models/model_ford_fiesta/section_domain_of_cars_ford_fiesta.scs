@@ -1,0 +1,14 @@
+ford_fiesta
+	=> nrel_main_idtf: [Модельный ряд Форд Фиеста] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Ford Fiesta] (* <-lang_en;; *);
+	=> nrel_series:
+		ford_fiesta_Mk1;
+		ford_fiesta_Mk2;
+		ford_fiesta_Mk3;
+		ford_fiesta_Mk4;
+		ford_fiesta_Mk4_restyling;
+		ford_fiesta_Mk5;
+		ford_fiesta_Mk6;
+		ford_fiesta_Mk6_restyling;
+		ford_fiesta_Mk7;
+		ford_fiesta_Mk7_restyling;;

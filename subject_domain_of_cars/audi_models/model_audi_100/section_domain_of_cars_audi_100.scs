@@ -1,0 +1,134 @@
+audi_100
+	=> nrel_main_idtf: [Модельный ряд Ауди 100] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi 100] (* <-lang_en;; *);
+	=> nrel_series:
+		audi_100_c1;
+		audi_100_c2;
+		audi_100_c3;
+		audi_100_c3_restyling;
+		audi_100_c4;;
+
+audi_100_c1
+	=> nrel_main_idtf: [Ауди 100 C1] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 C1] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1968;;
+		-> end_year: 1976;; 
+	*);;  
+
+
+audi_100_c2
+	=> nrel_main_idtf: [Ауди 100 C2] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 C2] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1976;;
+		-> end_year: 1983;; 
+	*);;  
+
+
+audi_100_c3
+	=> nrel_main_idtf: [Ауди 100 C3] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 C3] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1982;;
+		-> end_year: 1988;; 
+	*);;  
+
+
+
+audi_100_c3_restyling
+	=> nrel_main_idtf: [Ауди 100 C3 рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 C3 restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1988;;
+		-> end_year: 1991;; 
+	*);;  
+
+
+audi_100_c4
+	=> nrel_main_idtf: [Ауди 100 C4] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 C4] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1990;;
+		-> end_year: 1994;; 
+	*);; 

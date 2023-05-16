@@ -1,0 +1,245 @@
+nissan_skyline
+	=> nrel_main_idtf: [Модельный ряд Ниссан Скайлайн] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Nissan Skyline] (* <-lang_en;; *);
+	=> nrel_series:
+		nissan_skyline_c10;
+		nissan_skyline_c110;
+		nissan_skyline_c210;
+		nissan_skyline_r30;
+		nissan_skyline_r31;
+		nissan_skyline_r32;
+		nissan_skyline_r33;
+		nissan_skyline_r34;
+		nissan_skyline_v36;
+		nissan_skyline_v37;;
+
+
+nissan_skyline_c10
+	=> nrel_main_idtf: [Ниссан Скайлайн C10] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline C10] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gaasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1968;;
+		-> end_year: 1972;; 
+	*);;  
+
+nissan_skyline_c110
+	=> nrel_main_idtf: [Ниссан Скайлайн C110] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline C110] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1972;;
+		-> end_year: 1977;; 
+	*);;  
+
+nissan_skyline_c210
+	=> nrel_main_idtf: [Ниссан Скайлайн C210] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline C210] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_dependent;
+	=> nrel_body_type:
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1977;;
+		-> end_year: 1981;; 
+	*);;  
+
+nissan_skyline_r30
+	=> nrel_main_idtf: [Ниссан Скайлайн R30] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline R30] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_dependent;
+	=> nrel_body_type:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1981;;
+		-> end_year: 1985;; 
+	*);;  
+
+
+nissan_skyline_r31
+	=> nrel_main_idtf: [Ниссан Скайлайн R31] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline R31] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_dependent;
+	=> nrel_body_type:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1985;;
+		-> end_year: 1989;; 
+	*);;  
+
+nissan_skyline_r32
+	=> nrel_main_idtf: [Ниссан Скайлайн R32] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline R32] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_suspension:
+		concept_front_strut_dependent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_sedan;
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1987;;
+		-> end_year: 1993;; 
+	*);;  
+
+nissan_skyline_r33
+	=> nrel_main_idtf: [Ниссан Скайлайн R33] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline R33] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_dependent;
+	=> nrel_body_type:
+		concept_sedan;
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1993;;
+		-> end_year: 1998;; 
+	*);;  
+
+nissan_skyline_r34
+	=> nrel_main_idtf: [Ниссан Скайлайн R34] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline R34] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_sedan;
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1998;;
+		-> end_year: 2003;; 
+	*);;  
+
+nissan_skyline_r35
+	=> nrel_main_idtf: [Ниссан Скайлайн R35] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline R35] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2008;;
+		-> end_year: 2010;; 
+	*);;  
+
+nissan_skyline_v36
+	=> nrel_main_idtf: [Ниссан Скайлайн V36] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline V36] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_coupe;
+		concept_sedan;
+		concept_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2006;;
+		-> end_year: 2014;; 
+	*);;  
+
+nissan_skyline_v37
+	=> nrel_main_idtf: [Ниссан Скайлайн V37] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Skyline V37] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_suspension:
+		concept_front_strut_independent;
+		concept_rear_semi_trailing_arm_independent;
+	=> nrel_body_type:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2014;;
+		-> end_year: NOW;; 
+	*);;  

@@ -1,0 +1,7 @@
+section_domain_of_cars_bmw
+=> nrel_models:
+	bmw_x1;
+	bmw_x2;
+	bmw_x3;;
+
+

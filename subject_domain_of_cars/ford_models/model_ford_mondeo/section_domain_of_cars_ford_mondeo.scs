@@ -1,0 +1,224 @@
+ford_mondeo
+	=> nrel_main_idtf: [Модельный ряд Форд Мондео] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Ford Mondeo] (* <-lang_en;; *);
+	=> nrel_series:
+		ford_mondeo_I;
+		ford_mondeo_II;
+		ford_mondeo_III;
+		ford_mondeo_III_restyling;
+		ford_mondeo_IV;
+		ford_mondeo_IV_restyling;
+		ford_mondeo_V;
+		ford_mondeo_V_restyling;
+		ford_mondeo_VI;;
+
+ford_mondeo_I
+	=> nrel_main_idtf: [Форд Мондео I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo I] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_multilink_suspension;
+	=> nrel_type_of_body:
+		concept_liftback;
+		concept_front_wheel;
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1993;;
+		-> end_year: 1996;; 
+	*);;  
+	
+ford_mondeo_II
+	=> nrel_main_idtf: [Форд Мондео II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo II] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_multilink_suspension;
+	=> nrel_type_of_body:
+		concept_station_wagon;
+		concept_sedan;
+		concept_liftback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 1996;;
+		-> end_year: 2000;; 
+	*);;  
+	
+ford_mondeo_III
+	=> nrel_main_idtf: [Форд Мондео III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo III] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_multilink_suspension;
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_liftback;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2000;;
+		-> end_year: 2003;; 
+	*);;  
+	
+ford_mondeo_III_restyling
+	=> nrel_main_idtf: [Форд Мондео III рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo III restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_liftback;
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2003;;
+		-> end_year: 2007;; 
+	*);;  
+	
+ford_mondeo_IV
+	=> nrel_main_idtf: [Форд Мондео IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo IV] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_liftback;
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2006;;
+		-> end_year: 2010;; 
+	*);;  
+	
+ford_mondeo_IV_restyling
+	=> nrel_main_idtf: [Форд Мондео IV рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo IV restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_liftback;
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2010;;
+		-> end_year: 2014;; 
+	*);;  
+	
+ford_mondeo_V
+	=> nrel_main_idtf: [Форд Мондео V] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo V] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_liftback;
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2014;;
+		-> end_year: 2019;; 
+	*);;  
+	
+ford_mondeo_V_restyling
+	=> nrel_main_idtf: [Форд Мондео V рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo V restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_diesel;
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_variable_box;
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_liftback;
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2019;;
+		-> end_year: 2022;; 
+	*);;  
+	
+ford_mondeo_VI
+	=> nrel_main_idtf: [Форд Мондео VI] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mondeo VI] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_suspension:
+		concept_adaptive_suspension;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> start_year: 2022;;
+		-> end_year: till_now;; 
+	*);;  

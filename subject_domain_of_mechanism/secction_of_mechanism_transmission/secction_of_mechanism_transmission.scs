@@ -1,0 +1,43 @@
+section_domain_of_cars_mechanism_transmission->rrel_key_sc_element:
+{
+	nrel_type_of_transmission;
+	concept_mechanical_box;
+        concept_automatic_box;
+        concept_robotic_box;
+        concept_variable_box
+};;
+
+section_domain_of_cars_mechanism_transmission => nrel_main_idtf:
+        [Раздел. Предметная область трансмиссия]
+        (* <- lang_ru;; *);;
+
+section_domain_of_cars_mechanism_transmission => nrel_main_idtf:
+        [Section. Subject domain of transmission]
+        (* <- lang_en;; *);;
+
+section_domain_of_cars_mechanism_transmission<-non_atomic_section;;
+
+nrel_type_of_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Тип трансмиссии*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Type of transmission*](* <- lang_en;; *);;
+
+concept_mechanical_box
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Механическая коробка] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Mechanical box] (* <- lang_en;; *);;
+
+concept_automatic_box
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Автоматическая коробка] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Automatic box] (* <- lang_en;; *);;
+
+concept_robotic_box
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Роботизированная коробка] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [robotic box] (* <- lang_en;; *);;
+
+concept_variable_box
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Вариативная коробка] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Variable box] (* <- lang_en;; *);;

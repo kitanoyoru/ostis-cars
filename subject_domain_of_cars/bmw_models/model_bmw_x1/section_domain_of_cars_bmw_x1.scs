@@ -1,0 +1,84 @@
+bmw_x1
+=> nrel_main_idtf: [Модельный ряд BMW X1] (* <-lang_ru;;*);
+=> nrel_main_idtf: [Car lineup BMW X1] (* <-lang_en;; *);
+	=> nrel_series:
+		bmw_x1_e84;
+		bmw_x1_f48;
+		bmw_x1_f48_restyling;;
+
+bmw_x1_e84
+=> nrel_main_idtf: [BMW X1 E84] (* <-lang_en;; *);
+=> nrel_main_idtf: [BMW X1 E84] (* <-lang_ru;; *);
+	<- concept_car;
+=> nrel_type_of_engine:
+concept_engine_gasoline;
+concept_engine_diesel;
+=> nrel_type_of_transmission:
+concept_mechanical_box;
+concept_automatic_box;
+=> nrel_type_of_suspension:
+concept_front_MacPherson_suspension;
+concept_multilink_suspension;
+=> nrel_type_of_body:
+concept_crossover;
+=> nrel_type_of_drive:
+         concept_rear;
+         concept_four_wheel;
+=> nrel_period: ...
+(*
+<- sc_node_tuple;;
+-> start_year: 2009;;
+-> end_year: 2012;; 
+*);;
+
+bmw_x1_f48
+=> nrel_main_idtf: [BMW X1 F48] (* <-lang_en;; *);
+=> nrel_main_idtf: [BMW X1 F48] (* <-lang_ru;; *);
+	<- concept_car;
+=> nrel_type_of_engine:
+concept_engine_gasoline;
+concept_engine_diesel;
+=> nrel_type_of_transmission:
+concept_robotic_box;
+concept_automatic_box;
+=> nrel_type_of_suspension:
+concept_front_MacPherson_suspension;
+concept_multilink_suspension;
+=> nrel_type_of_body:
+concept_crossover;
+=> nrel_type_of_drive:
+         concept_front_wheel;
+         concept_four_wheel;
+=> nrel_period: ...
+(*
+<- sc_node_tuple;;
+-> start_year: 2016;;
+-> end_year: 2019;; 
+*);;
+
+
+
+bmw_x1_f48_restyling
+=> nrel_main_idtf: [BMW X1 F48 Restyling] (* <-lang_en;; *);
+=> nrel_main_idtf: [BMW X1 F48 Рестайлинг] (* <-lang_ru;; *);
+	<- concept_car;
+=> nrel_type_of_engine:
+concept_engine_diesel;
+=> nrel_type_of_transmission:
+concept_robotic_box;
+concept_automatic_box;
+=> nrel_type_of_suspension:
+concept_front_MacPherson_suspension;
+concept_multilink_suspension;
+=> nrel_type_of_body:
+concept_crossover;
+=> nrel_type_of_drive:
+         concept_front_wheel;
+         concept_four_wheel;
+=> nrel_period: ...
+(*
+<- sc_node_tuple;;
+-> start_year: 2020;;
+-> end_year: NOW;; 
+*) ;;  
+
