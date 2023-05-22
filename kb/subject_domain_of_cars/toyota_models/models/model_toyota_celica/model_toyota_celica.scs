@@ -19,23 +19,31 @@ toyota_celica_A20_A30
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_TITAN_SP3_Suspension_Kit ;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_multi_link;
+
 	=> nrel_type_of_body:
 		concept_coupe;
-        concept_liftback;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1970;;
 		-> rrel_end_year: 1977;; 
 	*);
+
 	=> nrel_photo: "file://img/toyota_celica_A20_A30.png" (* => nrel_format: format_png;; *);;
+
 
 toyota_celica_A40_A50
 
@@ -46,22 +54,29 @@ toyota_celica_A40_A50
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_TITAN_SP3_Suspension_Kit; 
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension; 
+
 	=> nrel_type_of_body:
 		concept_coupe;
-        concept_liftback;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1977;;
 		-> rrel_end_year: 1981;; 
 	*);
+
 	=> nrel_photo:"file://img/toyota_celica_A40_A50.png" (* => nrel_format: format_png;; *);; 
 
 
@@ -74,22 +89,29 @@ toyota_celica_A60
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+
 	=> nrel_type_of_body:
 		concept_coupe;
-        concept_liftback;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1981;;
 		-> rrel_end_year: 1985;; 
 	*);
+
 	=> nrel_photo:"file://img/toyota_celica_A60.png" (* => nrel_format: format_png;; *);; 
 
 
@@ -102,23 +124,32 @@ toyota_celica_T160
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 		concept_four_wheel;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_McPherson;
+		concept_car_suspension_multi_link;
+
 	=> nrel_type_of_body:
 		concept_coupe;
-        concept_liftback;
+        concept_cabriolet;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1985;;
 		-> rrel_end_year: 1989;; 
 	*);
+
 	=> nrel_photo:"file://img/toyota_celica_T160.png" (* => nrel_format: format_png;; *);; 
 
 
@@ -131,23 +162,31 @@ toyota_celica_T180
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 		concept_four_wheel;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
 	=> nrel_type_of_body:
 		concept_coupe;
-        concept_liftback;
+        concept_cabriolet;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1989;;
 		-> rrel_end_year: 1993;; 
 	*);
+
 	=> nrel_photo:"file://img/toyota_celica_T180.png" (* => nrel_format: format_png;; *);; 
 
 
@@ -160,24 +199,31 @@ toyota_celica_T200
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 		concept_four_wheel;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
 	=> nrel_type_of_body:
 		concept_coupe;
-        concept_liftback;
 		concept_cabriolet;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1993;;
 		-> rrel_end_year: 1999;; 
 	*);
+
 	=> nrel_photo:"file://img/toyota_celica_T200.png" (* => nrel_format: format_png;; *);; 
 
 
@@ -190,15 +236,22 @@ toyota_celica_T230
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_front_wheel;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
 	=> nrel_type_of_body:
-        concept_liftback;
+        concept_coupe;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

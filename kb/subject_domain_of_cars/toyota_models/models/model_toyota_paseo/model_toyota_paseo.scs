@@ -1,3 +1,80 @@
 toyota_paseo
 	=> nrel_main_idtf: [Модельный ряд Тойота Пасео] (* <-lang_ru ;;*);
-    => nrel_main_idtf: [Car lineup Toyota Paseo] (* <-lang_en;; *);;
+    => nrel_main_idtf: [Car lineup Toyota Paseo] (* <-lang_en;; *);
+
+    => nrel_idtf: [Модельный ряд Тойота Цинос] (* <-lang_ru ;;*);
+    => nrel_idtf: [Car lineup Toyota Cynos] (* <-lang_en;; *);
+
+    => nrel_generation:
+		toyota_paseo_L40;
+        toyota_paseo_L50;;
+
+toyota_paseo_L40
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Пасео  L40] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Paseo L40] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_paseo_L40.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_paseo_L50
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Пасео  L50] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Paseo L50] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+        concept_car_suspension_double_wishbone;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_trailing_arm;
+        concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+        concept_cabriolet;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1995;;
+		-> rrel_end_year: 1999;; 
+	*);
+	=> nrel_photo:"file://img/toyota_paseo_L50.png" (* => nrel_format: format_png;; *);;   

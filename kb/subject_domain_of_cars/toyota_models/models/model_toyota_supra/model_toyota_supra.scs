@@ -2,37 +2,45 @@ toyota_supra
 	=> nrel_main_idtf: [Модельный ряд Тойота Супра] (* <-lang_ru ;;*);
 	=> nrel_main_idtf: [Car lineup Toyota Supra] (* <-lang_en;; *);
 	=> nrel_generation:
-		toyota_supra_A40;
+		toyota_supra_A40_A50;
 		toyota_supra_A60;
 		toyota_supra_A70;
 		toyota_supra_A80;
 		toyota_supra_A90;;
 
-toyota_supra_A40
+toyota_supra_A40_A50
 
 	<- concept_car;
 	
-	=> nrel_main_idtf: [Тойота Супра  A40] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Toyota Supra A40] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Тойота Супра  A40/A50] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Supra A40/A50] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_front_MacPherson_suspension;
-		concept_rear_transverse_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_multi_link;
+
 	=> nrel_type_of_body:
-		concept_hatchback;
+		concept_coupe;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1979;;
 		-> rrel_end_year: 1981;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/toyota_supra_A40_A50.png" (* => nrel_format: format_png;; *);;   
+
 
 toyota_supra_A60
 
@@ -43,21 +51,29 @@ toyota_supra_A60
 
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_multi_link;
+
 	=> nrel_type_of_body:
-		concept_liftback;
+		concept_coupe;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1982;;
 		-> rrel_end_year: 1986;;
-	*);;  
+	*);
+	=> nrel_photo:"file://img/toyota_supra_A60.png" (* => nrel_format: format_png;; *);;   
 
 toyota_supra_A70
 
@@ -68,21 +84,30 @@ toyota_supra_A70
 
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_double_wishbone;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_double_wishbone;
+
 	=> nrel_type_of_body:
-		concept_liftback;
+		concept_coupe;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1986;;
 		-> rrel_end_year: 1993;;
-	*);;  
+	*);
+	=> nrel_photo:"file://img/toyota_supra_A70.png" (* => nrel_format: format_png;; *);;   
+
 
 toyota_supra_A80
 
@@ -93,22 +118,32 @@ toyota_supra_A80
 
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_double_wishbone;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_multi_link;
+
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_targa;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1993;;
 		-> rrel_end_year: 2002;;
-	*);;  
+	*);
+
+	=> nrel_photo:"file://img/toyota_supra_A80.png" (* => nrel_format: format_png;; *);;    
+
 
 toyota_supra_A90
 
@@ -119,18 +154,27 @@ toyota_supra_A90
 
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+
 	=> nrel_type_of_drive:
 		concept_rear;
+
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_independent_suspension;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_multi_link;
+
 	=> nrel_type_of_body:
 		concept_coupe;
+
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2019;;
 		-> rrel_end_year: now;;
-	*);;  
+	*);
+
+	=> nrel_photo:"file://img/toyota_supra_A90.png" (* => nrel_format: format_png;; *);;    
