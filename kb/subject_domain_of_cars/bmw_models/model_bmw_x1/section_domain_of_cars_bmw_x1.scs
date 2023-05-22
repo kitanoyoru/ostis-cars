@@ -14,8 +14,8 @@ bmw_x1_e84
 	concept_engine_gasoline;
 	concept_engine_diesel;
 => nrel_type_of_transmission:
-	concept_mechanical_box;
-	concept_automatic_box;
+	concept_car_manual_transmission;
+	concept_car_automatic_transmission;
 => nrel_type_of_suspension:
 	concept_front_MacPherson_suspension;
 	concept_multilink_suspension;
@@ -39,8 +39,8 @@ bmw_x1_f48
 	concept_engine_gasoline;
 	concept_engine_diesel;
 => nrel_type_of_transmission:
-	concept_robotic_box;
-	concept_automatic_box;
+	concept_car_robotic_transmission;
+	concept_car_automatic_transmission;
 => nrel_type_of_suspension:
 	concept_front_MacPherson_suspension;
 	concept_multilink_suspension;
@@ -65,8 +65,8 @@ bmw_x1_f48_restyling
 => nrel_type_of_engine:
 	concept_engine_diesel;
 => nrel_type_of_transmission:
-	concept_robotic_box;
-	concept_automatic_box;
+	concept_car_robotic_transmission;
+	concept_car_automatic_transmission;
 => nrel_type_of_suspension:
 	concept_front_MacPherson_suspension;
 	concept_multilink_suspension;

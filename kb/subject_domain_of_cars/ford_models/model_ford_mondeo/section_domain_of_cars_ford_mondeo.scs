@@ -19,7 +19,7 @@ ford_mondeo_I
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -42,7 +42,7 @@ ford_mondeo_II
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -65,7 +65,7 @@ ford_mondeo_III
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -89,7 +89,7 @@ ford_mondeo_III_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -112,8 +112,8 @@ ford_mondeo_IV
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -137,7 +137,7 @@ ford_mondeo_IV_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -160,8 +160,8 @@ ford_mondeo_V
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -185,8 +185,8 @@ ford_mondeo_V_restyling
 		concept_engine_diesel;
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_variable_box;
-		concept_mechanical_box;
+		concept_car_continuously_variable_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -209,7 +209,7 @@ ford_mondeo_VI
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:

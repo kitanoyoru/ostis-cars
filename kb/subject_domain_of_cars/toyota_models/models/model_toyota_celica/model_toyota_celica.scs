@@ -24,8 +24,8 @@ toyota_celica_A20_A30
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_McPherson;
@@ -59,8 +59,8 @@ toyota_celica_A40_A50
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
@@ -94,8 +94,8 @@ toyota_celica_A60
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
@@ -130,8 +130,8 @@ toyota_celica_T160
 		concept_four_wheel;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_McPherson;
@@ -168,8 +168,8 @@ toyota_celica_T180
 		concept_four_wheel;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
@@ -205,8 +205,8 @@ toyota_celica_T200
 		concept_four_wheel;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
@@ -241,8 +241,8 @@ toyota_celica_T230
 		concept_front_wheel;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;

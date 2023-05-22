@@ -16,8 +16,8 @@ audi_tt_8N
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -42,8 +42,8 @@ audi_tt_8N_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -68,8 +68,8 @@ audi_tt_8J
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-        	concept_robotic_box;
+		concept_car_manual_transmission;
+        	concept_car_robotic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -95,8 +95,8 @@ audi_tt_8J_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-        	concept_robotic_box;
+		concept_car_manual_transmission;
+        	concept_car_robotic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -121,8 +121,8 @@ audi_tt_8S
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-        	concept_robotic_box;
+		concept_car_manual_transmission;
+        	concept_car_robotic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -147,8 +147,8 @@ audi_tt_8S_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-        	concept_robotic_box;
+		concept_car_manual_transmission;
+        	concept_car_robotic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:

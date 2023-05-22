@@ -23,8 +23,8 @@ toyota_paseo_L40
 		concept_four_wheel;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
@@ -57,8 +57,8 @@ toyota_paseo_L50
 		concept_front_wheel;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_McPherson;

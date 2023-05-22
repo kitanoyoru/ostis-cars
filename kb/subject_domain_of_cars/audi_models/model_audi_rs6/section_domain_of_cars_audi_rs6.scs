@@ -15,7 +15,7 @@ audi_rs6_C5
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -39,7 +39,7 @@ audi_rs6_C6
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -63,7 +63,7 @@ audi_rs6_C7
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -85,7 +85,7 @@ audi_rs6_C7_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -109,7 +109,7 @@ audi_rs6_C8
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:

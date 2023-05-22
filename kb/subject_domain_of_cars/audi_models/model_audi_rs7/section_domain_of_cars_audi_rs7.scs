@@ -14,7 +14,7 @@ audi_rs7_4G
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -37,7 +37,7 @@ audi_rs7_4G_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -60,7 +60,7 @@ audi_rs7_4K
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:

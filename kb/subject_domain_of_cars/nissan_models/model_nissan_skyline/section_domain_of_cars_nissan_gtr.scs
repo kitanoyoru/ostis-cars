@@ -21,7 +21,7 @@ nissan_skyline_c10
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
@@ -41,8 +41,8 @@ nissan_skyline_c110
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
@@ -62,7 +62,7 @@ nissan_skyline_c210
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
@@ -82,7 +82,7 @@ nissan_skyline_r30
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
@@ -103,7 +103,7 @@ nissan_skyline_r31
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
@@ -123,8 +123,8 @@ nissan_skyline_r32
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_suspension:
 		concept_front_strut_dependent;
 		concept_rear_semi_trailing_arm_independent;
@@ -145,8 +145,8 @@ nissan_skyline_r33
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
@@ -167,8 +167,8 @@ nissan_skyline_r34
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
@@ -189,7 +189,7 @@ nissan_skyline_r35
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
@@ -209,7 +209,7 @@ nissan_skyline_v36
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
@@ -231,7 +231,7 @@ nissan_skyline_v37
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;

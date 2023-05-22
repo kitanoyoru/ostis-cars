@@ -22,8 +22,8 @@ toyota_supra_A40_A50
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_McPherson;
@@ -56,8 +56,8 @@ toyota_supra_A60
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_McPherson;
@@ -89,8 +89,8 @@ toyota_supra_A70
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_double_wishbone;
@@ -123,8 +123,8 @@ toyota_supra_A80
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_double_wishbone;
@@ -159,8 +159,8 @@ toyota_supra_A90
 		concept_rear;
 
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_McPherson;

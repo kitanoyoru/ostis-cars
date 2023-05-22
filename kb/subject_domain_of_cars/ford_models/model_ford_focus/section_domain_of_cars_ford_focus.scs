@@ -20,8 +20,8 @@ ford_focus_I
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -44,7 +44,7 @@ ford_focus_I_north_america
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -67,8 +67,8 @@ ford_focus_I_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -91,7 +91,7 @@ ford_focus_II
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -115,7 +115,7 @@ ford_focus_I_restyling_north_america
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -138,7 +138,7 @@ ford_focus_II_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -162,7 +162,7 @@ ford_focus_III
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -186,7 +186,7 @@ ford_focus_III_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -209,7 +209,7 @@ ford_focus_IV
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:
@@ -232,7 +232,7 @@ ford_focus_IV_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
 	=> nrel_type_of_suspension:

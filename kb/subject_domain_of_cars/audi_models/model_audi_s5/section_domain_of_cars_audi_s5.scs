@@ -14,9 +14,9 @@ audi_s5_8T
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
-		concept_robotic_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
+		concept_car_robotic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -41,7 +41,7 @@ audi_s5_8T_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_robotic_box;
+		concept_car_robotic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -67,7 +67,7 @@ audi_s5_F5
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -93,7 +93,7 @@ audi_s5_F5_restyling
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:

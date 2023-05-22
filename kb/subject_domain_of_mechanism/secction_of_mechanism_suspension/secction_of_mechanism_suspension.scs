@@ -2,14 +2,7 @@ subject_domain_of_cars_mechanism_suspension
 	->rrel_key_sc_element:
 		nrel_type_of_front_suspension;
 		nrel_type_of_rear_suspension;
-		concept_double_wishbone_suspension;
-		concept_multilink_suspension;
-		concept_adaptive_suspension;
-		concept_rear_dependent_suspension;
-		concept_rear_independent_suspension;
-		concept_dependent_suspension;
-		concept_independent_suspension;
-		concept_semiindependent_rear_suspension;
+		concept_car_suspension;
 
 	=> nrel_main_idtf:
         [Предметная область подвески](* <- lang_ru;; *);
@@ -36,7 +29,7 @@ concept_car_independent_suspension
 	=> nrel_main_idtf: [Независимая подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Independent suspension] (* <- lang_en;; *);;
 
-concept_semiindependent_suspension
+concept_car_semiindependent_suspension
 	<- sc_node_not_relation;
 	<- concept_car_suspension;
 	=> nrel_main_idtf: [Полузависимая подвеска] (* <- lang_ru;; *);

@@ -18,8 +18,8 @@ audi_s8_D2
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -42,8 +42,8 @@ audi_s8_D2_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -65,7 +65,7 @@ audi_s8_D3
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -88,7 +88,7 @@ audi_s8_D3_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -111,7 +111,7 @@ audi_s8_D4
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -134,7 +134,7 @@ audi_s8_D4_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -157,7 +157,7 @@ audi_s8_D5
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
@@ -180,7 +180,7 @@ audi_s8_D5_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_suspension:
 		concept_rear_dependent_suspension;
 	=> nrel_type_of_body:
