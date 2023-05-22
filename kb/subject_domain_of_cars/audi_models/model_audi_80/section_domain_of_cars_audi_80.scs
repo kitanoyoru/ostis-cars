@@ -1,0 +1,111 @@
+audi_80
+	=> nrel_main_idtf: [Модельный ряд Ауди 80] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi 80] (* <-lang_en;; *);
+	=> nrel_generation:
+		audi_80_B1;
+		audi_80_B2;
+		audi_80_B3;
+		audi_80_B4;;
+
+audi_80_B1
+	=> nrel_main_idtf: [Ауди 100 B1] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 B1] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1972;;
+		-> rrel_end_year: 1978;; 
+	*);
+	=> nrel_photo: "file://img/audi_80_B1.png" (* => nrel_format: format_png;; *);;  
+
+
+audi_80_B2
+	=> nrel_main_idtf: [Ауди 100 B2] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 B2] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1978;;
+		-> rrel_end_year: 1986;; 
+	*);
+	=> nrel_photo: "file://img/audi_80_B2.png" (* => nrel_format: format_png;; *);;  
+
+
+
+audi_80_B3
+	=> nrel_main_idtf: [Ауди 100 B3] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 B3] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1986;;
+		-> rrel_end_year: 1992;; 
+	*);
+	=> nrel_photo: "file://img/audi_80_B3.png" (* => nrel_format: format_png;; *);;   
+
+
+audi_80_B4
+	=> nrel_main_idtf: [Ауди 100 B4] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi 100 B4] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_station_wagon;
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+		concept_front_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1996;; 
+	*);
+	=> nrel_photo: "file://img/audi_80_B4.png" (* => nrel_format: format_png;; *);;   

@@ -1,0 +1,166 @@
+audi_tt
+	=> nrel_main_idtf: [Модельный ряд Ауди тт] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi tt] (* <-lang_en;; *);
+	=> nrel_generation:
+		audi_tt_8N;
+		audi_tt_8N_restyling;
+		audi_tt_8J;
+		audi_tt_8J_restyling;
+		audi_tt_8S;
+		audi_tt_8S_restyling;;
+
+audi_tt_8N
+	=> nrel_main_idtf: [Ауди тт 8Н] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi tt 8N] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_roadster;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1998;;
+		-> rrel_end_year: 2003;; 
+	*);
+	=> nrel_photo: "file://img/audi_tt_8N.png" (* => nrel_format: format_png;; *);;  
+
+
+audi_tt_8N_restyling
+	=> nrel_main_idtf: [Ауди тт 8Р Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi tt 8N Resyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_roadster;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2003;;
+		-> rrel_end_year: 2006;; 
+	*);
+	=> nrel_photo: "file://img/audi_tt_8N_restyling.png" (* => nrel_format: format_png;; *);;   
+
+
+audi_tt_8J
+	=> nrel_main_idtf: [Ауди тт 8Ж] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi tt 8J] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_roadster;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2006;;
+		-> rrel_end_year: 2010;; 
+	*);
+	=> nrel_photo: "file://img/audi_tt_8J.png" (* => nrel_format: format_png;; *);;  
+
+
+
+audi_tt_8J_restyling
+	=> nrel_main_idtf: [Ауди тт 8Ж Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi tt 8J Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_roadster;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2014;; 
+	*);
+	=> nrel_photo: "file://img/audi_tt_8J_restyling.png" (* => nrel_format: format_png;; *);;  
+
+
+audi_tt_8S
+	=> nrel_main_idtf: [Ауди тт 8С] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi tt 8S] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_roadster;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo: "file://img/audi_tt_8S.png" (* => nrel_format: format_png;; *);;  
+
+
+audi_tt_8S_restyling
+	=> nrel_main_idtf: [Ауди тт 8C Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi tt 8S Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_roadster;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2018;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo: "file://img/audi_tt_8S_restyling.png" (* => nrel_format: format_png;; *);; 

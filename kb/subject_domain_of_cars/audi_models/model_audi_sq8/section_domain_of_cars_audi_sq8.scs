@@ -1,0 +1,30 @@
+audi_sq8
+	=> nrel_main_idtf: [Модельный ряд Ауди ск 8] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi sq 8] (* <-lang_en;; *);
+	=> nrel_generation:
+		audi_sq8_4M;;
+
+audi_sq8_4M
+	=> nrel_main_idtf: [Ауди ск 5 8Р] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi sq 5 8R] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_suspension:
+		concept_rear_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo: "file://img/audi_sq8_4M.png" (* => nrel_format: format_png;; *);;
+
+ 
