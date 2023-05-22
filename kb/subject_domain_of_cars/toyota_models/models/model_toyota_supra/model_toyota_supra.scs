@@ -25,7 +25,7 @@ toyota_supra_A40
 	=> nrel_type_of_suspension:
 		concept_front_MacPherson_suspension;
 		concept_rear_transverse_suspension;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...
 	(*
@@ -50,7 +50,7 @@ toyota_supra_A60
 		concept_automatic_box;
 	=> nrel_type_of_suspension:
 		concept_independent_suspension;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_liftback;
 	=> nrel_period:...
 	(*
@@ -75,7 +75,7 @@ toyota_supra_A70
 		concept_automatic_box;
 	=> nrel_type_of_suspension:
 		concept_independent_suspension;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_liftback;
 	=> nrel_period:...
 	(*
@@ -100,7 +100,7 @@ toyota_supra_A80
 		concept_automatic_box;
 	=> nrel_type_of_suspension:
 		concept_independent_suspension;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_coupe;
 		concept_targa;
 	=> nrel_period:...
@@ -126,7 +126,7 @@ toyota_supra_A90
 		concept_automatic_box;
 	=> nrel_type_of_suspension:
 		concept_independent_suspension;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_coupe;
 	=> nrel_period:...
 	(*

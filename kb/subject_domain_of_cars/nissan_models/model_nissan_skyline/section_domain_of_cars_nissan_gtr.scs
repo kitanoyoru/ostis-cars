@@ -19,13 +19,13 @@ nissan_skyline_c10
 	=> nrel_main_idtf: [Nissan Skyline C10] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gaasoline;
+		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
 		concept_automatic_box;
 	=> nrel_type_of_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 	=> nrel_period:...
 	(*
@@ -46,7 +46,7 @@ nissan_skyline_c110
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_coupe;
 	=> nrel_period:...
 	(*
@@ -66,7 +66,7 @@ nissan_skyline_c210
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_coupe;
 	=> nrel_period:...
 	(*
@@ -86,7 +86,7 @@ nissan_skyline_r30
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 	=> nrel_period:...
 	(*
@@ -107,7 +107,7 @@ nissan_skyline_r31
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 	=> nrel_period:...
 	(*
@@ -128,7 +128,7 @@ nissan_skyline_r32
 	=> nrel_suspension:
 		concept_front_strut_dependent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 		concept_coupe;
 	=> nrel_period:...
@@ -150,7 +150,7 @@ nissan_skyline_r33
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_dependent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 		concept_coupe;
 	=> nrel_period:...
@@ -172,7 +172,7 @@ nissan_skyline_r34
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 		concept_coupe;
 	=> nrel_period:...
@@ -193,7 +193,7 @@ nissan_skyline_r35
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_coupe;
 	=> nrel_period:...
 	(*
@@ -213,7 +213,7 @@ nissan_skyline_v36
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_coupe;
 		concept_sedan;
 		concept_wagon;
@@ -235,7 +235,7 @@ nissan_skyline_v37
 	=> nrel_suspension:
 		concept_front_strut_independent;
 		concept_rear_semi_trailing_arm_independent;
-	=> nrel_body_type:
+	=> nrel_type_of_body:
 		concept_sedan;
 	=> nrel_period:...
 	(*

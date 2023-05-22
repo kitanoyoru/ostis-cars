@@ -1,69 +1,82 @@
-subject_domain_of_cars_mechanism_suspension->rrel_key_sc_element:
-{
-	nrel_type_of_suspension;
-	concept_double_wishbone_suspension;
-	concept_multilink_suspension;
-	concept_adaptive_suspension;
-	concept_rear_dependent_suspension;
-	concept_rear_independent_suspension;
-	concept_dependent_suspension;
-	concept_independent_suspension;
-	concept_semiindependent_rear_suspension
-};;
+subject_domain_of_cars_mechanism_suspension
+	->rrel_key_sc_element:
+		nrel_type_of_suspension;
+		concept_car_suspension;
+		concept_double_wishbone_suspension;
+		concept_multilink_suspension;
+		concept_adaptive_suspension;
+		concept_rear_dependent_suspension;
+		concept_rear_independent_suspension;
+		concept_dependent_suspension;
+		concept_independent_suspension;
+		concept_semiindependent_rear_suspension;
 
-subject_domain_of_cars_mechanism_suspension => nrel_main_idtf:
-        [Предметная область подвески]
-        (* <- lang_ru;; *);;
+	=> nrel_main_idtf:
+        [Предметная область подвески](* <- lang_ru;; *);
+		[Subject domain of suspension](* <- lang_en;; *);
+	
+	<- non_atomic_section;;
 
-subject_domain_of_cars_mechanism_suspension => nrel_main_idtf:
-        [Subject domain of suspension]
-        (* <- lang_en;; *);;
 
-subject_domain_of_cars_mechanism_suspension<-non_atomic_section;;
-
-nrel_type_of_suspension
+concept_car_suspension
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: [Тип подвески*] (* <- lang_ru;; *);
-	=> nrel_main_idtf: [Type of suspension*](* <- lang_en;; *);;
+	=> nrel_main_idtf: [Подвеска автомобиля] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Car suspension] (* <- lang_en;; *);;
 
 concept_double_wishbone_suspension
 	<- sc_node_not_relation;
+	<- concept_car_suspension;
 	=> nrel_main_idtf: [Двухрычажная подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Double wishbone suspension] (* <- lang_en;; *);;
 
 concept_multilink_suspension
 	<- sc_node_not_relation;
+	<- concept_car_suspension;
 	=> nrel_main_idtf: [Многорычажная подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Multi-link suspension] (* <- lang_en;; *);;
 
 concept_adaptive_suspension
 	<- sc_node_not_relation;
+	<- concept_car_suspension;
 	=> nrel_main_idtf: [Адаптивная подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Adaptive suspension] (* <- lang_en;; *);;
 
 concept_dependent_suspension
-        <- sc_node_not_relation;
-        => nrel_main_idtf: [Зависимая схема подвески] (* <- lang_ru;; *);
-        => nrel_main_idtf: [Dependent suspension] (* <- lang_en;; *);;
+	<- sc_node_not_relation;
+	<- concept_car_suspension;
+	=> nrel_main_idtf: [Зависимая схема подвески] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Dependent suspension] (* <- lang_en;; *);;
 
 concept_independent_suspension
-        <- sc_node_not_relation;
-        => nrel_main_idtf: [Независимая схема подвески] (* <- lang_ru;; *);
-        => nrel_main_idtf: [Independent suspension] (* <- lang_en;; *);;
+	<- sc_node_not_relation;
+	<- concept_car_suspension;
+	=> nrel_main_idtf: [Независимая схема подвески] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Independent suspension] (* <- lang_en;; *);;
 
 
 concept_rear_dependent_suspension
 	<- sc_node_not_relation;
+	<- concept_car_suspension;
 	=> nrel_main_idtf: [Задняя зависимая схема подвески] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Rear dependent suspension] (* <- lang_en;; *);;
 
 concept_rear_independent_suspension
-        <- sc_node_not_relation;
-        => nrel_main_idtf: [Задняя независимая схема подвески] (* <- lang_ru;; *);
-        => nrel_main_idtf: [Rear independent suspension] (* <- lang_en;; *);;
+	<- sc_node_not_relation;
+	<- concept_car_suspension;
+	=> nrel_main_idtf: [Задняя независимая схема подвески] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Rear independent suspension] (* <- lang_en;; *);;
 
 concept_semiindependent_rear_suspension
 	<- sc_node_not_relation;
+	<- concept_car_suspension;
 	=> nrel_main_idtf: [Полузависимая задняя подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Semi-independent rear suspension] (* <- lang_en;; *);;
+
+
+nrel_type_of_suspension
+	<- sc_node_norole_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_suspension;
+	=> nrel_main_idtf: [Тип подвески*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Type of suspension*](* <- lang_en;; *);;
 

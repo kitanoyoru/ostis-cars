@@ -1,10 +1,42 @@
 kursach_patterns
     => nrel_main_idtf: [Шаблоны для поиска по БЗ] (* <- lang_ru;; *);
-    -> pattern1;
-    -> pattern2;
-    -> pattern3;;
+    -> pattern_1_ford;
+    -> pattern_2_ford;
+    -> pattern_3_ford;
 
-pattern1 => nrel_main_idtf: [Найти все автомобили модели Ford Focus с автоматической коробкой передач и бензиновым двигатель] (* <- lang_ru;; *);;
-pattern2 => nrel_main_idtf: [Найти все автомобили с дизельным двигателем] (* <- lang_ru;; *);;
-pattern3 => nrel_main_idtf: [Найти все автомобили модели Toyota supra] (* <- lang_ru;; *);;
+    -> pattern_1_bmw;
+    -> pattern_2_bmw;
+    -> pattern_3_bmw;
+
+    -> pattern_1_nissan;
+    -> pattern_2_nissan;
+    -> pattern_3_nissan;
+
+    -> pattern_1_audi;
+    -> pattern_2_audi;
+    -> pattern_3_audi;
+
+    -> pattern_1_toyota;
+    -> pattern_2_toyota;
+    -> pattern_3_toyota;;
+
+pattern_1_ford => nrel_main_idtf: [Найти все автомобили модели Ford Focus с автоматической коробкой передач и бензиновым двигатель] (* <- lang_ru;; *);;
+pattern_2_ford => nrel_main_idtf: [Найти все автомобили с дизельным двигателем] (* <- lang_ru;; *);;
+pattern_3_ford => nrel_main_idtf: [Найти все поколения модельного ряда Ford Mondeo] (* <- lang_ru;; *);;
+
+pattern_1_bmw => nrel_main_idtf: [Найти все автомобили модели BMW X1 с автоматической коробкой передач и бензиновым двигатель] (* <- lang_ru;; *);;
+pattern_2_bmw => nrel_main_idtf: [Найти все автомобили с дизельным двигателем] (* <- lang_ru;; *);;
+pattern_3_bmw => nrel_main_idtf: [Найти все поколения модельного ряда BMW X1] (* <- lang_ru;; *);;
+
+pattern_1_nissan => nrel_main_idtf: [Найти все автомобили модели Nissan Skyline со стойко независимой подвеской и бензиновым двигатель] (* <- lang_ru;; *);;
+pattern_2_nissan => nrel_main_idtf: [Найти все автомобили с автоматической коробкой передач] (* <- lang_ru;; *);;
+pattern_3_nissan => nrel_main_idtf: [Найти все поколения модельного ряда Nissan Skyline] (* <- lang_ru;; *);;
+
+pattern_1_audi => nrel_main_idtf: [Найти все автомобили с дизельным двигателем] (* <- lang_ru;; *);;
+pattern_2_audi => nrel_main_idtf: [Найти все автомобили модели Audi 100 с бензиновым двигателем и типом кузова купе] (* <- lang_ru;; *);;
+pattern_3_audi => nrel_main_idtf: [Найти все поколения модельного ряда Audi 100] (* <- lang_ru;; *);;
+
+pattern_1_toyota => nrel_main_idtf: [Найти все автомобили модели Toyota Supra с независимой подвеской и задним приводом] (* <- lang_ru;; *);;
+pattern_2_toyota => nrel_main_idtf: [Найти все автомобили с типом кузова купе] (* <- lang_ru;; *);;
+pattern_3_toyota => nrel_main_idtf: [Найти все поколения модельного ряда Toyota Supra] (* <- lang_ru;; *);;
 

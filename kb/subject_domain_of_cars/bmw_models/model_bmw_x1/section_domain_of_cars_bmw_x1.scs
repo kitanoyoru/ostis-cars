@@ -11,14 +11,14 @@ bmw_x1_e84
 => nrel_main_idtf: [BMW X1 E84] (* <-lang_ru;; *);
 	<- concept_car;
 => nrel_type_of_engine:
-concept_engine_gasoline;
-concept_engine_diesel;
+	concept_engine_gasoline;
+	concept_engine_diesel;
 => nrel_type_of_transmission:
-concept_mechanical_box;
-concept_automatic_box;
+	concept_mechanical_box;
+	concept_automatic_box;
 => nrel_type_of_suspension:
-concept_front_MacPherson_suspension;
-concept_multilink_suspension;
+	concept_front_MacPherson_suspension;
+	concept_multilink_suspension;
 => nrel_type_of_body:
 concept_crossover;
 => nrel_type_of_drive:
@@ -36,14 +36,14 @@ bmw_x1_f48
 => nrel_main_idtf: [BMW X1 F48] (* <-lang_ru;; *);
 	<- concept_car;
 => nrel_type_of_engine:
-concept_engine_gasoline;
-concept_engine_diesel;
+	concept_engine_gasoline;
+	concept_engine_diesel;
 => nrel_type_of_transmission:
-concept_robotic_box;
-concept_automatic_box;
+	concept_robotic_box;
+	concept_automatic_box;
 => nrel_type_of_suspension:
-concept_front_MacPherson_suspension;
-concept_multilink_suspension;
+	concept_front_MacPherson_suspension;
+	concept_multilink_suspension;
 => nrel_type_of_body:
 concept_crossover;
 => nrel_type_of_drive:
@@ -63,13 +63,13 @@ bmw_x1_f48_restyling
 => nrel_main_idtf: [BMW X1 F48 Рестайлинг] (* <-lang_ru;; *);
 	<- concept_car;
 => nrel_type_of_engine:
-concept_engine_diesel;
+	concept_engine_diesel;
 => nrel_type_of_transmission:
-concept_robotic_box;
-concept_automatic_box;
+	concept_robotic_box;
+	concept_automatic_box;
 => nrel_type_of_suspension:
-concept_front_MacPherson_suspension;
-concept_multilink_suspension;
+	concept_front_MacPherson_suspension;
+	concept_multilink_suspension;
 => nrel_type_of_body:
 concept_crossover;
 => nrel_type_of_drive:
