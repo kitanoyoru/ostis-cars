@@ -2,14 +2,6 @@ section_domain_of_cars_bmw
 => nrel_models:
 	bmw_x1;
 	bmw_x2;
-	bmw_x3;
-	bmw_x3_m;
-	bmw_x4;
-	bmw_x4_m;
-	bmw_x5;
-	bmw_x5_m;
-	bmw_x6;
-	bmw_x6_m;
-	bmw_x7;;
+	bmw_x3;;
 
 
