@@ -1,5 +1,5 @@
 ford_mondeo
-	=> nrel_main_idtf: [Модельный ряд Форд Мондео] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Модельный ряд Ford Mondeo] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Ford Mondeo] (* <-lang_en;; *);
 	=> nrel_generation:
 		ford_mondeo_I;
@@ -22,18 +22,21 @@ ford_mondeo_I
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_multilink_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_liftback;
-		concept_front_wheel;
+		concept_station_wagon;
 		concept_sedan;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1993;;
 		-> rrel_end_year: 1996;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_I.png" (* => nrel_format: format_png;; *);;   
 	
 ford_mondeo_II
 	=> nrel_main_idtf: [Форд Мондео II] (* <-lang_ru;; *);
@@ -45,8 +48,10 @@ ford_mondeo_II
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_multilink_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_station_wagon;
 		concept_sedan;
@@ -56,7 +61,8 @@ ford_mondeo_II
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1996;;
 		-> rrel_end_year: 2000;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_II.png" (* => nrel_format: format_png;; *);;  
 	
 ford_mondeo_III
 	=> nrel_main_idtf: [Форд Мондео III] (* <-lang_ru;; *);
@@ -68,9 +74,10 @@ ford_mondeo_III
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_multilink_suspension;
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_sedan;
 		concept_liftback;
@@ -80,7 +87,8 @@ ford_mondeo_III
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2000;;
 		-> rrel_end_year: 2003;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_III.png" (* => nrel_format: format_png;; *);;  
 	
 ford_mondeo_III_restyling
 	=> nrel_main_idtf: [Форд Мондео III рестайлинг] (* <-lang_ru;; *);
@@ -92,8 +100,10 @@ ford_mondeo_III_restyling
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_liftback;
 		concept_sedan;
@@ -103,7 +113,8 @@ ford_mondeo_III_restyling
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2003;;
 		-> rrel_end_year: 2007;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_III_restyling.png" (* => nrel_format: format_png;; *);;  
 	
 ford_mondeo_IV
 	=> nrel_main_idtf: [Форд Мондео IV] (* <-lang_ru;; *);
@@ -116,9 +127,10 @@ ford_mondeo_IV
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_liftback;
 		concept_sedan;
@@ -128,7 +140,8 @@ ford_mondeo_IV
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2006;;
 		-> rrel_end_year: 2010;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_IV.png" (* => nrel_format: format_png;; *);; 
 	
 ford_mondeo_IV_restyling
 	=> nrel_main_idtf: [Форд Мондео IV рестайлинг] (* <-lang_ru;; *);
@@ -140,8 +153,10 @@ ford_mondeo_IV_restyling
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_liftback;
 		concept_sedan;
@@ -151,7 +166,8 @@ ford_mondeo_IV_restyling
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2010;;
 		-> rrel_end_year: 2014;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_IV_restyling.png" (* => nrel_format: format_png;; *);;  
 	
 ford_mondeo_V
 	=> nrel_main_idtf: [Форд Мондео V] (* <-lang_ru;; *);
@@ -164,8 +180,10 @@ ford_mondeo_V
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_liftback;
 		concept_sedan;
@@ -175,7 +193,8 @@ ford_mondeo_V
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2014;;
 		-> rrel_end_year: 2019;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_V.png" (* => nrel_format: format_png;; *);;  
 	
 ford_mondeo_V_restyling
 	=> nrel_main_idtf: [Форд Мондео V рестайлинг] (* <-lang_ru;; *);
@@ -189,8 +208,10 @@ ford_mondeo_V_restyling
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_liftback;
 		concept_sedan;
@@ -200,7 +221,8 @@ ford_mondeo_V_restyling
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2019;;
 		-> rrel_end_year: 2022;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_V_restyling.png" (* => nrel_format: format_png;; *);;  
 	
 ford_mondeo_VI
 	=> nrel_main_idtf: [Форд Мондео VI] (* <-lang_ru;; *);
@@ -212,8 +234,10 @@ ford_mondeo_VI
 		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_sedan;
 	=> nrel_period:...
@@ -221,4 +245,5 @@ ford_mondeo_VI
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2022;;
 		-> rrel_end_year: till_now;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_mondeo_VI.png" (* => nrel_format: format_png;; *);;  

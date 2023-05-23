@@ -1,5 +1,5 @@
 ford_fiesta
-	=> nrel_main_idtf: [Модельный ряд Форд Фиеста] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Модельный ряд Ford Fiesta] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Ford Fiesta] (* <-lang_en;; *);
 	=> nrel_generation:
 		ford_fiesta_Mk1;
@@ -12,3 +12,244 @@ ford_fiesta
 		ford_fiesta_Mk6_restyling;
 		ford_fiesta_Mk7;
 		ford_fiesta_Mk7_restyling;;
+
+ford_fiesta_Mk1
+	=> nrel_main_idtf: [Форд Фиеста МК1] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK1] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1976;;
+		-> rrel_end_year: 1983;; 
+	*);  
+	=> nrel_photo:"file://img/ford_fiesta_Mk1.png" (* => nrel_format: format_png;; *);; 
+
+
+ford_fiesta_Mk2
+	=> nrel_main_idtf: [Форд Фиеста МК2] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK2] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1983;;
+		-> rrel_end_year: 1989;; 
+	*);
+	=> nrel_photo:"file://img/ford_fiesta_Mk2.png" (* => nrel_format: format_png;; *);;   
+	
+ford_fiesta_Mk3
+	=> nrel_main_idtf: [Форд Фиеста МК3] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK3] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_variable_box;
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1989;;
+		-> rrel_end_year: 1996;; 
+	*); 
+	=> nrel_photo:"file://img/ford_fiesta_Mk3.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk4
+	=> nrel_main_idtf: [Форд Фиеста МК4] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK4] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1995;;
+		-> rrel_end_year: 1999;; 
+	*);  
+	=> nrel_photo:"file://img/ford_fiesta_Mk4.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk4_restyling
+	=> nrel_main_idtf: [Форд Фиеста МК4 рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK4 restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2002;; 
+	*); 
+	=> nrel_photo:"file://img/ford_fiesta_Mk4_restyling.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk5
+	=> nrel_main_idtf: [Форд Фиеста МК5] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK5] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2002;;
+		-> rrel_end_year: 2008;; 
+	*); 
+	=> nrel_photo:"file://img/ford_fiesta_Mk5.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk6
+	=> nrel_main_idtf: [Форд Фиеста МК6] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK6] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2008;;
+		-> rrel_end_year: 2013;; 
+	*); 
+	=> nrel_photo:"file://img/ford_fiesta_Mk6.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk6_restyling
+	=> nrel_main_idtf: [Форд Фиеста МК6 рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK6 restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2012;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo:"file://img/ford_fiesta_Mk6_restyling.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk7
+	=> nrel_main_idtf: [Форд Фиеста МК7] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK7] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2017;;
+		-> rrel_end_year: 2021;; 
+	*);
+	=> nrel_photo:"file://img/ford_fiesta_Mk7.png" (* => nrel_format: format_png;; *);; 
+	
+ford_fiesta_Mk7_restyling
+	=> nrel_main_idtf: [Форд Фиеста МК7 рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Fiesta MK7 restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2021;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo:"file://img/ford_fiesta_Mk7_restyling.png" (* => nrel_format: format_png;; *);; 
