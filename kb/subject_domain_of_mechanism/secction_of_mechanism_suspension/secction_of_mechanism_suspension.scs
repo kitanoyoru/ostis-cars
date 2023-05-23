@@ -66,6 +66,12 @@ concept_car_suspension_independent_spring_strut
 	=> nrel_main_idtf: [Независимая пружинная подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Independent spring strut suspension] (* <- lang_en;; *);;
 
+concept_car_suspension_dependent_spring_strut
+	<- sc_node_not_relation;
+	<- concept_car_dependent_suspension;
+	=> nrel_main_idtf: [Зависимая пружинная подвеска] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Dependent spring strut suspension] (* <- lang_en;; *);;
+
 concept_car_suspension_trailing_arm
 	<- sc_node_not_relation;
 	<- concept_car_independent_suspension;
@@ -78,8 +84,6 @@ concept_adaptive_suspension
 	<- concept_car_suspension;
 	=> nrel_main_idtf: [Адаптивная подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Adaptive suspension] (* <- lang_en;; *);;
-
-
 
 nrel_type_of_front_suspension
 	<- sc_node_norole_relation;
