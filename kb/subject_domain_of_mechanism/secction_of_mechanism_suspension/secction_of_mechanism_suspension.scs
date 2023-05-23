@@ -16,6 +16,11 @@ concept_car_suspension
 	=> nrel_main_idtf: [Подвеска автомобиля] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Car suspension] (* <- lang_en;; *);;
 
+concept_car_suspension_double_joint_spring_strut
+	<- sc_node_not_relation;
+	<- concept_car_suspension;
+	=> nrel_main_idtf: [Подвеска на двойной вилке] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Double-Joint spring strut suspension] (* <- lang_en;; *);;
 
 concept_car_dependent_suspension
 	<- sc_node_not_relation;

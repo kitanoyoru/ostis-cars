@@ -1,0 +1,40 @@
+bmw_x2
+=> nrel_main_idtf: [Модельный ряд BMW X2] (* <-lang_ru;;*);
+=> nrel_main_idtf: [Car lineup BMW X2] (* <-lang_en;; *);
+	=> nrel_generation:
+		bmw_x2_f39;;
+
+bmw_x2_f39
+
+    <- concept_car;
+
+    => nrel_main_idtf: [BMW X2 F39] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X2 F39] (* <-lang_ru;; *);
+
+    => nrel_type_of_engine:
+	    concept_engine_gasoline;
+	    concept_engine_diesel;
+
+    => nrel_type_of_transmission:
+	    concept_robotic_box;
+	    concept_automatic_box;
+    
+	=> nrel_type_of_front_suspension:
+	    concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+	    concept_car_suspension_multi_link;
+
+    => nrel_type_of_body:
+        concept_crossover;
+
+    => nrel_type_of_drive:
+        concept_four_wheel;
+        concept_front_wheel;
+
+    => nrel_period: ...
+    (*
+        <- sc_node_tuple;;
+        -> rrel_start_year: 2017;;
+        -> rrel_end_year: now;; 
+    *);;
+	> nrel_photo:"file://img/bmw_x2_f39.png" (* => nrel_format: format_png;; *);;   

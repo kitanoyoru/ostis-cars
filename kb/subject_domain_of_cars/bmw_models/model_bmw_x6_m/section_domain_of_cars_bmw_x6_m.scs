@@ -1,30 +1,28 @@
-bmw_x1
-=> nrel_main_idtf: [Модельный ряд BMW X1] (* <-lang_ru;;*);
-=> nrel_main_idtf: [Car lineup BMW X1] (* <-lang_en;; *);
+bmw_x6_m
+=> nrel_main_idtf: [Модельный ряд BMW X6 M] (* <-lang_ru;;*);
+=> nrel_main_idtf: [Car lineup BMW X6 M] (* <-lang_en;; *);
 	=> nrel_generation:
-		bmw_x1_e84;
-        bmw_x1_e84_restyling;
-		bmw_x1_f48;
-		bmw_x1_f48_restyling;
-        bmw_x1_u11;;
+		bmw_x6_m_e71;
+        bmw_x6_m_e71_restyling;
+        bmw_x6_m_f86;
+        bmw_x6_m_f96;
+        bmw_x6_m_f96_restyling;;
 
-bmw_x1_e84
+bmw_x6_m_e71
 
     <- concept_car;
 
-    => nrel_main_idtf: [BMW X1 E84] (* <-lang_en;; *);
-    => nrel_main_idtf: [БМВ X1 E84] (* <-lang_ru;; *);
+    => nrel_main_idtf: [BMW X6 M E71] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X6 M E71] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
 	    concept_engine_gasoline;
-	    concept_engine_diesel;
 
     => nrel_type_of_transmission:
-	    concept_mechanical_box;
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_McPherson;
+	    concept_car_suspension_double_joint_spring_strut;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -40,25 +38,23 @@ bmw_x1_e84
         -> rrel_start_year: 2009;;
         -> rrel_end_year: 2012;; 
     *);;
-	> nrel_photo:"file://img/bmw_x1_e84.png" (* => nrel_format: format_png;; *);;   
+	> nrel_photo:"file://img/bmw_x6_m_e71.png" (* => nrel_format: format_png;; *);;   
 
-bmw_x1_e84_restyling
+bmw_x6_m_e71_restyling
 
     <- concept_car;
 
-    => nrel_main_idtf: [BMW X1 E84 Restyling] (* <-lang_en;; *);
-    => nrel_main_idtf: [БМВ X1 E84 Рестайлинг] (* <-lang_ru;; *);
+    => nrel_main_idtf: [BMW X6 M E71 Restyling] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X6 M E71 Рестайлинг] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
 	    concept_engine_gasoline;
-	    concept_engine_diesel;
 
     => nrel_type_of_transmission:
-	    concept_mechanical_box;
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_McPherson;
+	    concept_car_suspension_double_joint_spring_strut;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -67,33 +63,30 @@ bmw_x1_e84_restyling
 
     => nrel_type_of_drive:
         concept_four_wheel;
-        concept_rear;
 
     => nrel_period: ...
     (*
         <- sc_node_tuple;;
         -> rrel_start_year: 2012;;
-        -> rrel_end_year: 2015;; 
+        -> rrel_end_year: 2014;; 
     *);;
-	> nrel_photo:"file://img/bmw_x1_e84_restyling.png" (* => nrel_format: format_png;; *);;   
+	> nrel_photo:"file://img/bmw_x6_m_e71_restyling.png" (* => nrel_format: format_png;; *);;   
 
-bmw_x1_f48
+bmw_x6_m_f86
 
     <- concept_car;
 
-    => nrel_main_idtf: [BMW X1 F48] (* <-lang_en;; *);
-    => nrel_main_idtf: [БМВ X1 F48] (* <-lang_ru;; *);
+    => nrel_main_idtf: [BMW X6 M F86] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X6 M F86] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
 	    concept_engine_gasoline;
-	    concept_engine_diesel;
 
     => nrel_type_of_transmission:
-	    concept_robotic_box;
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_McPherson;
+	    concept_car_suspension_double_joint_spring_strut;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -101,36 +94,31 @@ bmw_x1_f48
         concept_SUV;
 
     => nrel_type_of_drive:
-        concept_front_wheel;
         concept_four_wheel;
 
     => nrel_period: ...
     (*
         <- sc_node_tuple;;
-        -> rrel_start_year: 2015;;
+        -> rrel_start_year: 2014;;
         -> rrel_end_year: 2019;; 
     *);;
-	> nrel_photo:"file://img/bmw_x1_f48.png" (* => nrel_format: format_png;; *);;   
+	> nrel_photo:"file://img/bmw_x6_m_f86.png" (* => nrel_format: format_png;; *);; 
 
-
-
-bmw_x1_f48_restyling
+bmw_x6_m_f96
 
     <- concept_car;
 
-    => nrel_main_idtf: [BMW X1 F48 Restyling] (* <-lang_en;; *);
-    => nrel_main_idtf: [БМВ X1 F48 Рестайлинг] (* <-lang_ru;; *);
+    => nrel_main_idtf: [BMW X6 M F96] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X6 M F96] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_diesel;
-        concept_engine_gasoline;
+	    concept_engine_gasoline;
 
     => nrel_type_of_transmission:
-	    concept_robotic_box;
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_McPherson;
+	    concept_car_suspension_double_joint_spring_strut;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -138,7 +126,6 @@ bmw_x1_f48_restyling
         concept_SUV;
 
     => nrel_type_of_drive:
-        concept_front_wheel;
         concept_four_wheel;
 
     => nrel_period: ...
@@ -147,25 +134,23 @@ bmw_x1_f48_restyling
         -> rrel_start_year: 2019;;
         -> rrel_end_year: now;; 
     *);;
-	> nrel_photo:"file://img/bmw_x1_f48_restyling.png" (* => nrel_format: format_png;; *);;  
+	> nrel_photo:"file://img/bmw_x6_m_f96.png" (* => nrel_format: format_png;; *);;   
 
-
-bmw_x1_u11
+bmw_x6_m_f96_restyling
 
     <- concept_car;
 
-    => nrel_main_idtf: [BMW X1 U11] (* <-lang_en;; *);
-    => nrel_main_idtf: [БМВ X1 U11] (* <-lang_ru;; *);
+    => nrel_main_idtf: [BMW X6 M F96 Restyling] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X6 M F96 Рестайлинг] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_diesel;
-        concept_engine_gasoline;
+	    concept_engine_gasoline;
 
     => nrel_type_of_transmission:
-	    concept_robotic_box;
+	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_McPherson;
+	    concept_car_suspension_double_joint_spring_strut;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -173,13 +158,12 @@ bmw_x1_u11
         concept_SUV;
 
     => nrel_type_of_drive:
-        concept_front_wheel;
         concept_four_wheel;
 
     => nrel_period: ...
     (*
         <- sc_node_tuple;;
-        -> rrel_start_year: 2022;;
+        -> rrel_start_year: 2023;;
         -> rrel_end_year: now;; 
     *);;
-	> nrel_photo:"file://img/bmw_x1_u11.png" (* => nrel_format: format_png;; *);;   
+	> nrel_photo:"file://img/bmw_x6_m_f96_restyling.png" (* => nrel_format: format_png;; *);; 

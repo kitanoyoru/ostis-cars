@@ -1,0 +1,136 @@
+bmw_x5_m
+=> nrel_main_idtf: [Модельный ряд BMW X5 M] (* <-lang_ru;;*);
+=> nrel_main_idtf: [Car lineup BMW X5 M] (* <-lang_en;; *);
+	=> nrel_generation:
+		bmw_x5_m_e70;
+        bmw_x5_m_f85;
+        bmw_x5_m_f95;
+        bmw_x5_m_f95_restyling;;
+
+bmw_x5_m_e70
+
+    <- concept_car;
+
+    => nrel_main_idtf: [BMW X5 M E70] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X5 M E70] (* <-lang_ru;; *);
+
+    => nrel_type_of_engine:
+	    concept_engine_gasoline;
+
+    => nrel_type_of_transmission:
+	    concept_automatic_box;
+    
+	=> nrel_type_of_front_suspension:
+	    concept_car_suspension_double_joint_spring_strut;
+	=> nrel_type_of_rear_suspension:
+	    concept_car_suspension_multi_link;
+
+    => nrel_type_of_body:
+        concept_SUV;
+
+    => nrel_type_of_drive:
+        concept_four_wheel;
+
+    => nrel_period: ...
+    (*
+        <- sc_node_tuple;;
+        -> rrel_start_year: 2009;;
+        -> rrel_end_year: 2013;; 
+    *);;
+	> nrel_photo:"file://img/bmw_x5_m_e70.png" (* => nrel_format: format_png;; *);;   
+
+bmw_x5_m_f85
+
+    <- concept_car;
+
+    => nrel_main_idtf: [BMW X5 M F85] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X5 M F85] (* <-lang_ru;; *);
+
+    => nrel_type_of_engine:
+	    concept_engine_gasoline;
+
+    => nrel_type_of_transmission:
+	    concept_automatic_box;
+    
+	=> nrel_type_of_front_suspension:
+	    concept_car_suspension_double_joint_spring_strut;
+	=> nrel_type_of_rear_suspension:
+	    concept_car_suspension_multi_link;
+
+    => nrel_type_of_body:
+        concept_SUV;
+
+    => nrel_type_of_drive:
+        concept_four_wheel;
+
+    => nrel_period: ...
+    (*
+        <- sc_node_tuple;;
+        -> rrel_start_year: 2014;;
+        -> rrel_end_year: 2018;; 
+    *);;
+	> nrel_photo:"file://img/bmw_x5_m_f85.png" (* => nrel_format: format_png;; *);; 
+
+bmw_x5_m_f95
+
+    <- concept_car;
+
+    => nrel_main_idtf: [BMW X5 M F95] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X5 M F95] (* <-lang_ru;; *);
+
+    => nrel_type_of_engine:
+	    concept_engine_gasoline;
+
+    => nrel_type_of_transmission:
+	    concept_automatic_box;
+    
+	=> nrel_type_of_front_suspension:
+	    concept_car_suspension_double_joint_spring_strut;
+	=> nrel_type_of_rear_suspension:
+	    concept_car_suspension_multi_link;
+
+    => nrel_type_of_body:
+        concept_SUV;
+
+    => nrel_type_of_drive:
+        concept_four_wheel;
+
+    => nrel_period: ...
+    (*
+        <- sc_node_tuple;;
+        -> rrel_start_year: 2019;;
+        -> rrel_end_year: now;; 
+    *);;
+	> nrel_photo:"file://img/bmw_x5_m_f95.png" (* => nrel_format: format_png;; *);;   
+
+bmw_x5_m_f95_restyling
+
+    <- concept_car;
+
+    => nrel_main_idtf: [BMW X5 M F95 Restyling] (* <-lang_en;; *);
+    => nrel_main_idtf: [БМВ X5 M F95 Рестайлинг] (* <-lang_ru;; *);
+
+    => nrel_type_of_engine:
+	    concept_engine_gasoline;
+
+    => nrel_type_of_transmission:
+	    concept_automatic_box;
+    
+	=> nrel_type_of_front_suspension:
+	    concept_car_suspension_double_joint_spring_strut;
+	=> nrel_type_of_rear_suspension:
+	    concept_car_suspension_multi_link;
+
+    => nrel_type_of_body:
+        concept_SUV;
+
+    => nrel_type_of_drive:
+        concept_four_wheel;
+
+    => nrel_period: ...
+    (*
+        <- sc_node_tuple;;
+        -> rrel_start_year: 2023;;
+        -> rrel_end_year: now;; 
+    *);;
+	> nrel_photo:"file://img/bmw_x5_m_f95_restyling.png" (* => nrel_format: format_png;; *);; 
