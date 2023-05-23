@@ -1,19 +1,21 @@
 audi_e_tron
-	=> nrel_main_idtf: [Модельный ряд Ауди е-трон] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Модельный ряд Ауди e-tron] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Audi e-tron] (* <-lang_en;; *);
 	=> nrel_generation:
 		audi_e_tron_I;;
 
 audi_e_tron_I
-	=> nrel_main_idtf: [Ауди е-трон И] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди e-tron I] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi e-tron I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_electric;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_SUV;
 	=> nrel_type_of_drive:

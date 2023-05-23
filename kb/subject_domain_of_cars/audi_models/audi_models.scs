@@ -7,8 +7,11 @@ section_domain_of_cars_audi
 	audi_rs6;
 	audi_rs7;
 	audi_tt;
+	audi_tt_rs;
+	audi_s4;
 	audi_s5;
 	audi_s6;
+	audi_s7;
 	audi_s8;
 	audi_sq5;
 	audi_sq8;

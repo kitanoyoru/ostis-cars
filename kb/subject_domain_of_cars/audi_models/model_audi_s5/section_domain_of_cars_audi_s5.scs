@@ -1,6 +1,6 @@
 audi_s5
-	=> nrel_main_idtf: [Модельный ряд Ауди с 5] (* <-lang_ru ;;*);
-=> nrel_main_idtf: [Car lineup Audi s 5] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Модельный ряд Ауди S 5] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi S 5] (* <-lang_en;; *);
 	=> nrel_generation:
 		audi_s5_8T;
 		audi_s5_8T_restyling;
@@ -8,17 +8,19 @@ audi_s5
 		audi_s5_F5_restyling;;
 
 audi_s5_8T
-	=> nrel_main_idtf: [Ауди с 5 8Т] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi s 5 8T] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди S 5 8Т] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 5 8T] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-		concept_car_manual_transmission;
-		concept_car_robotic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+		concept_mechanical_box;
+		concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_cabriolet;
 		concept_liftback;
@@ -35,15 +37,17 @@ audi_s5_8T
 
 
 audi_s5_8T_restyling
-	=> nrel_main_idtf: [Ауди с 5 8Т Рестайлинг] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi s 5 8T Restyling] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди S 5 8Т Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 5 8T Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_robotic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_cabriolet;
 		concept_liftback;
@@ -60,16 +64,18 @@ audi_s5_8T_restyling
 
 
 audi_s5_F5
-	=> nrel_main_idtf: [Ауди с 5 Ф5] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi s 5 F5] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди S 5 F5] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 5 F5] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_cabriolet;
 		concept_liftback;
@@ -86,16 +92,18 @@ audi_s5_F5
 
 
 audi_s5_F5_restyling
-	=> nrel_main_idtf: [Ауди с 5 Ф5 Рестайлинг] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi s 5 F5 Restyling] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди S 5 F5 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 5 F5 Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_cabriolet;
 		concept_liftback;

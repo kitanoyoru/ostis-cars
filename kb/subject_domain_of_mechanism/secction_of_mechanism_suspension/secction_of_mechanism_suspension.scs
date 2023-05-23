@@ -11,6 +11,12 @@ subject_domain_of_cars_mechanism_suspension
 	<- non_atomic_section;;
 
 
+concept_car_suspension_double_joint_spring_strut
+ <- sc_node_not_relation;
+ <- concept_car_suspension;
+ => nrel_main_idtf: [Подвеска на двойной вилке] (* <- lang_ru;; *);
+ => nrel_main_idtf: [Double-Joint spring strut suspension] (* <- lang_en;; *);;
+
 concept_car_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: [Подвеска автомобиля] (* <- lang_ru;; *);

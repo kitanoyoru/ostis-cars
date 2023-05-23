@@ -15,9 +15,11 @@ audi_100_c1
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_sedan;
@@ -40,10 +42,12 @@ audi_100_c2
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -66,10 +70,12 @@ audi_100_c3
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -94,10 +100,12 @@ audi_100_c3_restyling
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -121,10 +129,12 @@ audi_100_c4
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;

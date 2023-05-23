@@ -1,6 +1,6 @@
 audi_rs6
-	=> nrel_main_idtf: [Модельный ряд Ауди рс 6] (* <-lang_ru ;;*);
-=> nrel_main_idtf: [Car lineup Audi rs 6] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Модельный ряд Ауди RS 6] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi RS 6] (* <-lang_en;; *);
 	=> nrel_generation:
 		audi_rs6_C5;
 		audi_rs6_C6;
@@ -9,15 +9,17 @@ audi_rs6
 		audi_rs6_C8;;
 
 audi_rs6_C5
-	=> nrel_main_idtf: [Ауди рс 6 С5] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi rs 6 C5] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди RS 6 С5] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 6 C5] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_sedan;
 		concept_station_wagon;
@@ -33,15 +35,17 @@ audi_rs6_C5
 
 
 audi_rs6_C6
-	=> nrel_main_idtf: [Ауди рс 6 С6] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi rs 6 C6] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди RS 6 С6] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 6 C6] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_sedan;
 		concept_station_wagon;
@@ -57,15 +61,17 @@ audi_rs6_C6
 
 
 audi_rs6_C7
-	=> nrel_main_idtf: [Ауди рс 6 С7] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi rs 6 C7] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди RS 6 С7] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 6 C7] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_station_wagon;
 	=> nrel_type_of_drive:
@@ -79,15 +85,17 @@ audi_rs6_C7
 	=> nrel_photo: "file://img/audi_rs6_C7.png" (* => nrel_format: format_png;; *);;
 
 audi_rs6_C7_restyling
-	=> nrel_main_idtf: [Ауди рс 6 С7 Рестайлинг] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi tt 8S Restyling] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди RS 6 С7 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 6 C7 Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_station_wagon;
 	=> nrel_type_of_drive:
@@ -103,15 +111,17 @@ audi_rs6_C7_restyling
 
 
 audi_rs6_C8
-	=> nrel_main_idtf: [Ауди рс 6 С8] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi rs 6 C8] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди RS 6 С8] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 6 C8] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_station_wagon;
 	=> nrel_type_of_drive:

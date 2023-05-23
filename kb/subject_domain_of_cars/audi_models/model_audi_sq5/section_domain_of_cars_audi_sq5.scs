@@ -1,21 +1,23 @@
 audi_sq5
-	=> nrel_main_idtf: [Модельный ряд Ауди ск 5] (* <-lang_ru ;;*);
-=> nrel_main_idtf: [Car lineup Audi sq 5] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Модельный ряд Ауди SQ 5] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi SQ 5] (* <-lang_en;; *);
 	=> nrel_generation:
 		audi_sq5_8R;
 		audi_sq5_FY;
 		audi_sq5_FY_restyling;;
 
 audi_sq5_8R
-	=> nrel_main_idtf: [Ауди ск 5 8Р] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi sq 5 8R] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди SQ 5 8R] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi SQ 5 8R] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_SUV;
 	=> nrel_type_of_drive:
@@ -30,15 +32,17 @@ audi_sq5_8R
 
 
 audi_sq5_FY
-	=> nrel_main_idtf: [Ауди ск 5 ФУ] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi sq 5 FY] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди SQ 5 FY] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi SQ 5 FY] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_SUV;
 	=> nrel_type_of_drive:
@@ -53,16 +57,18 @@ audi_sq5_FY
 
 
 audi_sq5_FY_restyling
-	=> nrel_main_idtf: [Ауди ск 5 ФУ Рестайлинг] (* <-lang_ru;; *);
-	=> nrel_main_idtf: [Audi sq 5 FY Restyling] (* <-lang_en;; *);
+	=> nrel_main_idtf: [Ауди SQ 5 FY Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi SQ 5 FY Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 		concept_engine_diesel;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_SUV;
 	=> nrel_type_of_drive:

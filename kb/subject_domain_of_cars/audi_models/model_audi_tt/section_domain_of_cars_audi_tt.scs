@@ -1,5 +1,5 @@
 audi_tt
-	=> nrel_main_idtf: [Модельный ряд Ауди тт] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Модельный ряд Ауди tt] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Audi tt] (* <-lang_en;; *);
 	=> nrel_generation:
 		audi_tt_8N;
@@ -10,16 +10,18 @@ audi_tt
 		audi_tt_8S_restyling;;
 
 audi_tt_8N
-	=> nrel_main_idtf: [Ауди тт 8Н] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди tt 8N] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi tt 8N] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_roadster;
@@ -36,16 +38,18 @@ audi_tt_8N
 
 
 audi_tt_8N_restyling
-	=> nrel_main_idtf: [Ауди тт 8Р Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди tt 8N Рестайлинг] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi tt 8N Resyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_roadster;
@@ -62,16 +66,18 @@ audi_tt_8N_restyling
 
 
 audi_tt_8J
-	=> nrel_main_idtf: [Ауди тт 8Ж] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди tt 8J] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi tt 8J] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-        	concept_car_robotic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_roadster;
@@ -89,16 +95,18 @@ audi_tt_8J
 
 
 audi_tt_8J_restyling
-	=> nrel_main_idtf: [Ауди тт 8Ж Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди tt 8J Рестайлинг] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi tt 8J Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-        	concept_car_robotic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_roadster;
@@ -115,16 +123,18 @@ audi_tt_8J_restyling
 
 
 audi_tt_8S
-	=> nrel_main_idtf: [Ауди тт 8С] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди tt 8S] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi tt 8S] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-        	concept_car_robotic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_roadster;
@@ -141,16 +151,18 @@ audi_tt_8S
 
 
 audi_tt_8S_restyling
-	=> nrel_main_idtf: [Ауди тт 8C Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ауди tt 8S Рестайлинг] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi tt 8S Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_car_manual_transmission;
-        	concept_car_robotic_transmission;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+		concept_mechanical_box;
+        	concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_roadster;
