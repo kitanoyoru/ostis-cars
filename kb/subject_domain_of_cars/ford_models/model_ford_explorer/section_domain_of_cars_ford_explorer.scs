@@ -1,0 +1,232 @@
+ford_explorer
+	=> nrel_main_idtf: [Модельный ряд Ford Explorer] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Ford Explorer] (* <-lang_en;; *);
+	=> nrel_generation:
+		ford_explorer_I;
+		ford_explorer_II;
+		ford_explorer_II_restyling;
+		ford_explorer_III;
+		ford_explorer_IV;
+		ford_explorer_V;
+		ford_explorer_V_restyling;
+		ford_explorer_V_restyling_2;
+		ford_explorer_VI;;
+
+ford_explorer_I
+	=> nrel_main_idtf: [Форд Эксплорер I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer I] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1990;;
+		-> rrel_end_year: 1994;; 
+	*);  
+	=> nrel_photo:"file://img/ford_explorer_I.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_II
+	=> nrel_main_idtf: [Форд Эксплорер II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer II] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_independent_suspension;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1994;;
+		-> rrel_end_year: 2001;; 
+	*);  
+	=> nrel_photo:"file://img/ford_explorer_II.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_II_restyling
+	=> nrel_main_idtf: [Форд Эксплорер II рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer II restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_independent_suspension;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2001;;
+		-> rrel_end_year: 2003;; 
+	*);  
+	=> nrel_photo:"file://img/ford_explorer_II_restyling.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_III
+	=> nrel_main_idtf: [Форд Эксплорер III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer III] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_independent_suspension;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2001;;
+		-> rrel_end_year: 2006;; 
+	*);
+	=> nrel_photo:"file://img/ford_explorer_III.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_IV
+	=> nrel_main_idtf: [Форд Эксплорер IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer IV] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2005;;
+		-> rrel_end_year: 2010;; 
+	*);
+	=> nrel_photo:"file://img/ford_explorer_IV.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_V
+	=> nrel_main_idtf: [Форд Эксплорер V] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer V] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2015;; 
+	*);
+	=> nrel_photo:"file://img/ford_explorer_V.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_V_restyling
+	=> nrel_main_idtf: [Форд Эксплорер V рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer V restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2015;;
+		-> rrel_end_year: 2018;; 
+	*);
+	=> nrel_photo:"file://img/ford_explorer_V_restyling.png" (* => nrel_format: format_png;; *);; 
+
+ford_explorer_V_restyling_2
+	=> nrel_main_idtf: [Форд Эксплорер V рестайлинг 2] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer V restyling 2] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2017;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo:"file://img/ford_explorer_V_restyling_2.png" (* => nrel_format: format_png;; *);; 
+
+
+ford_explorer_VI
+	=> nrel_main_idtf: [Форд Эксплорер VI] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Explorer VI] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_SUV;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo:"file://img/ford_explorer_VI.png" (* => nrel_format: format_png;; *);; 
