@@ -1,1 +1,16 @@
 .DS_Store
+.idea
+.vscode
+*.scs~
+ostis-web-platform
+*.log
+bin/
+build/
+*.bin
+.cache/
+
+__pycache__
+
+cmake-build-debug
+cmake-build-release
+
