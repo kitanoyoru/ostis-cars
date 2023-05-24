@@ -443,4 +443,4 @@ toyota_corolla_E210
 		-> rrel_start_year: 1991;;
 		-> rrel_end_year: 1995;; 
 	*);
-	=> nrel_photo:"file://img/toyota_corolla_E210.png" (* => nrel_format: format_png;; *);;   
+	=> nrel_photo:"file://img/toyota_corolla_E210.png" (* => nrel_format: format_png;; *);;
