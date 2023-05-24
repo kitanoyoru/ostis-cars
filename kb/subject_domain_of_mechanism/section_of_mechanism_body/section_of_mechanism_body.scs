@@ -1,91 +1,108 @@
-subject_domain_of_cars_mechanism_body->rrel_key_sc_element:
-{
-	nrel_type_of_body;
-	concept_sedan;
-	concept_hatchback;
-	concept_station_wagon;
-	concept_liftback;
-	concept_coupe;
-	concept_cabriolet;
-	concept_roadster;
-	concept_targa;
-	concept_SUV;
-	concept_crossover;
-	concept_pickup;
-	concept_minivan
-};;
+subject_domain_of_cars_mechanism_body
+	->rrel_key_sc_element:
+		nrel_type_of_body;
+		concept_car_body;
+		concept_sedan;
+		concept_hatchback;
+		concept_station_wagon;
+		concept_liftback;
+		concept_coupe;
+		concept_cabriolet;
+		concept_roadster;
+		concept_targa;
+		concept_SUV;
+		concept_crossover;
+		concept_pickup;
+		concept_minivan;
 
-subject_domain_of_cars_mechanism_body => nrel_main_idtf:
-        [Предметная область кузова]
-        (* <- lang_ru;; *);;
+	=> nrel_main_idtf:
+        [Предметная область кузова] (* <- lang_ru;; *);
+        [Subject domain of body] (* <- lang_en;; *);
 
-subject_domain_of_cars_mechanism_body => nrel_main_idtf:
-        [Subject domain of body]
-        (* <- lang_en;; *);;
+	<-non_atomic_section;;
 
-subject_domain_of_cars_mechanism_body<-non_atomic_section;;
 
-nrel_type_of_body
+concept_car_body
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: [Тип кузова*] (* <- lang_ru;; *);
-	=> nrel_main_idtf: [Type of body*](* <- lang_en;; *);;
+	=> nrel_main_idtf: [Кузов автомобиля] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Car body] (* <- lang_en;; *);;
 
 concept_sedan
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Седан] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Sedan] (* <- lang_en;; *);;
 
 concept_hatchback
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Хэтчбек] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Hatchback] (* <- lang_en;; *);;
 
 concept_station_wagon
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Универсал] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Station wagon] (* <- lang_en;; *);;
 
 concept_liftback
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Лифтбэк] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Liftback] (* <- lang_en;; *);;
 
 concept_coupe
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Купе] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Coupe] (* <- lang_en;; *);;
 
 concept_cabriolet
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Кабриолет] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Cabriolet] (* <- lang_en;; *);;
 
 concept_roadster
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Родстер] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Roadster] (* <- lang_en;; *);;
 
 concept_targa
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Тарга] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Targa] (* <- lang_en;; *);;
 
 concept_SUV
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Внедорожник] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [SUV] (* <- lang_en;; *);;
 
 concept_crossover
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Кроссовер] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Crossover] (* <- lang_en;; *);;
 
 concept_pickup
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Пикап] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Pickup] (* <- lang_en;; *);;
 
 concept_minivan
 	<- sc_node_not_relation;
+	<- concept_car_body;
 	=> nrel_main_idtf: [Минивэн] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Minivan] (* <- lang_en;; *);;
+
+
+nrel_type_of_body
+	<- sc_node_norole_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_body;
+	=> nrel_main_idtf: [Тип кузова*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Type of body*](* <- lang_en;; *);;

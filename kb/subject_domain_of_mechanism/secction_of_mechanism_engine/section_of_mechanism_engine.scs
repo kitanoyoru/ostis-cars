@@ -1,6 +1,7 @@
 subject_domain_of_cars_mechanism_engine
 	-> rrel_key_sc_element:
 		nrel_type_of_engine;
+		concept_car_engine;
 		concept_engine_diesel;
 		concept_engine_gasoline;
 		concept_engine_gas;
@@ -10,31 +11,40 @@ subject_domain_of_cars_mechanism_engine
 		[Предметная область двигателя](* <- lang_ru;; *);
         [Subject domain of engine](* <- lang_en;; *);
 
-	<-non_atomic_section;;
+	<- non_atomic_section;;
 
-nrel_type_of_engine
-	=> nrel_first_domain: concept_car;
-	=> nrel_second_domain: concept_engine_gasoline;
+concept_car_engine
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: [Тип двигателя*] (* <- lang_ru;; *);
-	=> nrel_main_idtf: [Type of engine*](* <- lang_en;; *);;
+	=> nrel_main_idtf: [Двигатель автомобиля] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Car engine] (* <- lang_en;; *);;
 
 concept_engine_diesel
 	<- sc_node_not_relation;
+	<- concept_car_engine;
 	=> nrel_main_idtf: [Дизельный двигатель] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Diesel engine] (* <- lang_en;; *);;
 
 concept_engine_gasoline
 	<- sc_node_not_relation;
+	<- concept_car_engine;
 	=> nrel_main_idtf: [Бензиновый двигатель] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Gasoline engine] (* <- lang_en;; *);;
 
 concept_engine_gas
 	<- sc_node_not_relation;
+	<- concept_car_engine;
 	=> nrel_main_idtf: [Газовый двигатель] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Gas engine] (* <- lang_en;; *);;
 
 concept_engine_electric
 	<- sc_node_not_relation;
+	<- concept_car_engine;
 	=> nrel_main_idtf: [Электрический двигатель] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Electric engine] (* <- lang_en;; *);;
+
+nrel_type_of_engine
+	<- sc_node_norole_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_engine;
+	=> nrel_main_idtf: [Тип двигателя*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Type of engine*](* <- lang_en;; *);;

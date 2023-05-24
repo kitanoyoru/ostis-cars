@@ -1,5 +1,5 @@
 ford_focus
-	=> nrel_main_idtf: [Модельный ряд Форд Фокус] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Модельный ряд Ford Focus] (* <-lang_ru ;;*);
 => nrel_main_idtf: [Car lineup Ford Focus] (* <-lang_en;; *);
 	=> nrel_generation:
 		ford_focus_I;
@@ -8,6 +8,7 @@ ford_focus
 		ford_focus_II;
 		ford_focus_I_restyling_north_america;
 		ford_focus_II_restyling;
+		ford_focus_II_north_america;
 		ford_focus_III;
 		ford_focus_III_restyling;
 		ford_focus_IV;
@@ -20,22 +21,25 @@ ford_focus_I
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_independent_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1998;;
 		-> rrel_end_year: 2001;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_focus_I.png" (* => nrel_format: format_png;; *);; 
 
 ford_focus_I_north_america
 	=> nrel_main_idtf: [Форд Фокус I (Северная Америка)] (* <-lang_ru;; *);
@@ -44,21 +48,23 @@ ford_focus_I_north_america
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1999;;
 		-> rrel_end_year: 2004;; 
-	*);;  
+	*);
+	=> nrel_photo:"file://img/ford_focus_I_north_america.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_I_restyling
 	=> nrel_main_idtf: [Форд Фокус I рестайлинг] (* <-lang_ru;; *);
@@ -67,22 +73,25 @@ ford_focus_I_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2001;;
 		-> rrel_end_year: 2005;; 
-	*);; 
+	*);
+	=> nrel_photo:"file://img/ford_focus_I_restyling.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_II
 	=> nrel_main_idtf: [Форд Фокус II] (* <-lang_ru;; *);
@@ -91,22 +100,25 @@ ford_focus_II
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
 		concept_cabriolet;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2004;;
 		-> rrel_end_year: 2008;; 
-	*);;  
+	*);  
+	=> nrel_photo:"file://img/ford_focus_II.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_I_restyling_north_america
 	=> nrel_main_idtf: [Форд Фокус I рестайлинг (Северная Америка)] (* <-lang_ru;; *);
@@ -115,21 +127,24 @@ ford_focus_I_restyling_north_america
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2004;;
 		-> rrel_end_year: 2007;; 
-	*);; 
+	*);
+	=> nrel_photo:"file://img/ford_focus_I_restyling_north_america.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_II_restyling
 	=> nrel_main_idtf: [Форд Фокус II рестайлинг] (* <-lang_ru;; *);
@@ -138,22 +153,50 @@ ford_focus_II_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
 		concept_cabriolet;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2007;;
-		-> rrel_end_year: 20011;; 
-	*);; 
+		-> rrel_end_year: 2010;; 
+	*); 
+	=> nrel_photo:"file://img/ford_focus_II_restyling.png" (* => nrel_format: format_png;; *);; 
+
+ford_focus_II_north_america
+	=> nrel_main_idtf: [Форд Фокус II (Северная Америка)] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Focus II (North America)] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2007;;
+		-> rrel_end_year: 2011;; 
+	*);
+	=> nrel_photo:"file://img/ford_focus_II_north_america.png" (* => nrel_format: format_png;; *);;  
 	
 ford_focus_III
 	=> nrel_main_idtf: [Форд Фокус III] (* <-lang_ru;; *);
@@ -162,22 +205,24 @@ ford_focus_III
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_double_wishbone_suspension;
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2011;;
 		-> rrel_end_year: 2015;; 
-	*);; 
+	*);
+	=> nrel_photo:"file://img/ford_focus_III.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_III_restyling
 	=> nrel_main_idtf: [Форд Фокус III рестайлинг] (* <-lang_ru;; *);
@@ -186,21 +231,24 @@ ford_focus_III_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2014;;
 		-> rrel_end_year: 2019;; 
-	*);;
+	*);
+	=> nrel_photo:"file://img/ford_focus_III_restyling.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_IV
 	=> nrel_main_idtf: [Форд Фокус IV] (* <-lang_ru;; *);
@@ -209,21 +257,24 @@ ford_focus_IV
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
 		concept_sedan;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2018;;
 		-> rrel_end_year: till_now;; 
-	*);;
+	*);
+	=> nrel_photo:"file://img/ford_focus_IV.png" (* => nrel_format: format_png;; *);; 
 	
 ford_focus_IV_restyling
 	=> nrel_main_idtf: [Форд Фокус IV рестайлинг] (* <-lang_ru;; *);
@@ -232,17 +283,20 @@ ford_focus_IV_restyling
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_front_wheel;
-	=> nrel_type_of_suspension:
-		concept_adaptive_suspension;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_body:
 		concept_hatchback;
-		concept_front_wheel;
+		concept_station_wagon;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2021;;
 		-> rrel_end_year: till_now;; 
-	*);;
+	*);
+	=> nrel_photo:"file://img/ford_focus_IV_restyling.png" (* => nrel_format: format_png;; *);; 

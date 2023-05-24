@@ -1,43 +1,51 @@
-subject_domain_of_cars_mechanism_drive->rrel_key_sc_element:
-{
-	nrel_type_of_drive;
-	concept_front_wheel;
-        concept_rear;
-        concept_four_wheel;
-        concept_hybrid_synergy
-};;
+subject_domain_of_cars_mechanism_drive
+	->rrel_key_sc_element:
+		nrel_type_of_drive;
+		concept_car_drive;
+		concept_front_wheel;
+		concept_rear;
+		concept_four_wheel;
+		concept_hybrid_synergy;
 
-subject_domain_of_cars_mechanism_drive => nrel_main_idtf:
-        [Предметная область привода]
-        (* <- lang_ru;; *);;
+	=> nrel_main_idtf:
+        [Предметная область привода] (* <- lang_ru;; *);
+		[Subject domain of drive] (* <- lang_en;; *);
 
-subject_domain_of_cars_mechanism_drive => nrel_main_idtf:
-        [Subject domain of drive]
-        (* <- lang_en;; *);;
+	<-non_atomic_section;;
 
-subject_domain_of_cars_mechanism_drive<-non_atomic_section;;
-
-nrel_type_of_drive
+concept_car_drive
 	<- sc_node_not_relation;
-	=> nrel_main_idtf: [Тип привода*] (* <- lang_ru;; *);
-	=> nrel_main_idtf: [Type of drive*](* <- lang_en;; *);;
+	=> nrel_main_idtf: [Привод автомобиля] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Car drive] (* <- lang_en;; *);;
 
 concept_front_wheel
 	<- sc_node_not_relation;
+	<- concept_car_drive;
 	=> nrel_main_idtf: [Передний привод] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Front-wheel drive] (* <- lang_en;; *);;
 
 concept_rear
 	<- sc_node_not_relation;
+	<- concept_car_drive;
 	=> nrel_main_idtf: [Задний привод] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Rear drive] (* <- lang_en;; *);;
 
 concept_four_wheel
 	<- sc_node_not_relation;
+	<- concept_car_drive;
 	=> nrel_main_idtf: [Полный привод] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Four-wheel drive] (* <- lang_en;; *);;
 
 concept_hybrid_synergy
 	<- sc_node_not_relation;
+	<- concept_car_drive;
 	=> nrel_main_idtf: [Гибридный синергетический привод] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Hybrid Synergy Drive] (* <- lang_en;; *);;
+
+
+nrel_type_of_drive
+	<- sc_node_norole_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_drive;
+	=> nrel_main_idtf: [Тип привода*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Type of drive*](* <- lang_en;; *);;

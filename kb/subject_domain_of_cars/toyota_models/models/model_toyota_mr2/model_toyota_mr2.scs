@@ -1,0 +1,112 @@
+toyota_MR2
+	=> nrel_main_idtf: [Модельный ряд Тойота MR2] (* <-lang_ru ;;*);
+    => nrel_main_idtf: [Car lineup Toyota MR2] (* <-lang_en;; *);
+
+    => nrel_generation:
+		toyota_MR2_W10;
+		toyota_MR2_W20;
+		toyota_MR2_W30;;
+
+
+toyota_MR2_W10
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота MR2 W10] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota MR2 W10] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_rear;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_McPherson;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1984;;
+		-> rrel_end_year: 1989;; 
+	*);
+	=> nrel_photo:"file://img/toyota_MR2_W10.png" (* => nrel_format: format_png;; *);;  
+
+
+toyota_MR2_W20
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота MR2 W20] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota MR2 W20] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_rear;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_double_wishbone;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+        concept_targa;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1989;;
+		-> rrel_end_year: 1999;; 
+	*);
+	=> nrel_photo:"file://img/toyota_MR2_W20.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_MR2_W30
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота MR2 W30] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota MR2 W30] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_rear;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+        concept_car_automated_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_double_wishbone;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_cabriolet;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2007;; 
+	*);
+	=> nrel_photo:"file://img/toyota_MR2_W30.png" (* => nrel_format: format_png;; *);;   
+

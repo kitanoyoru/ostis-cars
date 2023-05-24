@@ -1,0 +1,212 @@
+audi_s8
+	=> nrel_main_idtf: [Модельный ряд Ауди S 8] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi S 8] (* <-lang_en;; *);
+	=> nrel_generation:
+		audi_s8_D2;
+		audi_s8_D2_restyling;
+		audi_s8_D3;
+		audi_s8_D3_restyling;
+		audi_s8_D4;
+		audi_s8_D4_restyling;
+		audi_s8_D5;
+		audi_s8_D5_restyling;;
+
+audi_s8_D2
+	=> nrel_main_idtf: [Ауди S 8 D2] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D2] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1996;;
+		-> rrel_end_year: 1999;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D2.png" (* => nrel_format: format_png;; *);;
+
+
+audi_s8_D2_restyling
+	=> nrel_main_idtf: [Ауди S 8 D2 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D2 Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2002;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D2_restyling.png" (* => nrel_format: format_png;; *);; 
+
+audi_s8_D3
+	=> nrel_main_idtf: [Ауди S 8 D3] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D3] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2006;;
+		-> rrel_end_year: 2007;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D3.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s8_D3_restyling
+	=> nrel_main_idtf: [Ауди S 8 D3 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D3 Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2007;;
+		-> rrel_end_year: 2011;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D3_restyling.png" (* => nrel_format: format_png;; *);;
+
+
+audi_s8_D4
+	=> nrel_main_idtf: [Ауди S 8 D4] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D4] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2012;;
+		-> rrel_end_year: 2013;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D4.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s8_D4_restyling
+	=> nrel_main_idtf: [Ауди S 8 D4 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D4 Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2013;;
+		-> rrel_end_year: 2017;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D4_restyling.png" (* => nrel_format: format_png;; *);;
+
+
+audi_s8_D5
+	=> nrel_main_idtf: [Ауди S 8 D5] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D5] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D5.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s8_D5_restyling
+	=> nrel_main_idtf: [Ауди S 8 D5 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 8 D5 Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2021;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo: "file://img/audi_s8_D5_restyling.png" (* => nrel_format: format_png;; *);;

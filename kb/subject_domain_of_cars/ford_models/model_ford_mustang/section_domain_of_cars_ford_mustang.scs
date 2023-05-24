@@ -1,0 +1,269 @@
+ford_mustang
+	=> nrel_main_idtf: [Модельный ряд Ford Mustang] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Ford Mustang](* <-lang_en;; *);
+	=> nrel_generation:
+		ford_mustang_I;
+		ford_mustang_II;
+		ford_mustang_III;
+		ford_mustang_III_restyling;
+		ford_mustang_IV;
+		ford_mustang_IV_restyling;
+		ford_mustang_V;
+		ford_mustang_V_restyling;
+		ford_mustang_VI;
+		ford_mustang_VI_restyling;;
+
+ford_mustang_I
+	=> nrel_main_idtf: [Форд Мустанг I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang I] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1964;;
+		-> rrel_end_year: 1973;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_I.png" (* => nrel_format: format_png;; *);;     
+
+ford_mustang_II
+	=> nrel_main_idtf: [Форд Мустанг II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang II] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+		concept_coupe;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1974;;
+		-> rrel_end_year: 1978;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_II.png" (* => nrel_format: format_png;; *);;  
+
+ford_mustang_III
+	=> nrel_main_idtf: [Форд Мустанг III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang III] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_hatchback;
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1978;;
+		-> rrel_end_year: 1986;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_III.png" (* => nrel_format: format_png;; *);;  
+
+ford_mustang_III_restyling
+	=> nrel_main_idtf: [Форд Мустанг III рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang III restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1986;;
+		-> rrel_end_year: 1993;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_III_restyling.png" (* => nrel_format: format_png;; *);;  
+
+ford_mustang_IV
+	=> nrel_main_idtf: [Форд Мустанг IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang IV] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1993;;
+		-> rrel_end_year: 1998;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_IV.png" (* => nrel_format: format_png;; *);; 
+
+ford_mustang_IV_restyling
+	=> nrel_main_idtf: [Форд Мустанг IV рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang IV restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1998;;
+		-> rrel_end_year: 2004;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_IV_restyling.png" (* => nrel_format: format_png;; *);; 
+
+ford_mustang_V
+	=> nrel_main_idtf: [Форд Мустанг V] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang V] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2004;;
+		-> rrel_end_year: 2009;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_V.png" (* => nrel_format: format_png;; *);; 
+
+ford_mustang_V_restyling
+	=> nrel_main_idtf: [Форд Мустанг V рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang V restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2009;;
+		-> rrel_end_year: 2014;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_V_restyling.png" (* => nrel_format: format_png;; *);; 
+
+ford_mustang_VI
+	=> nrel_main_idtf: [Форд Мустанг VI] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang VI] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2017;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_VI.png" (* => nrel_format: format_png;; *);;
+
+ford_mustang_VI_restyling
+	=> nrel_main_idtf: [Форд Мустанг VI рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Mustang VI restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_rear;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2017;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo:"file://img/ford_mustang_VI_restyling.png" (* => nrel_format: format_png;; *);;

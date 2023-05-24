@@ -1,0 +1,201 @@
+audi_s4
+	=> nrel_main_idtf: [Модельный ряд Ауди S 4] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi S 4] (* <-lang_en;; *);
+	=> nrel_generation:
+		audi_s4_B5;
+		audi_s4_B6;
+		audi_s4_B7;
+		audi_s4_B8;
+		audi_s4_B8_restyling;
+		audi_s4_B9;
+		audi_s4_B9_restyling;;
+
+audi_s4_B5
+	=> nrel_main_idtf: [Ауди S 4 B5] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B5] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1997;;
+		-> rrel_end_year: 2001;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B5.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s4_B6
+	=> nrel_main_idtf: [Ауди S 4 B6] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B6] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+		concept_cabriolet;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2002;;
+		-> rrel_end_year: 2004;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B6.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s4_B7
+	=> nrel_main_idtf: [Ауди S 4 B7] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B7] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+		concept_cabriolet;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2004;;
+		-> rrel_end_year: 2008;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B7.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s4_B8
+	=> nrel_main_idtf: [Ауди S 4 B8] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B8] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_robotic_box;
+		concept_mechanical_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2008;;
+		-> rrel_end_year: 2011;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B8.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s4_B8_restyling
+	=> nrel_main_idtf: [Ауди S 4 B8 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B8 Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_robotic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2011;;
+		-> rrel_end_year: 2015;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B8.png" (* => nrel_format: format_png;; *);; 
+
+
+audi_s4_B9
+	=> nrel_main_idtf: [Ауди S 4 B9] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B9] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2016;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B9.png" (* => nrel_format: format_png;; *);; 
+
+
+
+audi_s4_B9_restyling
+	=> nrel_main_idtf: [Ауди S 4 B9 Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi S 4 B9 Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+		concept_engine_diesel;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo: "file://img/audi_s4_B9_restyling.png" (* => nrel_format: format_png;; *);; 

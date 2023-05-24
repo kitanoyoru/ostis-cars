@@ -1,0 +1,82 @@
+audi_rs7
+	=> nrel_main_idtf: [Модельный ряд Ауди RS 7] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Audi RS 7] (* <-lang_en;; *);
+	=> nrel_generation:
+		audi_rs7_4G;
+		audi_rs7_4G_restyling;
+		audi_rs7_4K;;
+
+
+audi_rs7_4G
+	=> nrel_main_idtf: [Ауди RS 7 4G] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 7 4G] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_liftback;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2013;;
+		-> rrel_end_year: 2014;; 
+	*);
+	=> nrel_photo: "file://img/audi_rs7_4G.png" (* => nrel_format: format_png;; *);;
+
+
+audi_rs7_4G_restyling
+	=> nrel_main_idtf: [Ауди RS 7 4G Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 7 4G Restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_liftback;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2018;; 
+	*);
+	=> nrel_photo: "file://img/audi_rs7_4G_restyling.png" (* => nrel_format: format_png;; *);;
+
+
+audi_rs7_4K
+	=> nrel_main_idtf: [Ауди RS 7 4К] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Audi RS 7 4K] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
+	=> nrel_type_of_body:
+		concept_liftback;
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: till_now;; 
+	*);
+	=> nrel_photo: "file://img/audi_rs7_4K.png" (* => nrel_format: format_png;; *);;

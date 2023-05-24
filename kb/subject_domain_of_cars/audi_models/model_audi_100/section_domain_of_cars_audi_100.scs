@@ -16,8 +16,10 @@ audi_100_c1
 		concept_engine_gasoline;
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_sedan;
@@ -28,7 +30,8 @@ audi_100_c1
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1968;;
 		-> rrel_end_year: 1976;; 
-	*);;  
+	*);
+	=> nrel_photo: "file://img/audi_100_C1.png" (* => nrel_format: format_png;; *);;  
 
 
 audi_100_c2
@@ -41,8 +44,10 @@ audi_100_c2
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -53,7 +58,8 @@ audi_100_c2
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1976;;
 		-> rrel_end_year: 1983;; 
-	*);;  
+	*);
+	=> nrel_photo: "file://img/audi_100_C2.png" (* => nrel_format: format_png;; *);; 
 
 
 audi_100_c3
@@ -66,8 +72,10 @@ audi_100_c3
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -79,7 +87,8 @@ audi_100_c3
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1982;;
 		-> rrel_end_year: 1988;; 
-	*);;  
+	*);
+	=> nrel_photo: "file://img/audi_100_C3.png" (* => nrel_format: format_png;; *);;  
 
 
 
@@ -93,8 +102,10 @@ audi_100_c3_restyling
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -106,7 +117,8 @@ audi_100_c3_restyling
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1988;;
 		-> rrel_end_year: 1991;; 
-	*);;  
+	*);
+	=> nrel_photo: "file://img/audi_100_C3_restyling.png" (* => nrel_format: format_png;; *);;  
 
 
 audi_100_c4
@@ -119,8 +131,10 @@ audi_100_c4
 	=> nrel_type_of_transmission:
 		concept_mechanical_box;
 		concept_automatic_box;
-	=> nrel_type_of_suspension:
-		concept_rear_dependent_suspension;
+	=> nrel_type_of_front_suspension:
+    		concept_car_suspension_McPherson;
+  	=> nrel_type_of_rear_suspension:
+    		concept_car_suspension_multi_link;
 	=> nrel_type_of_body:
 		concept_coupe;
 		concept_station_wagon;
@@ -131,4 +145,5 @@ audi_100_c4
 		<- sc_node_tuple;;
 		-> rrel_start_year: 1990;;
 		-> rrel_end_year: 1994;; 
-	*);; 
+	*);
+	=> nrel_photo: "file://img/audi_100_C4.png" (* => nrel_format: format_png;; *);;  

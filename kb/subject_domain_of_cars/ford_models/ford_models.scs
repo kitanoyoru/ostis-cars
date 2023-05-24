@@ -2,5 +2,10 @@ section_domain_of_cars_ford
 => nrel_models:
 	ford_fiesta;
 	ford_focus;
-	ford_mondeo;;
+	ford_mondeo;
+	ford_explorer;
+	ford_taurus;
+	ford_mustang;
+	ford_escape;
+	ford_kuga;;
 

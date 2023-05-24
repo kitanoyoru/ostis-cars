@@ -1,0 +1,261 @@
+toyota_celica
+	=> nrel_main_idtf: [Модельный ряд Тойота Селика] (* <-lang_ru ;;*);
+    => nrel_main_idtf: [Car lineup Toyota Celica] (* <-lang_en;; *);
+	=> nrel_generation:
+		toyota_celica_A20_A30;
+		toyota_celica_A40_A50;
+		toyota_celica_A60;
+		toyota_celica_T160;
+		toyota_celica_T180;
+		toyota_celica_T200;
+		toyota_celica_T230;;
+
+toyota_celica_A20_A30
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика A20/A30] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica A20/A30] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_rear;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_multi_link;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1970;;
+		-> rrel_end_year: 1977;; 
+	*);
+
+	=> nrel_photo: "file://img/toyota_celica_A20_A30.png" (* => nrel_format: format_png;; *);;
+
+
+toyota_celica_A40_A50
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика A40/A50] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica A40/A50] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_rear;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension; 
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1977;;
+		-> rrel_end_year: 1981;; 
+	*);
+
+	=> nrel_photo:"file://img/toyota_celica_A40_A50.png" (* => nrel_format: format_png;; *);; 
+
+
+toyota_celica_A60
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика A60] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica A60] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_rear;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_dependent_suspension;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1981;;
+		-> rrel_end_year: 1985;; 
+	*);
+
+	=> nrel_photo:"file://img/toyota_celica_A60.png" (* => nrel_format: format_png;; *);; 
+
+
+toyota_celica_T160
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика T160] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica T160] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_McPherson;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_McPherson;
+		concept_car_suspension_multi_link;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+        concept_cabriolet;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1985;;
+		-> rrel_end_year: 1989;; 
+	*);
+
+	=> nrel_photo:"file://img/toyota_celica_T160.png" (* => nrel_format: format_png;; *);; 
+
+
+toyota_celica_T180
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика T180] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica T180] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+        concept_cabriolet;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1989;;
+		-> rrel_end_year: 1993;; 
+	*);
+
+	=> nrel_photo:"file://img/toyota_celica_T180.png" (* => nrel_format: format_png;; *);; 
+
+
+toyota_celica_T200
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика T200] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica T200] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+		concept_cabriolet;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1993;;
+		-> rrel_end_year: 1999;; 
+	*);
+
+	=> nrel_photo:"file://img/toyota_celica_T200.png" (* => nrel_format: format_png;; *);; 
+
+
+toyota_celica_T230
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Селика T230] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Celica T230] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+        concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2006;; 
+	*);
+	=> nrel_photo: "file://img/toyota_celica_T230.png" (* => nrel_format: format_png;; *);; 

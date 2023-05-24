@@ -1,0 +1,210 @@
+ford_taurus
+	=> nrel_main_idtf: [Модельный ряд Ford Taurus] (* <-lang_ru ;;*);
+=> nrel_main_idtf: [Car lineup Ford Taurus](* <-lang_en;; *);
+	=> nrel_generation:
+		ford_taurus_I;
+		ford_taurus_II;
+		ford_taurus_III;
+		ford_taurus_IV;
+		ford_taurus_IV_restyling;
+		ford_taurus_V;
+		ford_taurus_VI;
+		ford_taurus_VI_restyling;;
+
+ford_taurus_I
+	=> nrel_main_idtf: [Форд Таурус I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus I] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_mechanical_box;
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1985;;
+		-> rrel_end_year: 1991;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_I.png" (* => nrel_format: format_png;; *);;  
+
+ford_taurus_II
+	=> nrel_main_idtf: [Форд Таурус II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus II] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_II.png" (* => nrel_format: format_png;; *);; 
+
+ford_taurus_III
+	=> nrel_main_idtf: [Форд Таурус III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus III] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1995;;
+		-> rrel_end_year: 1999;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_III.png" (* => nrel_format: format_png;; *);; 
+
+ford_taurus_IV
+	=> nrel_main_idtf: [Форд Таурус IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus IV] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2004;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_IV.png" (* => nrel_format: format_png;; *);;
+
+ford_taurus_IV_restyling
+	=> nrel_main_idtf: [Форд Таурус IV рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus IV restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2003;;
+		-> rrel_end_year: 2006;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_IV_restyling.png" (* => nrel_format: format_png;; *);; 
+
+ford_taurus_V
+	=> nrel_main_idtf: [Форд Таурус V] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus V] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2007;;
+		-> rrel_end_year: 2009;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_V.png" (* => nrel_format: format_png;; *);; 
+
+ford_taurus_VI
+	=> nrel_main_idtf: [Форд Таурус VI] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus VI] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2009;;
+		-> rrel_end_year: 2012;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_VI.png" (* => nrel_format: format_png;; *);;
+
+ford_taurus_VI_restyling
+	=> nrel_main_idtf: [Форд Таурус VI_restyling] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Ford Taurus VI_restyling] (* <-lang_en;; *);
+		<- concept_car;
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+	=> nrel_type_of_transmission:
+		concept_automatic_box;
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_body:
+		concept_sedan;
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2012;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo:"file://img/ford_taurus_VI_restyling.png" (* => nrel_format: format_png;; *);;
