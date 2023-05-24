@@ -22,7 +22,7 @@ bmw_x6_m_e71
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -54,7 +54,7 @@ bmw_x6_m_e71_restyling
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -86,7 +86,7 @@ bmw_x6_m_f86
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -118,7 +118,7 @@ bmw_x6_m_f96
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -150,7 +150,7 @@ bmw_x6_m_f96_restyling
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
