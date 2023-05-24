@@ -21,6 +21,7 @@ nissan_skyline_c10
 	=> nrel_main_idtf: [Ниссан Скайлайн C10] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Nissan Skyline C10] (* <-lang_en;; *);
 
+
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
 
@@ -34,6 +35,7 @@ nissan_skyline_c10
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
+
 
 	=> nrel_type_of_body:
 		concept_sedan;
@@ -91,7 +93,7 @@ nissan_skyline_c210
 
 	=> nrel_type_of_drive:
 		concept_rear;
-
+    
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
 

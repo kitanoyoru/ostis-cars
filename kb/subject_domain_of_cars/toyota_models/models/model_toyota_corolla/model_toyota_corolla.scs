@@ -1,3 +1,446 @@
 toyota_corolla
 	=> nrel_main_idtf: [Модельный ряд Тойота Королла] (* <-lang_ru ;;*);
     => nrel_main_idtf: [Car lineup Toyota Corolla] (* <-lang_en;; *);;
+    
+    => nrel_generation:
+        toyota_corolla_E10;
+        toyota_corolla_E20;
+        toyota_corolla_E30;
+        toyota_corolla_E70;
+        toyota_corolla_E80;
+        toyota_corolla_E90;
+        toyota_corolla_E100;
+        toyota_corolla_E110;
+        toyota_corolla_E120;
+        toyota_corolla_E140;
+        toyota_corolla_E160;
+        toyota_corolla_E210;;
+
+
+toyota_corolla_E10
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E10] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E10] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E10.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E20
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E20] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E20] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E20.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E30
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E30] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E30] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E40] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E40] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E50] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E50] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E60] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E60] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E30.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E70
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E70] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E70] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E70.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E80
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E80] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E80] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E80.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E90
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E90] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E90] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E90.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E100
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E100] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E100] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E100.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E110
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E110] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E110] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E110.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E120
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E120] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E120] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E130] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E130] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E10.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E140
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E140] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E140] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E150] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E150] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E140.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E160
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E160] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E160] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E170] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E170] (* <-lang_en;; *);
+
+    => nrel_idtf: [Тойота Королла E180] (* <-lang_ru;; *);
+	=> nrel_idtf: [Toyota Corolla E180] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E160.png" (* => nrel_format: format_png;; *);;   
+
+
+toyota_corolla_E210
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Тойота Королла E210] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Toyota Corolla E210] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_four_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_coupe;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/toyota_corolla_E210.png" (* => nrel_format: format_png;; *);;
