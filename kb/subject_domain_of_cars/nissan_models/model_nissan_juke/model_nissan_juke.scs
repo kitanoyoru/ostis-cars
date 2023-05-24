@@ -1,0 +1,106 @@
+nissan_juke
+	=> nrel_main_idtf: [Модельный ряд Ниссан Жук] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Car lineup Nissan Juke] (* <-lang_en;; *);
+	=> nrel_generation:
+		nissan_juke_I;
+		nissan_juke_I_restyling;
+		nissan_juke_II;;
+
+
+nissan_juke_I
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Жук I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Juke I] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2014;; 
+	*);
+	=> nrel_photo:"file://img/nissan_juke_I.png" (* => nrel_format: format_png;; *);;   
+
+
+nissan_juke_I_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Жук I Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Juke I Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+        concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo:"file://img/nissan_juke_I_restyling.png" (* => nrel_format: format_png;; *);;   
+
+nissan_juke_II
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Жук II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Juke II] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+        concept_car_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_semiindependent_suspension;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: NOW;; 
+	*);
+	=> nrel_photo:"file://img/nissan_juke_II.png" (* => nrel_format: format_png;; *);;   
