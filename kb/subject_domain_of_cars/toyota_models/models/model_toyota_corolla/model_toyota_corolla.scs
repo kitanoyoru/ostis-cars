@@ -1,6 +1,6 @@
 toyota_corolla
 	=> nrel_main_idtf: [Модельный ряд Тойота Королла] (* <-lang_ru ;;*);
-    => nrel_main_idtf: [Car lineup Toyota Corolla] (* <-lang_en;; *);;
+    => nrel_main_idtf: [Car lineup Toyota Corolla] (* <-lang_en;; *);
     
     => nrel_generation:
         toyota_corolla_E10;
@@ -332,7 +332,7 @@ toyota_corolla_E120
 		-> rrel_start_year: 1991;;
 		-> rrel_end_year: 1995;; 
 	*);
-	=> nrel_photo:"file://img/toyota_corolla_E10.png" (* => nrel_format: format_png;; *);;   
+	=> nrel_photo:"file://img/toyota_corolla_E120.png" (* => nrel_format: format_png;; *);;   
 
 
 toyota_corolla_E140
