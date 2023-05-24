@@ -21,7 +21,7 @@ bmw_x5_m_e70
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -53,7 +53,7 @@ bmw_x5_m_f85
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -85,7 +85,7 @@ bmw_x5_m_f95
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 
@@ -117,7 +117,7 @@ bmw_x5_m_f95_restyling
 	    concept_automatic_box;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_joint_spring_strut;
+	    concept_car_suspension_multi_link;
 	=> nrel_type_of_rear_suspension:
 	    concept_car_suspension_multi_link;
 

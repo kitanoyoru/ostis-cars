@@ -11,12 +11,6 @@ subject_domain_of_cars_mechanism_suspension
 	<- non_atomic_section;;
 
 
-concept_car_suspension_double_joint_spring_strut
- <- sc_node_not_relation;
- <- concept_car_suspension;
- => nrel_main_idtf: [Подвеска на двойной вилке] (* <- lang_ru;; *);
- => nrel_main_idtf: [Double-Joint spring strut suspension] (* <- lang_en;; *);;
-
 concept_car_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: [Подвеска автомобиля] (* <- lang_ru;; *);
@@ -35,11 +29,18 @@ concept_car_independent_suspension
 	=> nrel_main_idtf: [Независимая подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Independent suspension] (* <- lang_en;; *);;
 
-concept_car_semiindependent_suspension
+concept_car_suspension_semiindependent
 	<- sc_node_not_relation;
 	<- concept_car_suspension;
 	=> nrel_main_idtf: [Полузависимая подвеска] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Semi-independent rear suspension] (* <- lang_en;; *);;
+
+
+concept_car_suspension_dependent_spring
+	<- sc_node_not_relation;
+	<- concept_car_dependent_suspension;
+	=> nrel_main_idtf: [Рессорная подвеска] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Spring suspension] (* <- lang_en;; *);;
 
 
 concept_car_suspension_multi_link
@@ -79,6 +80,12 @@ concept_car_suspension_trailing_arm
 	=> nrel_main_idtf: [Trailing arm suspension] (* <- lang_en;; *);;
 
 
+concept_car_suspension_twist_beam
+	<- sc_node_not_relation;
+	<- concept_car_suspension_semiindependent;
+	=> nrel_main_idtf: [Подвеска с поворотной балкой] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Twist Beam suspension] (* <- lang_en;; *);;
+
 concept_adaptive_suspension
 	<- sc_node_not_relation;
 	<- concept_car_suspension;
@@ -98,4 +105,6 @@ nrel_type_of_rear_suspension
 	=> nrel_second_domain: concept_car_suspension;
 	=> nrel_main_idtf: [Тип задней подвески*] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Type of rear suspension*](* <- lang_en;; *);;
+
+
 

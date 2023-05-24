@@ -49,7 +49,7 @@ ford_fiesta_Mk2
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...
@@ -74,7 +74,7 @@ ford_fiesta_Mk3
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...
@@ -146,7 +146,7 @@ ford_fiesta_Mk5
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...
@@ -170,7 +170,7 @@ ford_fiesta_Mk6
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...
@@ -194,7 +194,7 @@ ford_fiesta_Mk6_restyling
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 		concept_sedan;
@@ -219,7 +219,7 @@ ford_fiesta_Mk7
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...
@@ -243,7 +243,7 @@ ford_fiesta_Mk7_restyling
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 	=> nrel_type_of_body:
 		concept_hatchback;
 	=> nrel_period:...

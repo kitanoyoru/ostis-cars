@@ -26,7 +26,7 @@ nissan_juke_I
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 
 	=> nrel_type_of_body:
 		concept_SUV;
@@ -60,7 +60,7 @@ nissan_juke_I_restyling
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 
 	=> nrel_type_of_body:
 		concept_SUV;
@@ -92,7 +92,7 @@ nissan_juke_II
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_semiindependent_suspension;
+		concept_car_suspension_semiindependent;
 
 	=> nrel_type_of_body:
 		concept_SUV;

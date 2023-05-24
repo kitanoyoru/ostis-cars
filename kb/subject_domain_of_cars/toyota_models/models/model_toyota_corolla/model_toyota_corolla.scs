@@ -3,21 +3,21 @@ toyota_corolla
     => nrel_main_idtf: [Car lineup Toyota Corolla] (* <-lang_en;; *);
     
     => nrel_generation:
+        toyota_corolla_E1;
+        toyota_corolla_E2;
+        toyota_corolla_E3;
+        toyota_corolla_E7;
+        toyota_corolla_E8;
+        toyota_corolla_E9;
         toyota_corolla_E10;
-        toyota_corolla_E20;
-        toyota_corolla_E30;
-        toyota_corolla_E70;
-        toyota_corolla_E80;
-        toyota_corolla_E90;
-        toyota_corolla_E100;
-        toyota_corolla_E110;
-        toyota_corolla_E120;
-        toyota_corolla_E140;
-        toyota_corolla_E160;
-        toyota_corolla_E210;;
+        toyota_corolla_E11;
+        toyota_corolla_E12;
+        toyota_corolla_E14;
+        toyota_corolla_E16;
+        toyota_corolla_E21;;
 
 
-toyota_corolla_E10
+toyota_corolla_E1
 
 	<- concept_car;
 	
@@ -28,7 +28,7 @@ toyota_corolla_E10
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_rear;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -37,21 +37,23 @@ toyota_corolla_E10
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_dependent_spring;
 
 	=> nrel_type_of_body:
+		concept_sedan;
+		concept_station_wagon;
 		concept_coupe;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1967;;
+		-> rrel_end_year: 1970;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E10.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E20
+toyota_corolla_E2
 
 	<- concept_car;
 	
@@ -62,7 +64,7 @@ toyota_corolla_E20
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_rear;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -71,21 +73,23 @@ toyota_corolla_E20
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_dependent_spring;
 
 	=> nrel_type_of_body:
+		concept_sedan;
 		concept_coupe;
+		concept_station_wagon;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1970;;
+		-> rrel_end_year: 1978;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E20.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E30
+toyota_corolla_E3
 
 	<- concept_car;
 	
@@ -105,7 +109,7 @@ toyota_corolla_E30
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_rear;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -114,21 +118,23 @@ toyota_corolla_E30
 	=> nrel_type_of_front_suspension:
 		concept_car_suspension_independent_spring_strut;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_dependent_spring;
 
 	=> nrel_type_of_body:
 		concept_coupe;
+		concept_sedan;
+		concept_hatchback;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1975;;
+		-> rrel_end_year: 1980;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E30.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E70
+toyota_corolla_E7
 
 	<- concept_car;
 	
@@ -137,9 +143,10 @@ toyota_corolla_E70
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+		concept_engine_diesel;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_rear;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -152,17 +159,20 @@ toyota_corolla_E70
 
 	=> nrel_type_of_body:
 		concept_coupe;
+		concept_station_wagon;
+		concept_hatchback;
+		concept_sedan;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1979;;
+		-> rrel_end_year: 1987;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E70.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E80
+toyota_corolla_E8
 
 	<- concept_car;
 	
@@ -171,32 +181,36 @@ toyota_corolla_E80
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+		concept_engine_diesel;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_front_wheel;
+		concept_rear;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 
 	=> nrel_type_of_body:
 		concept_coupe;
+		concept_sedan;
+		concept_hatchback;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1983;;
+		-> rrel_end_year: 1987;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E80.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E90
+toyota_corolla_E9
 
 	<- concept_car;
 	
@@ -205,32 +219,36 @@ toyota_corolla_E90
 		
 	=> nrel_type_of_engine:
 		concept_engine_gasoline;
+		concept_engine_diesel;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_front_wheel;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 
 	=> nrel_type_of_body:
 		concept_coupe;
+		concept_sedan;
+		concept_station_wagon;
+		concept_hatchback;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
+		-> rrel_start_year: 1987;;
 		-> rrel_end_year: 1995;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E90.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E100
+toyota_corolla_E10
 
 	<- concept_car;
 	
@@ -242,29 +260,33 @@ toyota_corolla_E100
 
 	=> nrel_type_of_drive:
 		concept_four_wheel;
+		concept_front_wheel;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_multi_link;
 
 	=> nrel_type_of_body:
+		concept_sedan;
+		concept_hatchback;
+		concept_station_wagon;
 		concept_coupe;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1992;;
+		-> rrel_end_year: 1997;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E100.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E110
+toyota_corolla_E11
 
 	<- concept_car;
 	
@@ -276,29 +298,35 @@ toyota_corolla_E110
 
 	=> nrel_type_of_drive:
 		concept_four_wheel;
+		concept_front_wheel;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_double_wishbone;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_multi_link;
+		concept_car_suspension_twist_beam;
 
 	=> nrel_type_of_body:
+		concept_sedan;
+		concept_hatchback;
+		concept_station_wagon;
 		concept_coupe;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 1997;;
+		-> rrel_end_year: 2002;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E110.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E120
+toyota_corolla_E12
 
 	<- concept_car;
 	
@@ -312,30 +340,32 @@ toyota_corolla_E120
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_front_wheel;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_double_wishbone;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_sedan;
+		concept_hatchback;
+		concept_station_wagon;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 2001;;
+		-> rrel_end_year: 2007;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E120.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E140
+toyota_corolla_E14
 
 	<- concept_car;
 	
@@ -349,6 +379,7 @@ toyota_corolla_E140
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
+		concept_front_wheel;
 		concept_four_wheel;
 
 	=> nrel_type_of_transmission:
@@ -356,23 +387,24 @@ toyota_corolla_E140
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_semiindependent;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_sedan;
+		concept_station_wagon;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 2007;;
+		-> rrel_end_year: 2013;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E140.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E160
+toyota_corolla_E16
 
 	<- concept_car;
 	
@@ -389,30 +421,32 @@ toyota_corolla_E160
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
+		concept_front_wheel;
 		concept_four_wheel;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
+		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_semiindependent;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_sedan;
+		concept_station_wagon;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 2013;;
+		-> rrel_end_year: 2018;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E160.png" (* => nrel_format: format_png;; *);;   
 
 
-toyota_corolla_E210
+toyota_corolla_E21
 
 	<- concept_car;
 	
@@ -427,20 +461,22 @@ toyota_corolla_E210
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
-		concept_car_automatic_transmission;
+		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_McPherson;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_double_wishbone;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_sedan;
+		concept_hatchback;
+		concept_station_wagon;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
-		-> rrel_start_year: 1991;;
-		-> rrel_end_year: 1995;; 
+		-> rrel_start_year: 2018;;
+		-> rrel_end_year: now;; 
 	*);
 	=> nrel_photo:"file://img/toyota_corolla_E210.png" (* => nrel_format: format_png;; *);;
