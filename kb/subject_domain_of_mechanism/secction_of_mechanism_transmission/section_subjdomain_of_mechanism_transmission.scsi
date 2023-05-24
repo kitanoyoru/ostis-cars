@@ -1,0 +1,264 @@
+subject_domain_of_cars_mechanism_transmission
+	=> nrel_main_idtf: 
+		[Предметная область трансмиссии] (* <- lang_ru;; *);
+		[Subject domain of transmission] (* <- lang_en;; *);
+
+	<- subject_domain;
+	<- sc_node_struct;
+	<- concept_car_transmission;
+	-> rrel_maximum_studied_object_class: 
+		concept_car_transmission;
+	-> rrel_not_maximum_studied_object_class:
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
+		concept_car_automated_manual_transmission;
+		concept_car_hydraulic_automatic_transmission;
+		concept_car_continuously_variable_transmission;
+		concept_car_robotic_transmission;
+		concept_car_single_clutch_robotic_transmission;
+		concept_car_dual_clutch_robotic_transmission;
+	-> rrel_explored_relation:
+		nrel_type_of_transmission;;
+
+
+concept_car_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Трансмиссия автомобиля] (* <- lang_ru;; *);
+		[Car transmission] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_manual_transmission;
+			concept_car_automatic_transmission;
+			concept_car_automated_manual_transmission
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_manual_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Механическая трансмиссия] (* <- lang_ru;; *);
+		[Mechanical transmission] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_manual_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_automatic_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Автоматическая трансмиссия] (* <- lang_ru;; *);
+		[Automatic transmission] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_hydraulic_automatic_transmission;
+			concept_car_continuously_variable_transmission;
+			concept_car_robotic_transmission
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_automatic_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_automated_manual_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Автоматизированная механическая трансмиссия] (* <- lang_ru;; *);
+		[Automated manual transmission] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_automated_manual_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_hydraulic_automatic_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Гидравлическая автоматическая трансмиссия] (* <- lang_ru;; *);
+		[Hydraulic automatic transmission] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_hydraulic_automatic_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_continuously_variable_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Бесступенчатая трансмиссия] (* <- lang_ru;; *);
+		[Сontinuously variable transmission] (* <- lang_en;; *);
+	=> nrel_idtf: 
+		[Вариативная коробка] (* <- lang_ru;; *);
+		[Variable box] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_continuously_variable_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_robotic_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Роботизированная трансмиссия] (* <- lang_ru;; *);
+		[Robotic transmission] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_single_clutch_robotic_transmission;
+			concept_car_dual_clutch_robotic_transmission
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_robotic_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_single_clutch_robotic_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Роботизированная трансмиссия с одним сцеплением] (* <- lang_ru;; *);
+		[Single clutch robotic transmission] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_single_clutch_robotic_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_dual_clutch_robotic_transmission
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Роботизированная трансмиссия с двумя сцеплениями](* <- lang_ru;; *);
+		[Dual clutch robotic transmission](* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_dual_clutch_robotic_transmission.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+nrel_type_of_transmission
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf:
+		[Тип трансмиссии*](* <- lang_ru;; *);
+		[Type of transmission*](* <- lang_en;; *);
+		
+	<- binary_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_transmission;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_nrel_type_of_transmission.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
