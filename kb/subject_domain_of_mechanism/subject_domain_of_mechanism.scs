@@ -6,7 +6,7 @@ subject_domain_of_mechanism
 	<- not_enough_formed_structure;
 
 	=> nrel_private_subject_domain:
-		subject_domain_of_cars_mechanism_drive(*<-sc_node_struct;;*);
+		section_subject_domain_of_cars_mechanism_drive;
 		section_subject_domain_of_cars_mechanism_transmission;
 		subject_domain_of_cars_mechanism_engine(*<-sc_node_struct;;*);
 		subject_domain_of_cars_mechanism_body(*<-sc_node_struct;;*);
