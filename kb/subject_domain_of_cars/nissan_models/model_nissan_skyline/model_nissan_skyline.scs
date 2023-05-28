@@ -2,10 +2,10 @@ nissan_skyline
 	=> nrel_main_idtf: [Модельный ряд Ниссан Скайлайн] (* <-lang_ru ;;*);
 	=> nrel_main_idtf: [Car lineup Nissan Skyline] (* <-lang_en;; *);
 	=> nrel_generation:
-		nissan_skyline_c10;
-		nissan_skyline_c110;
-		nissan_skyline_c210;
-		nissan_skyline_r30;
+		nissan_skyline_c1;
+		nissan_skyline_c11;
+		nissan_skyline_c21;
+		nissan_skyline_r3;
 		nissan_skyline_r31;
 		nissan_skyline_r32;
 		nissan_skyline_r33;
@@ -15,7 +15,7 @@ nissan_skyline
 		nissan_skyline_v37;;
 
 
-nissan_skyline_c10
+nissan_skyline_c1
 	<- concept_car;
 
 	=> nrel_main_idtf: [Ниссан Скайлайн C10] (* <-lang_ru;; *);
@@ -47,7 +47,7 @@ nissan_skyline_c10
 
 	=> nrel_photo:"file://img/nissan_skyline_c10.png" (* => nrel_format: format_png;; *);;
 
-nissan_skyline_c110
+nissan_skyline_c11
 	<- concept_car;
 
 	=> nrel_main_idtf: [Ниссан Скайлайн C110] (* <-lang_ru;; *);
@@ -80,7 +80,7 @@ nissan_skyline_c110
 	=> nrel_photo:"file://img/nissan_skyline_c110.png" (* => nrel_format: format_png;; *);; 
 
 
-nissan_skyline_c210
+nissan_skyline_c21
 	<- concept_car;
 
 	=> nrel_main_idtf: [Ниссан Скайлайн C210] (* <-lang_ru;; *);
@@ -112,7 +112,7 @@ nissan_skyline_c210
 
 	=> nrel_photo:"file://img/nissan_skyline_c210.png" (* => nrel_format: format_png;; *);; 
 
-nissan_skyline_r30
+nissan_skyline_r3
 	<- concept_car;
 
 	=> nrel_main_idtf: [Ниссан Скайлайн R30] (* <-lang_ru;; *);
