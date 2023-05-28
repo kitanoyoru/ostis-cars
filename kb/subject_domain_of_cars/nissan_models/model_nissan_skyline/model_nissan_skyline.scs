@@ -25,7 +25,7 @@ nissan_skyline_c10
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
@@ -57,7 +57,7 @@ nissan_skyline_c110
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
@@ -90,7 +90,7 @@ nissan_skyline_c210
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
@@ -122,7 +122,7 @@ nissan_skyline_r30
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -155,7 +155,7 @@ nissan_skyline_r31
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -221,7 +221,7 @@ nissan_skyline_r33
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
@@ -254,7 +254,7 @@ nissan_skyline_r34
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
@@ -287,7 +287,7 @@ nissan_skyline_v35
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
@@ -319,7 +319,7 @@ nissan_skyline_v36
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
@@ -351,7 +351,7 @@ nissan_skyline_v37
 		concept_engine_gasoline;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
