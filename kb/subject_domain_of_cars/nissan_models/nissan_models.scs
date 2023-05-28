@@ -2,5 +2,6 @@ section_domain_of_cars_nissan
 => nrel_models:
 	nissan_skyline;
 	nissan_juke;
+    nissan_leaf;
 	nissan_pathfinder;;
 
