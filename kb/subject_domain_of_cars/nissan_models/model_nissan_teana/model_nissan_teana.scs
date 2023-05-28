@@ -1,0 +1,170 @@
+nissan_teana
+	=> nrel_main_idtf: [Модельный ряд Ниссан Теана] (* <-lang_ru ;;*);
+    => nrel_main_idtf: [Car lineup Nissan Teana] (* <-lang_en;; *);
+    
+    => nrel_generation:
+        nissan_tana_I;
+        nissan_teana_I_restyling;
+        nissan_teana_II;
+        nissan_teana_II_restyling;
+        nissan_teana_III;;
+
+nissan_teana_I
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Теана I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Teana I] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_sedan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2003;;
+		-> rrel_end_year: 2005;; 
+	*);
+	=> nrel_photo:"file://img/nissan_teana_I.png" (* => nrel_format: format_png;; *);;   
+
+nissan_teana_I_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Теана I Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Teana I Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_sedan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2005;;
+		-> rrel_end_year: 2008;; 
+	*);
+	=> nrel_photo:"file://img/nissan_teana_I_restyling.png" (* => nrel_format: format_png;; *);;   
+
+nissan_teana_II
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Теана II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Teana II] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_sedan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2008;;
+		-> rrel_end_year: 2011;; 
+	*);
+	=> nrel_photo:"file://img/nissan_teana_II.png" (* => nrel_format: format_png;; *);;   
+
+nissan_teana_II_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Теана II Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Teana II Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_sedan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2011;;
+		-> rrel_end_year: 2014;; 
+	*);
+	=> nrel_photo:"file://img/nissan_teana_II_restyling.png" (* => nrel_format: format_png;; *);;   
+
+nissan_teana_III
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Теана III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Teana III] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_front_wheel;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_sedan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2014;;
+		-> rrel_end_year: 2020;; 
+	*);
+	=> nrel_photo:"file://img/nissan_teana_III.png" (* => nrel_format: format_png;; *);;   
