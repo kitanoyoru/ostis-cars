@@ -1,0 +1,70 @@
+nissan_leaf
+	=> nrel_main_idtf: [Модельный ряд Ниссан Лиф] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Car lineup Nissan Leaf] (* <-lang_en;; *);
+	=> nrel_generation:
+		nissan_leaf_I;
+		nissan_leaf_II;;
+
+nissan_leaf_I
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Лиф I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Leaf I] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_electric;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2017;; 
+	*);
+	=> nrel_photo:"file://img/nissan_leaf_I.png" (* => nrel_format: format_png;; *);;   
+
+nissan_leaf_II
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Лиф II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Leaf II] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_electric;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2017;;
+		-> rrel_end_year: NOW;; 
+	*);
+	=> nrel_photo:"file://img/nissan_leaf_II.png" (* => nrel_format: format_png;; *);;   

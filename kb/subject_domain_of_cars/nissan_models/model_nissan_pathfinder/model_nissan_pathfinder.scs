@@ -1,0 +1,236 @@
+nissan_pathfinder
+	=> nrel_main_idtf: [Модельный ряд Ниссан Пасфайндер] (* <-lang_ru ;;*);
+    => nrel_main_idtf: [Car lineup Nissan Pathfinder] (* <-lang_en;; *);
+    
+    => nrel_generation:
+        nissan_pathfinder_I;
+        nissan_pathfinder_II;
+        nissan_pathfinder_III;
+        nissan_pathfinder_III_restyling;
+        nissan_pathfinder_VI;
+        nissan_pathfinder_VI_restyling;
+        nissan_pathfinder_V;;
+
+nissan_pathfinder_I
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder I] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_dependent_spring;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1985;;
+		-> rrel_end_year: 1995;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_I.png" (* => nrel_format: format_png;; *);;   
+
+nissan_pathfinder_II
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder II] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_dependent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1995;;
+		-> rrel_end_year: 2004;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_II.png" (* => nrel_format: format_png;; *);;   
+
+nissan_pathfinder_III
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder III] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_diesel;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2004;;
+		-> rrel_end_year: 2010;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_III.png" (* => nrel_format: format_png;; *);;   
+
+nissan_pathfinder_III_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер III Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder III Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_diesel;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2014;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_III.png" (* => nrel_format: format_png;; *);;   
+
+nissan_pathfinder_IV
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder IV] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2012;;
+		-> rrel_end_year: 2017;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_IV.png" (* => nrel_format: format_png;; *);;   
+
+nissan_pathfinder_IV_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер IV Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder IV Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2016;;
+		-> rrel_end_year: 2020;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_IV_restyling.png" (* => nrel_format: format_png;; *);;   
+
+nissan_pathfinder_V
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Пасфайндер V] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Pathfinder V] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_SUV;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2021;;
+		-> rrel_end_year: NOW;; 
+	*);
+	=> nrel_photo:"file://img/nissan_pathfinder_V.png" (* => nrel_format: format_png;; *);;   
