@@ -1,0 +1,170 @@
+nissan_march
+	=> nrel_main_idtf: [Модельный ряд Ниссан Марч] (* <-lang_ru ;;*);
+	=> nrel_main_idtf: [Car lineup Nissan March] (* <-lang_en;; *);
+	=> nrel_generation:
+		nissan_march_I;
+		nissan_march_II;
+        nissan_march_III;
+        nissan_march_IV;
+        nissan_march_IV_restyling;;
+
+nissan_march_I
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Марч I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan March I] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_manual_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1982;;
+		-> rrel_end_year: 1992;; 
+	*);
+	=> nrel_photo:"file://img/nissan_march_I.png" (* => nrel_format: format_png;; *);;   
+
+nissan_march_II
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Марч II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan March II] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1992;;
+		-> rrel_end_year: 2002;; 
+	*);
+	=> nrel_photo:"file://img/nissan_march_II.png" (* => nrel_format: format_png;; *);;   
+
+nissan_march_III
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Марч III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan March III] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2002;;
+		-> rrel_end_year: 2010;; 
+	*);
+	=> nrel_photo:"file://img/nissan_march_III.png" (* => nrel_format: format_png;; *);;   
+
+nissan_march_IV
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Марч IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan March IV] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2013;; 
+	*);
+	=> nrel_photo:"file://img/nissan_march_IV.png" (* => nrel_format: format_png;; *);;   
+
+nissan_march_IV_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Марч IV Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan March IV Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_hatchback;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2013;;
+		-> rrel_end_year: NOW;; 
+	*);
+	=> nrel_photo:"file://img/nissan_march_IV_restyling.png" (* => nrel_format: format_png;; *);;   
+

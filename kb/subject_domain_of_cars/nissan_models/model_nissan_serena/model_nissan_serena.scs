@@ -1,0 +1,203 @@
+nissan_serena
+	=> nrel_main_idtf: [Модельный ряд Ниссан Серена] (* <-lang_ru ;;*);
+    => nrel_main_idtf: [Car lineup Nissan Serena] (* <-lang_en;; *);
+    
+    => nrel_generation:
+        nissan_serena_I;
+        nissan_serena_II;
+        nissan_serena_III;
+        nissan_serena_IV;
+        nissan_serena_V;
+        nissan_serena_V_restyling;;
+
+nissan_serena_I
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Серена I] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Serena I] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_rear_drive;
+
+	=> nrel_type_of_transmission:
+		concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_dependent_spring;
+
+	=> nrel_type_of_body:
+		concept_minivan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1991;;
+		-> rrel_end_year: 2002;; 
+	*);
+	=> nrel_photo:"file://img/nissan_serena_I.png" (* => nrel_format: format_png;; *);;   
+
+nissan_serena_II
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Серена II] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Serena II] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+	    concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_independent_spring_strut;
+
+	=> nrel_type_of_body:
+		concept_minivan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 1999;;
+		-> rrel_end_year: 2005;; 
+	*);
+	=> nrel_photo:"file://img/nissan_serena_II.png" (* => nrel_format: format_png;; *);;   
+
+nissan_serena_III
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Серена III] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Serena III] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+	    concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_minivan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2005;;
+		-> rrel_end_year: 2012;; 
+	*);
+	=> nrel_photo:"file://img/nissan_serena_III.png" (* => nrel_format: format_png;; *);;   
+
+nissan_serena_IV
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Серена IV] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Serena IV] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_four_wheel_drive;
+
+	=> nrel_type_of_transmission:
+	    concept_car_continuously_variable_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_minivan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2010;;
+		-> rrel_end_year: 2016;; 
+	*);
+	=> nrel_photo:"file://img/nissan_serena_IV.png" (* => nrel_format: format_png;; *);;   
+
+nissan_serena_V
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Серена V] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Serena V] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+	    concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_minivan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2016;;
+		-> rrel_end_year: 2019;; 
+	*);
+	=> nrel_photo:"file://img/nissan_serena_V.png" (* => nrel_format: format_png;; *);;   
+
+nissan_serena_V_restyling
+
+	<- concept_car;
+	
+	=> nrel_main_idtf: [Ниссан Серена V Рестайлинг] (* <-lang_ru;; *);
+	=> nrel_main_idtf: [Nissan Serena V Restyling] (* <-lang_en;; *);
+		
+	=> nrel_type_of_engine:
+		concept_engine_gasoline;
+
+	=> nrel_type_of_drive:
+		concept_car_front_wheel_drive;
+
+	=> nrel_type_of_transmission:
+	    concept_car_automatic_transmission;
+
+	=> nrel_type_of_front_suspension:
+		concept_car_suspension_independent_spring_strut;
+	=> nrel_type_of_rear_suspension:
+		concept_car_suspension_semiindependent;
+
+	=> nrel_type_of_body:
+		concept_minivan;
+
+	=> nrel_period:...
+	(*
+		<- sc_node_tuple;;
+		-> rrel_start_year: 2019;;
+		-> rrel_end_year: NOW;; 
+	*);
+	=> nrel_photo:"file://img/nissan_serena_V_restyling.png" (* => nrel_format: format_png;; *);;   
