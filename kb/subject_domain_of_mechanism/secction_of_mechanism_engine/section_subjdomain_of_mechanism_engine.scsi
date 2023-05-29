@@ -1,0 +1,156 @@
+subject_domain_of_cars_mechanism_engine
+	=> nrel_main_idtf: 
+		[Предметная область двигателя] (* <- lang_ru;; *);
+		[Subject domain of engine] (* <- lang_en;; *);
+
+	<- subject_domain;
+	<- sc_node_struct;
+	<- concept_car_engine;
+	-> rrel_maximum_studied_object_class: 
+		concept_car_engine;
+	-> rrel_not_maximum_studied_object_class:
+		concept_car_diesel_engine;
+		concept_car_gasoline_engine;
+		concept_car_gas_engine;
+		concept_car_electric_engine;
+	-> rrel_explored_relation:
+		nrel_type_of_engine;;
+
+concept_car_engine
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Двигатель автомобиля] (* <- lang_ru;; *);
+		[Car engine] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_diesel_engine;
+			concept_car_gasoline_engine;
+			concept_car_gas_engine;
+			concept_car_electric_engine;
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_engine.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_diesel_engine
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Дизельный двигатель] (* <- lang_ru;; *);
+		[Diesel engine] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_diesel_engine.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_gasoline_engine
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Бензиновый двигатель] (* <- lang_ru;; *);
+		[Gasoline engine] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_gasoline_engine.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_gas_engine
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Газовый двигатель] (* <- lang_ru;; *);
+		[Gas engine] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_gas_engine.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_electric_engine
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Электрический двигатель] (* <- lang_ru;; *);
+		[Electric engine] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_electric_engine.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+nrel_type_of_engine
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf:
+		[Тип двигателя*](* <- lang_ru;; *);
+		[Type of engine*](* <- lang_en;; *);
+		
+	<- binary_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_engine;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_nrel_type_of_engine.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
