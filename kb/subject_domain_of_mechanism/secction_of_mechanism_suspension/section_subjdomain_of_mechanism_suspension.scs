@@ -1,0 +1,64 @@
+section_subject_domain_of_cars_mechanism_suspension
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область подвески]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of suspension]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[Раздел. Раздел базы знаний, описывающий Предметную область подвески]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;
+<- atomic_section;;
+
+section_subject_domain_of_cars_mechanism_suspension = [*^"file://section_subjdomain_of_mechanism_suspension.scsi"*];;
+
+rrel_key_sc_element -> (section_subject_domain_of_cars_mechanism_suspension -> subject_domain_of_cars_mechanism_suspension)
+(*
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_suspension)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_independent_suspension)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_semiindependent)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_dependent_spring)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_multi_link)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_McPherson)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_double_wishbone)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_independent_spring_strut)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_dependent_spring_strut)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_trailing_arm)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension_twist_beam)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_adaptive_suspension)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> nrel_type_of_front_suspension)
+	(* <- rrel_key_sc_element;; *);;
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> nrel_type_of_rear_suspension)
+	(* <- rrel_key_sc_element;; *);;
+*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;

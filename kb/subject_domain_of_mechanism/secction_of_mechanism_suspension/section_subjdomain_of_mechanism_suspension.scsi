@@ -1,0 +1,378 @@
+subject_domain_of_cars_mechanism_suspension
+	=> nrel_main_idtf: 
+		[Предметная область подвески] (* <- lang_ru;; *);
+		[Subject domain of suspension] (* <- lang_en;; *);
+
+	<- subject_domain;
+	<- sc_node_struct;
+	<- concept_car_transmission;
+	-> rrel_maximum_studied_object_class: 
+		concept_car_suspension;
+	-> rrel_not_maximum_studied_object_class:
+		concept_car_dependent_suspension;
+		concept_car_independent_suspension;
+		concept_car_suspension_semiindependent;
+		concept_car_suspension_dependent_spring;
+		concept_car_suspension_multi_link;
+		concept_car_suspension_McPherson;
+		concept_car_suspension_double_wishbone;
+		concept_car_suspension_independent_spring_strut;
+		concept_car_suspension_dependent_spring_strut;
+		concept_car_suspension_trailing_arm;
+		concept_car_suspension_twist_beam;
+		concept_adaptive_suspension;
+	-> rrel_explored_relation:
+		nrel_type_of_front_suspension;;
+		nrel_type_of_rear_suspension;;
+
+concept_car_suspension
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Подвеска автомобиля] (* <- lang_ru;; *);
+		[Car suspension] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_dependent_suspension;
+			concept_car_independent_suspension;
+			concept_car_suspension_semiindependent;
+			concept_adaptive_suspension
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_dependent_suspension
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Зависимая подвеска] (* <- lang_ru;; *);
+		[Dependent suspension] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_suspension_dependent_spring;
+			concept_car_suspension_dependent_spring_strut
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_dependant_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_independent_suspension
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Независимая подвеска] (* <- lang_ru;; *);
+		[Independent suspension] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+			concept_car_suspension_multi_link;
+			concept_car_suspension_McPherson;
+			concept_car_suspension_double_wishbone;
+			concept_car_suspension_independent_spring_strut;
+            concept_car_suspension_trailing_arm
+
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_independant_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_semiindependent
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Полузависимая подвеска] (* <- lang_ru;; *);
+		[Semi-independent rear suspension] (* <- lang_en;; *);
+	<= nrel_subdividing: 	
+		{  
+            concept_car_suspension_twist_beam
+
+		};
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_semiindependant_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+
+concept_car_suspension_dependent_spring
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Рессорная подвеска] (* <- lang_ru;; *);
+		[Spring suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_suspension_dependent_spring_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_multi_link
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Многорычажная подвеска] (* <- lang_ru;; *);
+		[Multi-link suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_multi_link_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_McPherson
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Подвеска МакФерсон] (* <- lang_ru;; *);
+		[McPherson suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_McPherson_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_double_wishbone
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Подвеска на двойных поперечных рычагах] (* <- lang_ru;; *);
+		[Double wishbone suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_double_wishbone_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_independent_spring_strut
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Независимая пружинная подвеска] (* <- lang_ru;; *);
+		[Independent spring strut suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_independent_spring_strut_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_dependent_spring_strut
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Зависимая пружинная подвеска] (* <- lang_ru;; *);
+		[Dependent spring strut suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_dependent_spring_strut_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_trailing_arm
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Подвеска на продольных рычагах] (* <- lang_ru;; *);
+		[Trailing arm suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_trailing_arm_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_car_suspension_twist_beam
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Подвеска с поворотной балкой] (* <- lang_ru;; *);
+		[Twist Beam suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_twist_beam__suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+concept_adaptive_suspension
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: 
+		[Адаптивная подвеска] (* <- lang_ru;; *);
+		[Adaptive suspension] (* <- lang_en;; *);
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_adaptive_suspension.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+nrel_type_of_front_suspension
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf:
+		[Тип передней подвески*](* <- lang_ru;; *);
+		[Type of front suspension*](* <- lang_en;; *);
+		
+	<- binary_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_suspension;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_nrel_type_of_front_suspension.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+
+nrel_type_of_rear_suspension
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf:
+		[Тип задней подвески*](* <- lang_ru;; *);
+		[Type of rear suspension*](* <- lang_en;; *);
+		
+	<- binary_relation;
+	=> nrel_first_domain: concept_car;
+	=> nrel_second_domain: concept_car_suspension;
+
+	<- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_nrel_type_of_rear_suspension.html"
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
