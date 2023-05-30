@@ -15,17 +15,17 @@ ford_escape_I
 	=> nrel_main_idtf: [Ford Escape I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -39,17 +39,17 @@ ford_escape_I_restyling
 	=> nrel_main_idtf: [Ford Escape I restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -63,17 +63,17 @@ ford_escape_I_restyling_2
 	=> nrel_main_idtf: [Ford Escape I restyling 2] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -88,17 +88,17 @@ ford_escape_II
 	=> nrel_main_idtf: [Ford Escape II] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -112,17 +112,17 @@ ford_escape_III
 	=> nrel_main_idtf: [Ford Escape III] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -136,17 +136,17 @@ ford_escape_III_restyling
 	=> nrel_main_idtf: [Ford Escape III restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -160,17 +160,17 @@ ford_escape_IV
 	=> nrel_main_idtf: [Ford Escape IV] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

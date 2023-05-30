@@ -11,15 +11,15 @@ subject_domain_of_cars_mechanism_suspension
 	-> rrel_not_maximum_studied_object_class:
 		concept_car_dependent_suspension;
 		concept_car_independent_suspension;
-		concept_car_suspension_semiindependent;
-		concept_car_suspension_dependent_spring;
-		concept_car_suspension_multi_link;
-		concept_car_suspension_McPherson;
-		concept_car_suspension_double_wishbone;
-		concept_car_suspension_independent_spring_strut;
-		concept_car_suspension_dependent_spring_strut;
-		concept_car_suspension_trailing_arm;
-		concept_car_suspension_twist_beam;
+		concept_car_semiindependent_suspension;
+		concept_car_dependent_spring_suspension;
+		concept_car_multi_link_suspension;
+		concept_car_McPherson_suspension;
+		concept_car_double_wishbone_suspension;
+		concept_car_independent_spring_strut_suspension;
+		concept_car_dependent_spring_strut_suspension;
+		concept_car_trailing_arm_suspension;
+		concept_car_twist_beam_suspension;
 		concept_adaptive_suspension;
 	-> rrel_explored_relation:
 		nrel_type_of_front_suspension;
@@ -34,7 +34,7 @@ concept_car_suspension
 		{  
 			concept_car_dependent_suspension;
 			concept_car_independent_suspension;
-			concept_car_suspension_semiindependent;
+			concept_car_semiindependent_suspension;
 			concept_adaptive_suspension
 		};
 	<- rrel_key_sc_element:
@@ -60,8 +60,8 @@ concept_car_dependent_suspension
 		[Dependent suspension] (* <- lang_en;; *);
 	<= nrel_subdividing: 	
 		{  
-			concept_car_suspension_dependent_spring;
-			concept_car_suspension_dependent_spring_strut
+			concept_car_dependent_spring_suspension;
+			concept_car_dependent_spring_strut_suspension
 		};
 	<- rrel_key_sc_element:
 		...
@@ -86,11 +86,11 @@ concept_car_independent_suspension
 		[Independent suspension] (* <- lang_en;; *);
 	<= nrel_subdividing: 	
 		{  
-			concept_car_suspension_multi_link;
-			concept_car_suspension_McPherson;
-			concept_car_suspension_double_wishbone;
-			concept_car_suspension_independent_spring_strut;
-            concept_car_suspension_trailing_arm
+			concept_car_multi_link_suspension;
+			concept_car_McPherson_suspension;
+			concept_car_double_wishbone_suspension;
+			concept_car_independent_spring_strut_suspension;
+            concept_car_trailing_arm_suspension
 
 		};
 	<- rrel_key_sc_element:
@@ -109,14 +109,14 @@ concept_car_independent_suspension
 			*);;
 		*);;
 
-concept_car_suspension_semiindependent
+concept_car_semiindependent_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Полузависимая подвеска] (* <- lang_ru;; *);
 		[Semi-independent rear suspension] (* <- lang_en;; *);
 	<= nrel_subdividing: 	
 		{  
-            concept_car_suspension_twist_beam
+            concept_car_twist_beam_suspension
 
 		};
 	<- rrel_key_sc_element:
@@ -136,7 +136,7 @@ concept_car_suspension_semiindependent
 		*);;
 
 
-concept_car_suspension_dependent_spring
+concept_car_dependent_spring_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Рессорная подвеска] (* <- lang_ru;; *);
@@ -157,7 +157,7 @@ concept_car_suspension_dependent_spring
 			*);;
 		*);;
 
-concept_car_suspension_multi_link
+concept_car_multi_link_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Многорычажная подвеска] (* <- lang_ru;; *);
@@ -178,7 +178,7 @@ concept_car_suspension_multi_link
 			*);;
 		*);;
 
-concept_car_suspension_McPherson
+concept_car_McPherson_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Подвеска МакФерсон] (* <- lang_ru;; *);
@@ -199,7 +199,7 @@ concept_car_suspension_McPherson
 			*);;
 		*);;
 
-concept_car_suspension_double_wishbone
+concept_car_double_wishbone_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Подвеска на двойных поперечных рычагах] (* <- lang_ru;; *);
@@ -220,7 +220,7 @@ concept_car_suspension_double_wishbone
 			*);;
 		*);;
 
-concept_car_suspension_independent_spring_strut
+concept_car_independent_spring_strut_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Независимая пружинная подвеска] (* <- lang_ru;; *);
@@ -241,7 +241,7 @@ concept_car_suspension_independent_spring_strut
 			*);;
 		*);;
 
-concept_car_suspension_dependent_spring_strut
+concept_car_dependent_spring_strut_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Зависимая пружинная подвеска] (* <- lang_ru;; *);
@@ -262,7 +262,7 @@ concept_car_suspension_dependent_spring_strut
 			*);;
 		*);;
 
-concept_car_suspension_trailing_arm
+concept_car_trailing_arm_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Подвеска на продольных рычагах] (* <- lang_ru;; *);
@@ -283,7 +283,7 @@ concept_car_suspension_trailing_arm
 			*);;
 		*);;
 
-concept_car_suspension_twist_beam
+concept_car_twist_beam_suspension
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[Подвеска с поворотной балкой] (* <- lang_ru;; *);

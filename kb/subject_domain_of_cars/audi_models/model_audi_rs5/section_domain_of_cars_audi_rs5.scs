@@ -12,17 +12,17 @@ audi_rs5_8T
 	=> nrel_main_idtf: [Audi RS 5 8T] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-        	concept_robotic_box;
+        	concept_car_robotic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -37,18 +37,18 @@ audi_rs5_8T_restyling
 	=> nrel_main_idtf: [Audi RS 5 8T Resyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-        	concept_robotic_box;
+        	concept_car_robotic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -63,18 +63,18 @@ audi_rs5_F5
 	=> nrel_main_idtf: [Audi RS 5 F5] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_liftback;
+		concept_car_coupe_body;
+		concept_car_liftback_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -90,18 +90,18 @@ audi_rs5_F5_restyling
 	=> nrel_main_idtf: [Audi RS 5 F5 Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_liftback;
+		concept_car_coupe_body;
+		concept_car_liftback_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

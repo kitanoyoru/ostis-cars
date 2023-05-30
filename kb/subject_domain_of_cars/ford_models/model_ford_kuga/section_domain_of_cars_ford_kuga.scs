@@ -12,17 +12,17 @@ ford_kuga_I
 	=> nrel_main_idtf: [Ford Kuga I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_diesel;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -36,17 +36,17 @@ ford_kuga_II
 	=> nrel_main_idtf: [Ford Kuga II] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -60,17 +60,17 @@ ford_kuga_II_restyling
 	=> nrel_main_idtf: [Ford Kuga II restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -84,17 +84,17 @@ ford_kuga_III
 	=> nrel_main_idtf: [Ford Kuga III] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

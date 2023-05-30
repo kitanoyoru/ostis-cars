@@ -17,19 +17,19 @@ ford_mondeo_I
 	=> nrel_main_idtf: [Ford Mondeo I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_liftback;
-		concept_station_wagon;
-		concept_sedan;
+		concept_car_liftback_body;
+		concept_car_station_wagon_body;
+		concept_car_sedan_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -43,19 +43,19 @@ ford_mondeo_II
 	=> nrel_main_idtf: [Ford Mondeo II] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_station_wagon;
-		concept_sedan;
-		concept_liftback;
+		concept_car_station_wagon_body;
+		concept_car_sedan_body;
+		concept_car_liftback_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -69,19 +69,19 @@ ford_mondeo_III
 	=> nrel_main_idtf: [Ford Mondeo III] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_liftback;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_liftback_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -95,19 +95,19 @@ ford_mondeo_III_restyling
 	=> nrel_main_idtf: [Ford Mondeo III restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_liftback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_liftback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -121,20 +121,20 @@ ford_mondeo_IV
 	=> nrel_main_idtf: [Ford Mondeo IV] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_liftback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_liftback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -148,19 +148,19 @@ ford_mondeo_IV_restyling
 	=> nrel_main_idtf: [Ford Mondeo IV restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_liftback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_liftback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -174,20 +174,20 @@ ford_mondeo_V
 	=> nrel_main_idtf: [Ford Mondeo V] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_liftback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_liftback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -201,21 +201,21 @@ ford_mondeo_V_restyling
 	=> nrel_main_idtf: [Ford Mondeo V restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_diesel;
-		concept_engine_gasoline;
+		concept_car_diesel_engine;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_continuously_variable_transmission;
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_liftback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_liftback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -229,17 +229,17 @@ ford_mondeo_VI
 	=> nrel_main_idtf: [Ford Mondeo VI] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

@@ -19,20 +19,20 @@ ford_focus_I
 	=> nrel_main_idtf: [Ford Focus I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -46,18 +46,18 @@ ford_focus_I_north_america
 	=> nrel_main_idtf: [Ford Focus I (North America)] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -71,20 +71,20 @@ ford_focus_I_restyling
 	=> nrel_main_idtf: [Ford Focus I restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_automatic_transmission;
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -98,20 +98,20 @@ ford_focus_II
 	=> nrel_main_idtf: [Ford Focus II] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_cabriolet;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_cabriolet_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -125,19 +125,19 @@ ford_focus_I_restyling_north_america
 	=> nrel_main_idtf: [Ford Focus I restyling (North America)] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -151,20 +151,20 @@ ford_focus_II_restyling
 	=> nrel_main_idtf: [Ford Focus II restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_cabriolet;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_cabriolet_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -178,18 +178,18 @@ ford_focus_II_north_america
 	=> nrel_main_idtf: [Ford Focus II (North America)] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_sedan;
+		concept_car_coupe_body;
+		concept_car_sedan_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -203,19 +203,19 @@ ford_focus_III
 	=> nrel_main_idtf: [Ford Focus III] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -229,19 +229,19 @@ ford_focus_III_restyling
 	=> nrel_main_idtf: [Ford Focus III restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -255,19 +255,19 @@ ford_focus_IV
 	=> nrel_main_idtf: [Ford Focus IV] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -281,18 +281,18 @@ ford_focus_IV_restyling
 	=> nrel_main_idtf: [Ford Focus IV restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_station_wagon;
+		concept_car_hatchback_body;
+		concept_car_station_wagon_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

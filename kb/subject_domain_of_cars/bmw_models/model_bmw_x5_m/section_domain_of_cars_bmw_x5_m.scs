@@ -15,21 +15,21 @@ bmw_x5_m_e70
     => nrel_main_idtf: [БМВ X5 M E70] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
+	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_automatic_box;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -47,21 +47,21 @@ bmw_x5_m_f85
     => nrel_main_idtf: [БМВ X5 M F85] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
+	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_automatic_box;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -79,21 +79,21 @@ bmw_x5_m_f95
     => nrel_main_idtf: [БМВ X5 M F95] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
+	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_automatic_box;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -111,21 +111,21 @@ bmw_x5_m_f95_restyling
     => nrel_main_idtf: [БМВ X5 M F95 Рестайлинг] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
+	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_automatic_box;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*

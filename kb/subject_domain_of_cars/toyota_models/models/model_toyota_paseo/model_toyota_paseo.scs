@@ -17,22 +17,22 @@ toyota_paseo_L40
 	=> nrel_main_idtf: [Toyota Paseo L40] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -51,25 +51,25 @@ toyota_paseo_L50
 	=> nrel_main_idtf: [Toyota Paseo L50] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
-        concept_car_suspension_double_wishbone;
+		concept_car_McPherson_suspension;
+        concept_car_double_wishbone_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_trailing_arm;
-        concept_car_suspension_independent_spring_strut;
+		concept_car_trailing_arm_suspension;
+        concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-        concept_cabriolet;
+		concept_car_coupe_body;
+        concept_car_cabriolet_body;
 
 	=> nrel_period:...
 	(*

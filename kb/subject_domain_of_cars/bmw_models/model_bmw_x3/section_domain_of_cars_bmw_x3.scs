@@ -17,23 +17,23 @@ bmw_x3_e83
     => nrel_main_idtf: [БМВ X3 E83] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
-	    concept_engine_diesel;
+	    concept_car_gasoline_engine;
+	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_mechanical_box;
-	    concept_automatic_box;
+	    concept_car_mechanical_box_transmission;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_independent_spring_strut;
+	    concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_independent_spring_strut;
+	    concept_car_independent_spring_strut_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -51,23 +51,23 @@ bmw_x3_e83_restyling
     => nrel_main_idtf: [БМВ X3 E83 Рестайлинг] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
-	    concept_engine_diesel;
+	    concept_car_gasoline_engine;
+	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_mechanical_box;
-	    concept_automatic_box;
+	    concept_car_mechanical_box_transmission;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_independent_spring_strut;
+	    concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_independent_spring_strut;
+	    concept_car_independent_spring_strut_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -87,23 +87,23 @@ bmw_x3_f25
     => nrel_main_idtf: [БМВ X3 F25] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
-        concept_engine_diesel;
+	    concept_car_gasoline_engine;
+        concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_mechanical_box;
-	    concept_automatic_box;
+	    concept_car_mechanical_box_transmission;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -122,23 +122,23 @@ bmw_x3_f25_restyling
     => nrel_main_idtf: [БМВ X3 F25 Рестайлинг] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
-        concept_engine_diesel;
+	    concept_car_gasoline_engine;
+        concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_mechanical_box;
-	    concept_automatic_box;
+	    concept_car_mechanical_box_transmission;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_independent_spring_strut;
+	    concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_independent_spring_strut;
+	    concept_car_independent_spring_strut_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -157,22 +157,22 @@ bmw_x3_g01
     => nrel_main_idtf: [БМВ X3 G01] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
-        concept_engine_diesel;
+	    concept_car_gasoline_engine;
+        concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_automatic_box;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_wishbone;
+	    concept_car_double_wishbone_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*
@@ -192,22 +192,22 @@ bmw_x3_g01_restyling
     => nrel_main_idtf: [БМВ X3 G01 Рестайлинг] (* <-lang_ru;; *);
 
     => nrel_type_of_engine:
-	    concept_engine_gasoline;
-        concept_engine_diesel;
+	    concept_car_gasoline_engine;
+        concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_automatic_box;
+	    concept_car_automatic_box_transmission;
     
 	=> nrel_type_of_front_suspension:
-	    concept_car_suspension_double_wishbone;
+	    concept_car_double_wishbone_suspension;
 	=> nrel_type_of_rear_suspension:
-	    concept_car_suspension_multi_link;
+	    concept_car_multi_link_suspension;
 
     => nrel_type_of_body:
-        concept_SUV;
+        concept_car_SUV_body;
 
     => nrel_type_of_drive:
-        concept_four_wheel;
+        concept_car_four_wheel_drive;
 
     => nrel_period: ...
     (*

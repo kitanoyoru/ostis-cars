@@ -16,22 +16,22 @@ toyota_MR2_W10
 	=> nrel_main_idtf: [Toyota MR2 W10] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -50,23 +50,23 @@ toyota_MR2_W20
 	=> nrel_main_idtf: [Toyota MR2 W20] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_double_wishbone;
+		concept_car_double_wishbone_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-        concept_targa;
+		concept_car_coupe_body;
+        concept_car_targa_body;
 
 	=> nrel_period:...
 	(*
@@ -85,22 +85,22 @@ toyota_MR2_W30
 	=> nrel_main_idtf: [Toyota MR2 W30] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
         concept_car_automated_manual_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_double_wishbone;
+		concept_car_double_wishbone_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_cabriolet;
+		concept_car_cabriolet_body;
 
 	=> nrel_period:...
 	(*

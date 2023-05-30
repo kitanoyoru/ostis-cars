@@ -15,19 +15,19 @@ audi_s6_C4
 	=> nrel_main_idtf: [Audi S 6 С4] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_box_transmission;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -42,19 +42,19 @@ audi_s6_C5
 	=> nrel_main_idtf: [Audi S 6 С5] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
-		concept_mechanical_box;
+		concept_car_automatic_box_transmission;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -69,18 +69,18 @@ audi_s6_C6
 	=> nrel_main_idtf: [Audi S 6 С6] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -95,18 +95,18 @@ audi_s6_C6_restyling
 	=> nrel_main_idtf: [Audi S 6 С6 Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -121,18 +121,18 @@ audi_s6_C7
 	=> nrel_main_idtf: [Audi S 6 С7] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_robotic_box;
+		concept_car_robotic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -147,18 +147,18 @@ audi_s6_C7_restyling
 	=> nrel_main_idtf: [Audi S 6 С7 Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_robotic_box;
+		concept_car_robotic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -173,19 +173,19 @@ audi_s6_C8
 	=> nrel_main_idtf: [Audi S 6 С8] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_diesel;
-		concept_engine_gasoline;
+		concept_car_diesel_engine;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
