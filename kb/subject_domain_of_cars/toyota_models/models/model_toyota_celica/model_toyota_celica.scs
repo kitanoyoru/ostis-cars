@@ -18,22 +18,22 @@ toyota_celica_A20_A30
 	=> nrel_main_idtf: [Toyota Celica A20/A30] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_multi_link;
+		concept_car_multi_link_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -53,22 +53,22 @@ toyota_celica_A40_A50
 	=> nrel_main_idtf: [Toyota Celica A40/A50] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension; 
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -88,22 +88,22 @@ toyota_celica_A60
 	=> nrel_main_idtf: [Toyota Celica A60] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -123,25 +123,25 @@ toyota_celica_T160
 	=> nrel_main_idtf: [Toyota Celica T160] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_McPherson;
-		concept_car_suspension_multi_link;
+		concept_car_McPherson_suspension;
+		concept_car_multi_link_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-        concept_cabriolet;
+		concept_car_coupe_body;
+        concept_car_cabriolet_body;
 
 	=> nrel_period:...
 	(*
@@ -161,24 +161,24 @@ toyota_celica_T180
 	=> nrel_main_idtf: [Toyota Celica T180] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-        concept_cabriolet;
+		concept_car_coupe_body;
+        concept_car_cabriolet_body;
 
 	=> nrel_period:...
 	(*
@@ -198,24 +198,24 @@ toyota_celica_T200
 	=> nrel_main_idtf: [Toyota Celica T200] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 
 	=> nrel_period:...
 	(*
@@ -235,22 +235,22 @@ toyota_celica_T230
 	=> nrel_main_idtf: [Toyota Celica T230] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-        concept_coupe;
+        concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*

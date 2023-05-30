@@ -22,7 +22,7 @@ nissan_skyline_c1
 	=> nrel_main_idtf: [Nissan Skyline C10] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -31,12 +31,12 @@ nissan_skyline_c1
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 
 	=> nrel_period:...
 	(*
@@ -54,7 +54,7 @@ nissan_skyline_c11
 	=> nrel_main_idtf: [Nissan Skyline C110] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -63,12 +63,12 @@ nissan_skyline_c11
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -87,7 +87,7 @@ nissan_skyline_c21
 	=> nrel_main_idtf: [Nissan Skyline C210] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -96,12 +96,12 @@ nissan_skyline_c21
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_dependent_spring_strut;
+		concept_car_dependent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -119,7 +119,7 @@ nissan_skyline_r3
 	=> nrel_main_idtf: [Nissan Skyline R30] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -128,12 +128,12 @@ nissan_skyline_r3
 		concept_car_manual_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_liftback;
+		concept_car_liftback_body;
 
 	=> nrel_period:...
 	(*
@@ -152,7 +152,7 @@ nissan_skyline_r31
 	=> nrel_main_idtf: [Nissan Skyline R31] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -161,12 +161,12 @@ nissan_skyline_r31
 		concept_car_manual_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -185,21 +185,21 @@ nissan_skyline_r32
 	=> nrel_main_idtf: [Nissan Skyline R32] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -218,7 +218,7 @@ nissan_skyline_r33
 	=> nrel_main_idtf: [Nissan Skyline R33] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -227,12 +227,12 @@ nissan_skyline_r33
 		concept_car_manual_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 		
 	=> nrel_period:...
 	(*
@@ -251,7 +251,7 @@ nissan_skyline_r34
 	=> nrel_main_idtf: [Nissan Skyline R34] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -260,12 +260,12 @@ nissan_skyline_r34
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -284,7 +284,7 @@ nissan_skyline_v35
 	=> nrel_main_idtf: [Nissan Skyline V35] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -293,12 +293,12 @@ nissan_skyline_v35
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -316,7 +316,7 @@ nissan_skyline_v36
 	=> nrel_main_idtf: [Nissan Skyline V36] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -325,12 +325,12 @@ nissan_skyline_v36
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 
 	=> nrel_period:...
 	(*
@@ -348,7 +348,7 @@ nissan_skyline_v37
 	=> nrel_main_idtf: [Nissan Skyline V37] (* <-lang_en;; *);
 
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -357,18 +357,18 @@ nissan_skyline_v37
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> start_year: 2014;;
-		-> end_year: NOW;; 
+		-> end_year: till_now;; 
 	*);  
 
 	=> nrel_photo:"file://img/nissan_skyline_v37.png" (* => nrel_format: format_png;; *);; 

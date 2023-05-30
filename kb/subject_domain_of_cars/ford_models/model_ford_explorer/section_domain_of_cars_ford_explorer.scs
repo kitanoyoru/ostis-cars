@@ -17,18 +17,18 @@ ford_explorer_I
 	=> nrel_main_idtf: [Ford Explorer I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -42,18 +42,18 @@ ford_explorer_II
 	=> nrel_main_idtf: [Ford Explorer II] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
-		concept_rear;
+		concept_car_four_wheel_drive;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
 		concept_car_independent_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -67,17 +67,17 @@ ford_explorer_II_restyling
 	=> nrel_main_idtf: [Ford Explorer II restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
 		concept_car_independent_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -91,17 +91,17 @@ ford_explorer_III
 	=> nrel_main_idtf: [Ford Explorer III] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
 		concept_car_independent_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -115,17 +115,17 @@ ford_explorer_IV
 	=> nrel_main_idtf: [Ford Explorer IV] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -139,17 +139,17 @@ ford_explorer_V
 	=> nrel_main_idtf: [Ford Explorer V] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -163,17 +163,17 @@ ford_explorer_V_restyling
 	=> nrel_main_idtf: [Ford Explorer V restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -187,17 +187,17 @@ ford_explorer_V_restyling_2
 	=> nrel_main_idtf: [Ford Explorer V restyling 2] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -212,17 +212,17 @@ ford_explorer_VI
 	=> nrel_main_idtf: [Ford Explorer VI] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

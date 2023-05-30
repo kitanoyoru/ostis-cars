@@ -18,19 +18,19 @@ ford_mustang_I
 	=> nrel_main_idtf: [Ford Mustang I] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_hatchback_body;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -44,18 +44,18 @@ ford_mustang_II
 	=> nrel_main_idtf: [Ford Mustang II] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_coupe;
+		concept_car_hatchback_body;
+		concept_car_coupe_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -69,20 +69,20 @@ ford_mustang_III
 	=> nrel_main_idtf: [Ford Mustang III] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_hatchback;
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_hatchback_body;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -96,19 +96,19 @@ ford_mustang_III_restyling
 	=> nrel_main_idtf: [Ford Mustang III restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -122,18 +122,18 @@ ford_mustang_IV
 	=> nrel_main_idtf: [Ford Mustang IV] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -147,18 +147,18 @@ ford_mustang_IV_restyling
 	=> nrel_main_idtf: [Ford Mustang IV restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -172,18 +172,18 @@ ford_mustang_V
 	=> nrel_main_idtf: [Ford Mustang V] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -197,18 +197,18 @@ ford_mustang_V_restyling
 	=> nrel_main_idtf: [Ford Mustang V restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
 		concept_car_dependent_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -222,19 +222,19 @@ ford_mustang_VI
 	=> nrel_main_idtf: [Ford Mustang VI] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -248,18 +248,18 @@ ford_mustang_VI_restyling
 	=> nrel_main_idtf: [Ford Mustang VI restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_cabriolet;
+		concept_car_coupe_body;
+		concept_car_cabriolet_body;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

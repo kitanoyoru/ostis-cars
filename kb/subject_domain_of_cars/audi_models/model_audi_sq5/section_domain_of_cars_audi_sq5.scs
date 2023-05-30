@@ -11,17 +11,17 @@ audi_sq5_8R
 	=> nrel_main_idtf: [Audi SQ 5 8R] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -36,17 +36,17 @@ audi_sq5_FY
 	=> nrel_main_idtf: [Audi SQ 5 FY] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -61,18 +61,18 @@ audi_sq5_FY_restyling
 	=> nrel_main_idtf: [Audi SQ 5 FY Restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_automatic_box;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_SUV;
+		concept_car_SUV_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

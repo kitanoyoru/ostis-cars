@@ -25,24 +25,24 @@ toyota_corolla_E1
 	=> nrel_main_idtf: [Toyota Corolla E10] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_dependent_spring;
+		concept_car_dependent_spring_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
-		concept_coupe;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -61,24 +61,24 @@ toyota_corolla_E2
 	=> nrel_main_idtf: [Toyota Corolla E20] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_dependent_spring;
+		concept_car_dependent_spring_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_coupe;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_coupe_body;
+		concept_car_station_wagon_body;
 
 	=> nrel_period:...
 	(*
@@ -106,24 +106,24 @@ toyota_corolla_E3
 	=> nrel_idtf: [Toyota Corolla E60] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_dependent_spring;
+		concept_car_dependent_spring_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_sedan;
-		concept_hatchback;
+		concept_car_coupe_body;
+		concept_car_sedan_body;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -142,26 +142,26 @@ toyota_corolla_E7
 	=> nrel_main_idtf: [Toyota Corolla E70] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 
 	=> nrel_type_of_drive:
-		concept_rear;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_station_wagon;
-		concept_hatchback;
-		concept_sedan;
+		concept_car_coupe_body;
+		concept_car_station_wagon_body;
+		concept_car_hatchback_body;
+		concept_car_sedan_body;
 
 	=> nrel_period:...
 	(*
@@ -180,26 +180,26 @@ toyota_corolla_E8
 	=> nrel_main_idtf: [Toyota Corolla E80] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_rear;
+		concept_car_front_wheel_drive;
+		concept_car_rear_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_sedan;
-		concept_hatchback;
+		concept_car_coupe_body;
+		concept_car_sedan_body;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -218,26 +218,26 @@ toyota_corolla_E9
 	=> nrel_main_idtf: [Toyota Corolla E90] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_sedan;
-		concept_station_wagon;
-		concept_hatchback;
+		concept_car_coupe_body;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -256,26 +256,26 @@ toyota_corolla_E10
 	=> nrel_main_idtf: [Toyota Corolla E100] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
-		concept_front_wheel;
+		concept_car_four_wheel_drive;
+		concept_car_front_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_multi_link;
+		concept_car_multi_link_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_hatchback;
-		concept_station_wagon;
-		concept_coupe;
+		concept_car_sedan_body;
+		concept_car_hatchback_body;
+		concept_car_station_wagon_body;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -294,28 +294,28 @@ toyota_corolla_E11
 	=> nrel_main_idtf: [Toyota Corolla E110] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
-		concept_front_wheel;
+		concept_car_four_wheel_drive;
+		concept_car_front_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_double_wishbone;
-		concept_car_suspension_McPherson;
+		concept_car_double_wishbone_suspension;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_multi_link;
-		concept_car_suspension_twist_beam;
+		concept_car_multi_link_suspension;
+		concept_car_twist_beam_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_hatchback;
-		concept_station_wagon;
-		concept_coupe;
+		concept_car_sedan_body;
+		concept_car_hatchback_body;
+		concept_car_station_wagon_body;
+		concept_car_coupe_body;
 
 	=> nrel_period:...
 	(*
@@ -337,24 +337,24 @@ toyota_corolla_E12
 	=> nrel_idtf: [Toyota Corolla E130] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_double_wishbone;
+		concept_car_double_wishbone_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_hatchback;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_hatchback_body;
+		concept_car_station_wagon_body;
 
 	=> nrel_period:...
 	(*
@@ -376,24 +376,24 @@ toyota_corolla_E14
 	=> nrel_idtf: [Toyota Corolla E150] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 
 	=> nrel_period:...
 	(*
@@ -418,24 +418,24 @@ toyota_corolla_E16
 	=> nrel_idtf: [Toyota Corolla E180] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_station_wagon_body;
 
 	=> nrel_period:...
 	(*
@@ -454,24 +454,24 @@ toyota_corolla_E21
 	=> nrel_main_idtf: [Toyota Corolla E210] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
-		concept_four_wheel;
+		concept_car_four_wheel_drive;
 
 	=> nrel_type_of_transmission:
 		concept_car_manual_transmission;
 		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_McPherson;
+		concept_car_McPherson_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_double_wishbone;
+		concept_car_double_wishbone_suspension;
 
 	=> nrel_type_of_body:
-		concept_sedan;
-		concept_hatchback;
-		concept_station_wagon;
+		concept_car_sedan_body;
+		concept_car_hatchback_body;
+		concept_car_station_wagon_body;
 
 	=> nrel_period:...
 	(*

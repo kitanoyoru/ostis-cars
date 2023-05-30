@@ -16,7 +16,7 @@ nissan_march_I
 	=> nrel_main_idtf: [Nissan March I] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -25,12 +25,12 @@ nissan_march_I
 		concept_car_manual_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_hatchback;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -48,7 +48,7 @@ nissan_march_II
 	=> nrel_main_idtf: [Nissan March II] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -57,12 +57,12 @@ nissan_march_II
 		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_hatchback;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -80,7 +80,7 @@ nissan_march_III
 	=> nrel_main_idtf: [Nissan March III] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -89,12 +89,12 @@ nissan_march_III
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_hatchback;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -112,7 +112,7 @@ nissan_march_IV
 	=> nrel_main_idtf: [Nissan March IV] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -121,12 +121,12 @@ nissan_march_IV
 		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_hatchback;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
@@ -144,7 +144,7 @@ nissan_march_IV_restyling
 	=> nrel_main_idtf: [Nissan March IV Restyling] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -153,18 +153,18 @@ nissan_march_IV_restyling
 		concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_hatchback;
+		concept_car_hatchback_body;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2013;;
-		-> rrel_end_year: NOW;; 
+		-> rrel_end_year: till_now;; 
 	*);
 	=> nrel_photo:"file://img/nissan_march_IV_restyling.png" (* => nrel_format: format_png;; *);;   
 

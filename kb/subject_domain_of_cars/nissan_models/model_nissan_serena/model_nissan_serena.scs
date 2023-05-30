@@ -18,7 +18,7 @@ nissan_serena_I
 	=> nrel_main_idtf: [Nissan Serena I] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
@@ -27,12 +27,12 @@ nissan_serena_I
 		concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_dependent_spring;
+		concept_car_dependent_spring_suspension;
 
 	=> nrel_type_of_body:
-		concept_minivan;
+		concept_car_minivan_body;
 
 	=> nrel_period:...
 	(*
@@ -50,7 +50,7 @@ nissan_serena_II
 	=> nrel_main_idtf: [Nissan Serena II] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
@@ -59,12 +59,12 @@ nissan_serena_II
 	    concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 
 	=> nrel_type_of_body:
-		concept_minivan;
+		concept_car_minivan_body;
 
 	=> nrel_period:...
 	(*
@@ -82,7 +82,7 @@ nissan_serena_III
 	=> nrel_main_idtf: [Nissan Serena III] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
@@ -91,12 +91,12 @@ nissan_serena_III
 	    concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_minivan;
+		concept_car_minivan_body;
 
 	=> nrel_period:...
 	(*
@@ -114,7 +114,7 @@ nissan_serena_IV
 	=> nrel_main_idtf: [Nissan Serena IV] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
@@ -123,12 +123,12 @@ nissan_serena_IV
 	    concept_car_continuously_variable_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_minivan;
+		concept_car_minivan_body;
 
 	=> nrel_period:...
 	(*
@@ -146,7 +146,7 @@ nissan_serena_V
 	=> nrel_main_idtf: [Nissan Serena V] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -155,12 +155,12 @@ nissan_serena_V
 	    concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_minivan;
+		concept_car_minivan_body;
 
 	=> nrel_period:...
 	(*
@@ -178,7 +178,7 @@ nissan_serena_V_restyling
 	=> nrel_main_idtf: [Nissan Serena V Restyling] (* <-lang_en;; *);
 		
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
@@ -187,17 +187,17 @@ nissan_serena_V_restyling
 	    concept_car_automatic_transmission;
 
 	=> nrel_type_of_front_suspension:
-		concept_car_suspension_independent_spring_strut;
+		concept_car_independent_spring_strut_suspension;
 	=> nrel_type_of_rear_suspension:
-		concept_car_suspension_semiindependent;
+		concept_car_semiindependent_suspension;
 
 	=> nrel_type_of_body:
-		concept_minivan;
+		concept_car_minivan_body;
 
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
 		-> rrel_start_year: 2019;;
-		-> rrel_end_year: NOW;; 
+		-> rrel_end_year: till_now;; 
 	*);
 	=> nrel_photo:"file://img/nissan_serena_V_restyling.png" (* => nrel_format: format_png;; *);;   

@@ -13,18 +13,18 @@ audi_100_c1
 	=> nrel_main_idtf: [Audi 100 C1] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
+		concept_car_mechanical_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_sedan;
+		concept_car_coupe_body;
+		concept_car_sedan_body;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -39,20 +39,20 @@ audi_100_c2
 	=> nrel_main_idtf: [Audi 100 C2] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_station_wagon;
+		concept_car_coupe_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -67,21 +67,21 @@ audi_100_c3
 	=> nrel_main_idtf: [Audi 100 C3] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_station_wagon;
+		concept_car_coupe_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -97,21 +97,21 @@ audi_100_c3_restyling
 	=> nrel_main_idtf: [Audi 100 C3 restyling] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_station_wagon;
+		concept_car_coupe_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
-		concept_four_wheel;
+		concept_car_front_wheel_drive;
+		concept_car_four_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -126,20 +126,20 @@ audi_100_c4
 	=> nrel_main_idtf: [Audi 100 C4] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_coupe;
-		concept_station_wagon;
+		concept_car_coupe_body;
+		concept_car_station_wagon_body;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;

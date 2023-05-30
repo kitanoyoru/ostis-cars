@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/const/perm/general" idtf="concept_engine_diesel" shapeColor="0" id="94918633184416" parent="94918633927904" left="0" top="0" right="129.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="351.023" y="657.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_car_diesel_engine" shapeColor="0" id="94918633184416" parent="94918633927904" left="0" top="0" right="129.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="351.023" y="657.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/var/perm/general" idtf="" shapeColor="0" id="94918633218880" parent="94918633927904" x="261.023" y="657.5" haveBus="false" idtf_pos="0">
@@ -88,7 +88,7 @@
                 <point x="915.023" y="1712.5"/>
             </points>
         </contour>
-        <node type="node/const/perm/general" idtf="concept_engine_diesel" shapeColor="0" id="94918633650160" parent="94918634095408" left="0" top="0" right="129.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="377.023" y="1800.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_car_diesel_engine" shapeColor="0" id="94918633650160" parent="94918634095408" left="0" top="0" right="129.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="377.023" y="1800.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/var/perm/general" idtf="" shapeColor="0" id="94918633685792" parent="94918634095408" x="287.023" y="1800.5" haveBus="false" idtf_pos="0">
@@ -135,7 +135,7 @@
         <node type="node/const/perm/general" idtf="concept_car_automatic_transmission" shapeColor="0" id="94918633542528" parent="94918634041600" left="0" top="0" right="135.047" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-56" y="299" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="concept_engine_gasoline" shapeColor="0" id="94918633562976" parent="94918634041600" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="16" y="248" haveBus="false" idtf_pos="1">
+        <node type="node/const/perm/general" idtf="concept_car_gasoline_engine" shapeColor="0" id="94918633562976" parent="94918634041600" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="16" y="248" haveBus="false" idtf_pos="1">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/general" idtf="nrel_generation" shapeColor="0" id="94918633470080" parent="94918634041600" left="0" top="0" right="93.875" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-171.5" y="56.5" haveBus="false" idtf_pos="5">
@@ -174,7 +174,7 @@
                 <point x="-336.5" y="416.5"/>
             </points>
         </contour>
-        <node type="node/const/perm/general" idtf="concept_engine_diesel" shapeColor="0" id="94918633415552" parent="94918634014688" left="0" top="0" right="129.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="345.5" y="177.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_car_diesel_engine" shapeColor="0" id="94918633415552" parent="94918634014688" left="0" top="0" right="129.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="345.5" y="177.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/group" idtf="concept_car" shapeColor="0" id="94918633451280" parent="94918634014688" left="0" top="0" right="73.9375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="255.5" y="117.5" haveBus="false" idtf_pos="0">
@@ -241,7 +241,7 @@
         <node type="node/const/perm/general" idtf="nrel_generation" shapeColor="0" id="94918633344912" parent="94918633948672" left="0" top="0" right="93.875" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-139.977" y="617.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="concept_engine_gasoline" shapeColor="0" id="94918633326720" parent="94918633948672" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="47.5228" y="809" haveBus="false" idtf_pos="1">
+        <node type="node/const/perm/general" idtf="concept_car_gasoline_engine" shapeColor="0" id="94918633326720" parent="94918633948672" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="47.5228" y="809" haveBus="false" idtf_pos="1">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/general" idtf="bmw_x1" shapeColor="0" id="94918633254992" parent="94918633948672" left="0" top="0" right="52.7656" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-15.9776" y="685.5" haveBus="false" idtf_pos="2">
@@ -356,7 +356,7 @@
         <node type="node/const/perm/general" idtf="nrel_generation" shapeColor="0" id="94918633006848" parent="94918627268064" left="0" top="0" right="93.875" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-137.977" y="1151.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="concept_engine_gasoline" shapeColor="0" id="94918632988048" parent="94918627268064" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="49.5228" y="1343" haveBus="false" idtf_pos="1">
+        <node type="node/const/perm/general" idtf="concept_car_gasoline_engine" shapeColor="0" id="94918632988048" parent="94918627268064" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="49.5228" y="1343" haveBus="false" idtf_pos="1">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/const/perm/general" idtf="nissan_skyline" shapeColor="0" id="94918632934976" parent="94918627268064" left="0" top="0" right="86.6563" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-13.9776" y="1219.5" haveBus="false" idtf_pos="2">
@@ -416,7 +416,7 @@
         <node type="node/const/perm/general" idtf="nrel_generation" shapeColor="0" id="94918632827584" parent="94918633821824" left="0" top="0" right="93.875" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-122.977" y="1773.5" haveBus="false" idtf_pos="3">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="concept_engine_gasoline" shapeColor="0" id="94918632880528" parent="94918633821824" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="73.5228" y="1951" haveBus="false" idtf_pos="1">
+        <node type="node/const/perm/general" idtf="concept_car_gasoline_engine" shapeColor="0" id="94918632880528" parent="94918633821824" left="0" top="0" right="142.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="73.5228" y="1951" haveBus="false" idtf_pos="1">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/var/perm/general" idtf="" shapeColor="0" id="94918632844992" parent="94918633821824" x="-179.977" y="1911.5" haveBus="false" idtf_pos="0">
@@ -425,7 +425,7 @@
         <node type="node/const/perm/general" idtf="nrel_type_of_body" shapeColor="0" id="94918632810864" parent="94918633821824" left="0" top="0" right="106.875" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-129.477" y="2066" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="concept_coupe" shapeColor="0" id="94918632793440" parent="94918633821824" left="0" top="0" right="87.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2.52277" y="2002" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_car_coupe_body" shapeColor="0" id="94918632793440" parent="94918633821824" left="0" top="0" right="87.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2.52277" y="2002" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94918633718000" parent="94918633821824" id_b="94918632844992" id_e="94918632793440" b_x="-179.977" b_y="1911.5" e_x="2.52277" e_y="2002" dotBBalance="0" dotEBalance="0">
@@ -482,7 +482,7 @@
         <node type="node/var/perm/general" idtf="" shapeColor="0" id="94918632774656" parent="94918627203840" x="-179.977" y="2429.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/perm/general" idtf="concept_rear" shapeColor="0" id="94918632689424" parent="94918627203840" left="0" top="0" right="78.9844" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1.52277" y="2520" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_car_rear_drive" shapeColor="0" id="94918632689424" parent="94918627203840" left="0" top="0" right="78.9844" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1.52277" y="2520" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94918633711040" parent="94918627203840" id_b="94918632774656" id_e="94918632689424" b_x="-179.977" b_y="2429.5" e_x="1.52277" e_y="2520" dotBBalance="0" dotEBalance="0">
@@ -518,7 +518,7 @@
                 <point x="-279.977" y="2645.5"/>
             </points>
         </contour>
-        <node type="node/const/perm/general" idtf="concept_coupe" shapeColor="0" id="94918631729600" parent="94918626569184" left="0" top="0" right="87.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="377.023" y="2317.5" haveBus="false" idtf_pos="0">
+        <node type="node/const/perm/general" idtf="concept_car_coupe_body" shapeColor="0" id="94918631729600" parent="94918626569184" left="0" top="0" right="87.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="377.023" y="2317.5" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
         <node type="node/var/perm/general" idtf="" shapeColor="0" id="94918632653520" parent="94918626569184" x="287.023" y="2317.5" haveBus="false" idtf_pos="0">

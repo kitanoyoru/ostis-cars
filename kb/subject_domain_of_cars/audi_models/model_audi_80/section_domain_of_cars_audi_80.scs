@@ -12,18 +12,18 @@ audi_80_B1
 	=> nrel_main_idtf: [Audi 100 B1] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
+		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 	=> nrel_type_of_drive:
-		concept_front_wheel;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -38,20 +38,20 @@ audi_80_B2
 	=> nrel_main_idtf: [Audi 100 B2] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
-		concept_front_wheel;
+		concept_car_four_wheel_drive;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -60,27 +60,25 @@ audi_80_B2
 	*);
 	=> nrel_photo: "file://img/audi_80_B2.png" (* => nrel_format: format_png;; *);;  
 
-
-
 audi_80_B3
 	=> nrel_main_idtf: [Ауди 100 B3] (* <-lang_ru;; *);
 	=> nrel_main_idtf: [Audi 100 B3] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_sedan;
+		concept_car_sedan_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
-		concept_front_wheel;
+		concept_car_four_wheel_drive;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
@@ -95,21 +93,21 @@ audi_80_B4
 	=> nrel_main_idtf: [Audi 100 B4] (* <-lang_en;; *);
 		<- concept_car;
 	=> nrel_type_of_engine:
-		concept_engine_gasoline;
-		concept_engine_diesel;
+		concept_car_gasoline_engine;
+		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_mechanical_box;
-		concept_automatic_box;
+		concept_car_mechanical_box_transmission;
+		concept_car_automatic_box_transmission;
 	=> nrel_type_of_front_suspension:
-    		concept_car_suspension_McPherson;
+    		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
-    		concept_car_suspension_multi_link;
+    		concept_car_multi_link_suspension;
 	=> nrel_type_of_body:
-		concept_station_wagon;
-		concept_sedan;
+		concept_car_station_wagon_body;
+		concept_car_sedan_body;
 	=> nrel_type_of_drive:
-		concept_four_wheel;
-		concept_front_wheel;
+		concept_car_four_wheel_drive;
+		concept_car_front_wheel_drive;
 	=> nrel_period:...
 	(*
 		<- sc_node_tuple;;
