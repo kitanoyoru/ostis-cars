@@ -79,7 +79,7 @@ concept_car_sedan_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/sedan.png" (* => nrel_format: format_png;; *);;   
 
 concept_car_hatchback_body
@@ -101,7 +101,7 @@ concept_car_hatchback_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/hatchback.png" (* => nrel_format: format_png;; *);;  
 
 concept_car_station_wagon_body
@@ -123,7 +123,7 @@ concept_car_station_wagon_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/station_wagon.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -146,7 +146,7 @@ concept_car_liftback_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/liftback.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -169,7 +169,7 @@ concept_car_coupe_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/coupe.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -192,7 +192,7 @@ concept_car_cabriolet_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/cabriolet.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -215,7 +215,7 @@ concept_car_roadster_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/roadster.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -238,7 +238,7 @@ concept_car_targa_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/targa.png" (* => nrel_format: format_png;; *);;  
 
 concept_car_SUV_body
@@ -260,7 +260,7 @@ concept_car_SUV_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/SUV.png" (* => nrel_format: format_png;; *);;  
 
 concept_car_crossover_body
@@ -282,7 +282,7 @@ concept_car_crossover_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/cuv.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -305,7 +305,7 @@ concept_car_pickup_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/pickup.png" (* => nrel_format: format_png;; *);;  
 
 
@@ -328,7 +328,7 @@ concept_car_minivan_body
 				=> nrel_format: format_html;;
 				*);;
 			*);;
-		*);;
+		*);
 	=> nrel_photo:"file://img/minivan.png" (* => nrel_format: format_png;; *);;  
 
 nrel_type_of_body
