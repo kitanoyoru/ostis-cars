@@ -1,13 +1,13 @@
-subject_domain_of_mechanism
+section_subject_domain_of_mechanism
 	<- sc_node_struct;
  
-	=> nrel_main_idtf:[Предметная область механизмы](* <- lang_ru;; *);
+	=> nrel_main_idtf:[Раздел. Предметная область механизмы](* <- lang_ru;; *);
 
 	<- not_enough_formed_structure;
 
-	=> nrel_private_subject_domain:
-		section_subject_domain_of_cars_mechanism_drive;
-		section_subject_domain_of_cars_mechanism_transmission;
-		section_subject_domain_of_cars_mechanism_engine;
+	=> nrel_section_base_order:
+		section_section_subject_domain_of_cars_mechanism_drive;
+		section_section_subject_domain_of_cars_mechanism_transmission;
+		section_section_subject_domain_of_cars_mechanism_engine;
 		section_subject_domain_of_cars_mechanism_body;
-		subject_domain_of_cars_mechanism_suspension(*<-sc_node_struct;;*);;
+		section_section_subject_domain_of_cars_mechanism_suspension;;
