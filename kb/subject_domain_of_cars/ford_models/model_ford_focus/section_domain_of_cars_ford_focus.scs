@@ -180,7 +180,7 @@ ford_focus_II_north_america
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:

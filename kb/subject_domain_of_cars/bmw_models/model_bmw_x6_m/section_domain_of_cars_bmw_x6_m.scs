@@ -19,7 +19,7 @@ bmw_x6_m_e71
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -51,7 +51,7 @@ bmw_x6_m_e71_restyling
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -83,7 +83,7 @@ bmw_x6_m_f86
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -115,7 +115,7 @@ bmw_x6_m_f96
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -147,7 +147,7 @@ bmw_x6_m_f96_restyling
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;

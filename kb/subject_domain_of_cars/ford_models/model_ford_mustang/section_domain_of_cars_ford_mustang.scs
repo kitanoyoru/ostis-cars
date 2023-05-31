@@ -20,7 +20,7 @@ ford_mustang_I
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -46,7 +46,7 @@ ford_mustang_II
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -71,8 +71,8 @@ ford_mustang_III
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
-		concept_car_automatic_box_transmission;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -98,8 +98,8 @@ ford_mustang_III_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
-		concept_car_automatic_box_transmission;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -124,7 +124,7 @@ ford_mustang_IV
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -149,7 +149,7 @@ ford_mustang_IV_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -174,7 +174,7 @@ ford_mustang_V
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -199,7 +199,7 @@ ford_mustang_V_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -224,8 +224,8 @@ ford_mustang_VI
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
-		concept_car_automatic_box_transmission;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -250,7 +250,7 @@ ford_mustang_VI_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:

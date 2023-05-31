@@ -1,4 +1,4 @@
-subject_domain_of_cars_mechanism_transmission
+section_subject_domain_of_cars_mechanism_transmission
 	=> nrel_main_idtf: 
 		[Предметная область трансмиссии] (* <- lang_ru;; *);
 		[Subject domain of transmission] (* <- lang_en;; *);

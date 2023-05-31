@@ -1,4 +1,4 @@
-section_subject_domain_of_cars_mechanism_engine
+section_section_subject_domain_of_cars_mechanism_engine
 
 => nrel_main_idtf:
 	[Раздел. Предметная область двигателя]
@@ -12,25 +12,25 @@ section_subject_domain_of_cars_mechanism_engine
 <- not_enough_formed_structure;
 <- atomic_section;;
 
-section_subject_domain_of_cars_mechanism_engine = [*^"file://section_subjdomain_of_mechanism_engine.scsi"*];;
+section_section_subject_domain_of_cars_mechanism_engine = [*^"file://section_subjdomain_of_mechanism_engine.scsi"*];;
 
-rrel_key_sc_element -> (section_subject_domain_of_cars_mechanism_engine -> subject_domain_of_cars_mechanism_engine)
+rrel_key_sc_element -> (section_section_subject_domain_of_cars_mechanism_engine -> section_subject_domain_of_cars_mechanism_engine)
 (*
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_engine -> concept_car_engine)
-(*
-	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_engine -> concept_car_diesel_engine)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_engine -> concept_car_engine)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_engine -> concept_car_gasoline_engine)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_engine -> concept_car_diesel_engine)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_engine -> concept_car_gas_engine)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_engine -> concept_car_gasoline_engine)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_engine -> concept_car_electric_engine)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_engine -> concept_car_gas_engine)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_engine -> nrel_type_of_drive)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_engine -> concept_car_electric_engine)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_engine -> nrel_type_of_drive)
 	(* <- rrel_key_sc_element;; *);;
 *);;*);;*);;*);;*);;*);;

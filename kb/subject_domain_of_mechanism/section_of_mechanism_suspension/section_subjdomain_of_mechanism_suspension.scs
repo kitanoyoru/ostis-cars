@@ -1,4 +1,4 @@
-section_subject_domain_of_cars_mechanism_suspension
+section_section_subject_domain_of_cars_mechanism_suspension
 
 => nrel_main_idtf:
 	[Раздел. Предметная область подвески]
@@ -12,53 +12,53 @@ section_subject_domain_of_cars_mechanism_suspension
 <- not_enough_formed_structure;
 <- atomic_section;;
 
-section_subject_domain_of_cars_mechanism_suspension = [*^"file://section_subjdomain_of_mechanism_suspension.scsi"*];;
+section_section_subject_domain_of_cars_mechanism_suspension = [*^"file://section_subjdomain_of_mechanism_suspension.scsi"*];;
 
-rrel_key_sc_element -> (section_subject_domain_of_cars_mechanism_suspension -> subject_domain_of_cars_mechanism_suspension)
+rrel_key_sc_element -> (section_section_subject_domain_of_cars_mechanism_suspension -> section_subject_domain_of_cars_mechanism_suspension)
 (*
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension)
-(*
-	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_independent_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_semiindependent_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_independent_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_spring_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_semiindependent_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_multi_link_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_spring_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_McPherson_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_multi_link_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_double_wishbone_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_McPherson_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_independent_spring_strut_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_double_wishbone_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_spring_strut_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_independent_spring_strut_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_trailing_arm_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_dependent_spring_strut_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_car_twist_beam_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_trailing_arm_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> concept_adaptive_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_car_twist_beam_suspension)
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> nrel_type_of_front_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> concept_adaptive_suspension)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> nrel_type_of_front_suspension)
 	(* <- rrel_key_sc_element;; *);;
 (*
 	<- rrel_key_sc_element;;
-	=> nrel_key_sc_element_order: (section_subject_domain_of_cars_mechanism_suspension -> nrel_type_of_rear_suspension)
+	=> nrel_key_sc_element_order: (section_section_subject_domain_of_cars_mechanism_suspension -> nrel_type_of_rear_suspension)
 	(* <- rrel_key_sc_element;; *);;
 *);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;

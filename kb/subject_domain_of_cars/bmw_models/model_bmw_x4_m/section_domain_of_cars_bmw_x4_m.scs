@@ -16,7 +16,7 @@ bmw_x4_m_f98
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -48,7 +48,7 @@ bmw_x4_m_f98_restyling
 	    concept_car_gasoline_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;

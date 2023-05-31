@@ -18,8 +18,8 @@ audi_s8_D2
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
-		concept_car_mechanical_box_transmission;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -44,8 +44,8 @@ audi_s8_D2_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
-		concept_car_mechanical_box_transmission;
+		concept_car_automatic_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -69,7 +69,7 @@ audi_s8_D3
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -94,7 +94,7 @@ audi_s8_D3_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -119,7 +119,7 @@ audi_s8_D4
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -144,7 +144,7 @@ audi_s8_D4_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -169,7 +169,7 @@ audi_s8_D5
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -194,7 +194,7 @@ audi_s8_D5_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:

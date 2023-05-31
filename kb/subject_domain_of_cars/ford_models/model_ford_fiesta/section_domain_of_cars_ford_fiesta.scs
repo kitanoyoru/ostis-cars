@@ -20,7 +20,7 @@ ford_fiesta_Mk1
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -43,7 +43,7 @@ ford_fiesta_Mk2
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -67,8 +67,8 @@ ford_fiesta_Mk3
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_variable_box;
-		concept_car_mechanical_box_transmission;
+		concept_car_continuously_variable_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -92,7 +92,7 @@ ford_fiesta_Mk4
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -116,7 +116,7 @@ ford_fiesta_Mk4_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -140,7 +140,7 @@ ford_fiesta_Mk5
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -164,7 +164,7 @@ ford_fiesta_Mk6
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -188,7 +188,7 @@ ford_fiesta_Mk6_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -213,7 +213,7 @@ ford_fiesta_Mk7
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -237,7 +237,7 @@ ford_fiesta_Mk7_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:

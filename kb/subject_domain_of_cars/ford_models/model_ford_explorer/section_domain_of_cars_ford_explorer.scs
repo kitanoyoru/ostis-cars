@@ -19,8 +19,8 @@ ford_explorer_I
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
-		concept_car_automatic_box_transmission;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -44,7 +44,7 @@ ford_explorer_II
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 		concept_car_rear_drive;
@@ -69,7 +69,7 @@ ford_explorer_II_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
+		concept_car_manual_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -93,7 +93,7 @@ ford_explorer_III
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:
@@ -117,7 +117,7 @@ ford_explorer_IV
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -141,7 +141,7 @@ ford_explorer_V
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -165,7 +165,7 @@ ford_explorer_V_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -189,7 +189,7 @@ ford_explorer_V_restyling_2
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_four_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -214,7 +214,7 @@ ford_explorer_VI
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_rear_drive;
 	=> nrel_type_of_front_suspension:

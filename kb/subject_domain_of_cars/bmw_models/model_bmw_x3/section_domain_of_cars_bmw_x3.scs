@@ -21,8 +21,8 @@ bmw_x3_e83
 	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_mechanical_box_transmission;
-	    concept_car_automatic_box_transmission;
+	    concept_car_manual_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_independent_spring_strut_suspension;
@@ -55,8 +55,8 @@ bmw_x3_e83_restyling
 	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_mechanical_box_transmission;
-	    concept_car_automatic_box_transmission;
+	    concept_car_manual_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_independent_spring_strut_suspension;
@@ -91,8 +91,8 @@ bmw_x3_f25
         concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_mechanical_box_transmission;
-	    concept_car_automatic_box_transmission;
+	    concept_car_manual_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -126,8 +126,8 @@ bmw_x3_f25_restyling
         concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_mechanical_box_transmission;
-	    concept_car_automatic_box_transmission;
+	    concept_car_manual_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_independent_spring_strut_suspension;
@@ -161,7 +161,7 @@ bmw_x3_g01
         concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_double_wishbone_suspension;
@@ -196,7 +196,7 @@ bmw_x3_g01_restyling
         concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_double_wishbone_suspension;

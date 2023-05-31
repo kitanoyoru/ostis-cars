@@ -18,8 +18,8 @@ bmw_x4_f26
 	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_mechanical_box_transmission;
-	    concept_car_automatic_box_transmission;
+	    concept_car_manual_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -52,7 +52,7 @@ bmw_x4_g02
 	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;
@@ -85,7 +85,7 @@ bmw_x4_g02_restyling
 	    concept_car_diesel_engine;
 
     => nrel_type_of_transmission:
-	    concept_car_automatic_box_transmission;
+	    concept_car_automatic_transmission;
     
 	=> nrel_type_of_front_suspension:
 	    concept_car_multi_link_suspension;

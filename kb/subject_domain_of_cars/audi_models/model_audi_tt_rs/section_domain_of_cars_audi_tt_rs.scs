@@ -13,8 +13,8 @@ audi_tt_rs_8J
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
-		concept_car_robotic_box_transmission;
+		concept_car_manual_transmission;
+		concept_car_robotic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -40,7 +40,7 @@ audi_tt_rs_8S
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_robotic_box_transmission;
+		concept_car_robotic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -66,7 +66,7 @@ audi_tt_8S_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_robotic_box_transmission;
+		concept_car_robotic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:

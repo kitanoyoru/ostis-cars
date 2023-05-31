@@ -13,7 +13,7 @@ audi_sq5_8R
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -38,7 +38,7 @@ audi_sq5_FY
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -64,7 +64,7 @@ audi_sq5_FY_restyling
 		concept_car_gasoline_engine;
 		concept_car_diesel_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:

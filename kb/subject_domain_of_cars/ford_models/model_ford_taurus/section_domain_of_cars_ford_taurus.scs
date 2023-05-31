@@ -18,8 +18,8 @@ ford_taurus_I
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_mechanical_box_transmission;
-		concept_car_automatic_box_transmission;
+		concept_car_manual_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -44,7 +44,7 @@ ford_taurus_II
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -69,7 +69,7 @@ ford_taurus_III
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -94,7 +94,7 @@ ford_taurus_IV
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -119,7 +119,7 @@ ford_taurus_IV_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -144,7 +144,7 @@ ford_taurus_V
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -168,7 +168,7 @@ ford_taurus_VI
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:
@@ -192,7 +192,7 @@ ford_taurus_VI_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_drive:
 		concept_car_front_wheel_drive;
 	=> nrel_type_of_front_suspension:

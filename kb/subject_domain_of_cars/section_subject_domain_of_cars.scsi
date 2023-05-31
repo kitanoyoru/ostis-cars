@@ -1,0 +1,65 @@
+subject_domain_of_cars
+	=> nrel_main_idtf: 
+		[Предметная область автомобилей] (* <- lang_ru;; *);
+		[Subject domain of cars] (* <- lang_en;; *);
+
+	<- subject_domain;
+	<- sc_node_struct;
+	<- concept_car;
+	-> rrel_maximum_studied_object_class: 
+		concept_car;
+    -> rrel_not_maximum_studied_object_class:
+		concept_car_body;
+		concept_car_suspension;
+        concept_car_transmission;
+        concept_car_engine;
+        concept_car_drive;
+    -> rrel_explored_relation:
+		nrel_type_of_body;
+        nrel_type_of_front_suspension;
+        nrel_type_of_rear_suspension;
+        nrel_type_of_transmission;
+        nrel_type_of_engine;
+        nrel_type_of_drive;
+        nrel_period;
+        rrel_start_year;
+        rrel_end_year;;
+
+
+
+concept_car
+    <- sc_node_not_relation;
+    => nrel_main_idtf: 
+        [Автомобиль] (* <- lang_ru;; *);
+        [Car] (* <- lang_en;; *);
+    
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_car.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;
+    
+nrel_period
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [Период выпуска*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Production period*] (* <- lang_en;; *);;
+
+rrel_start_year
+	<- sc_node_role_relation;
+	=> nrel_main_idtf: [C'] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Since'] (* <- lang_en;; *);;
+
+rrel_end_year
+	<- sc_node_role_relation;
+	=> nrel_main_idtf: [До'] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Until'] (* <- lang_en;; *);;

@@ -15,7 +15,7 @@ audi_rs6_C5
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -41,7 +41,7 @@ audi_rs6_C6
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -67,7 +67,7 @@ audi_rs6_C7
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -91,7 +91,7 @@ audi_rs6_C7_restyling
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
@@ -117,7 +117,7 @@ audi_rs6_C8
 	=> nrel_type_of_engine:
 		concept_car_gasoline_engine;
 	=> nrel_type_of_transmission:
-		concept_car_automatic_box_transmission;
+		concept_car_automatic_transmission;
 	=> nrel_type_of_front_suspension:
     		concept_car_McPherson_suspension;
   	=> nrel_type_of_rear_suspension:
