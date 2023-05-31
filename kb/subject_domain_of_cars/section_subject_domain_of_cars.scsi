@@ -8,12 +8,6 @@ subject_domain_of_cars
 	<- concept_car;
 	-> rrel_maximum_studied_object_class: 
 		concept_car;
-    -> rrel_not_maximum_studied_object_class:
-		concept_car_body;
-		concept_car_suspension;
-        concept_car_transmission;
-        concept_car_engine;
-        concept_car_drive;
     -> rrel_explored_relation:
 		nrel_type_of_body;
         nrel_type_of_front_suspension;

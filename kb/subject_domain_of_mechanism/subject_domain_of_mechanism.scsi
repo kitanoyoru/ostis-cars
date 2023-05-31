@@ -1,0 +1,39 @@
+subject_domain_of_mechanism
+	=> nrel_main_idtf: 
+		[Предметная область механизмов] (* <- lang_ru;; *);
+		[Subject domain of mechanisms] (* <- lang_en;; *);
+
+	<- subject_domain;
+	<- sc_node_struct;
+	<- concept_mechanism;
+	-> rrel_maximum_studied_object_class: 
+		concept_mechanism;
+    -> rrel_not_maximum_studied_object_class:
+		concept_car_body;
+		concept_car_suspension;
+        concept_car_transmission;
+        concept_car_engine;
+        concept_car_drive;;
+
+
+concept_mechanism
+    <- sc_node_not_relation;
+    => nrel_main_idtf: 
+        [Механизм] (* <- lang_ru;; *);
+        [Mechanism] (* <- lang_en;; *);
+    
+    <- rrel_key_sc_element:
+		...
+		(*
+			<- explanation;;
+			<= nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+					"file://content_html/explanation_for_mechanism.html"			
+				(*
+				<- lang_ru;;
+				=> nrel_format: format_html;;
+				*);;
+			*);;
+		*);;

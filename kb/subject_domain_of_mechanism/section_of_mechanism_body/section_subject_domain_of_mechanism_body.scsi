@@ -1,4 +1,4 @@
-subject_domain_of_cars_mechanism_body
+section_subject_domain_of_cars_mechanism_body
 	=> nrel_main_idtf: 
 		[Предметная область кузова] (* <- lang_ru;; *);
 		[Subject domain of body] (* <- lang_en;; *);
